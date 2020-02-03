@@ -1,13 +1,17 @@
 import React from 'react';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div>
-      Hello World
+      <Head>
+        <title>Home</title>
+      </Head>
+      <h1>Hello World</h1>
       <Link href="/users">
-        <a>Usuarios</a>
+        <a>Usuários</a>
       </Link>
     </div>
   );

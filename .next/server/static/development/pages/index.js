@@ -3460,7 +3460,7 @@ if (false) {} else {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");Object.defineProperty(exports,"__esModule",{value:true});exports.default=Home;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "react"));var _link=_interopRequireDefault(__webpack_require__(/*! next/link */ "./node_modules/next/link.js"));var _jsxFileName="/Users/stefanini/Desktop/Projetos/nextssr/src/pages/index.js";function Home(){return _react.default.createElement("div",{__source:{fileName:_jsxFileName,lineNumber:7}},"Hello World",_react.default.createElement(_link.default,{href:"/users",__source:{fileName:_jsxFileName,lineNumber:9}},_react.default.createElement("a",{__source:{fileName:_jsxFileName,lineNumber:10}},"Usuarios")));}
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");Object.defineProperty(exports,"__esModule",{value:true});exports.default=Home;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "react"));var _link=_interopRequireDefault(__webpack_require__(/*! next/link */ "./node_modules/next/link.js"));var _head=_interopRequireDefault(__webpack_require__(/*! next/head */ "next/head"));var _jsxFileName="/Users/stefanini/Desktop/Projetos/nextssr/src/pages/index.js";function Home(){return _react.default.createElement("div",{__source:{fileName:_jsxFileName,lineNumber:8}},_react.default.createElement(_head.default,{__source:{fileName:_jsxFileName,lineNumber:9}},_react.default.createElement("title",{__source:{fileName:_jsxFileName,lineNumber:10}},"Home")),_react.default.createElement("h1",{__source:{fileName:_jsxFileName,lineNumber:12}},"Hello World"),_react.default.createElement(_link.default,{href:"/users",__source:{fileName:_jsxFileName,lineNumber:13}},_react.default.createElement("a",{__source:{fileName:_jsxFileName,lineNumber:14}},"Usu\xE1rios")));}
 
 /***/ }),
 
@@ -3473,6 +3473,17 @@ var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/intero
 
 module.exports = __webpack_require__(/*! /Users/stefanini/Desktop/Projetos/nextssr/src/pages/index.js */"./src/pages/index.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
