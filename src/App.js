@@ -1,13 +1,9 @@
-import React from "react";
-import Home from "./pages";
-import User from "./pages/users";
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <Home />
-      <User />
+      <header className="App-header" />
     </div>
   );
 }
