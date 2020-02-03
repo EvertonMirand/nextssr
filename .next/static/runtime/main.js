@@ -1,16 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/runtime/main.js"],{
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
@@ -19,17 +8,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ ".
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/assign.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/create.js");
 
 /***/ }),
 
@@ -52,28 +30,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/keys.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js");
 
 /***/ }),
 
@@ -271,22 +227,6 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/json/stringify.js ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js");
-var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
-module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
-  return $JSON.stringify.apply($JSON, arguments);
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/assign.js":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/assign.js ***!
@@ -296,22 +236,6 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 __webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.assign.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").Object.assign;
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/create.js":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/create.js ***!
-  \**********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.create */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.create.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function create(P, D) {
-  return $Object.create(P, D);
-};
 
 
 /***/ }),
@@ -344,32 +268,6 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@ba
 module.exports = function getOwnPropertyDescriptor(it, key) {
   return $Object.getOwnPropertyDescriptor(it, key);
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/keys.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/keys.js ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.keys.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").Object.keys;
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../modules/es6.parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js");
-module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").parseInt;
 
 
 /***/ }),
@@ -1998,26 +1896,6 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $parseInt = __webpack_require__(/*! ./_global */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_global.js").parseInt;
-var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js").trim;
-var ws = __webpack_require__(/*! ./_string-ws */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js");
-var hex = /^[-+]?0[xX]/;
-
-module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? function parseInt(str, radix) {
-  var string = $trim(String(str), 3);
-  return $parseInt(string, (radix >>> 0) || (hex.test(string) ? 16 : 10));
-} : $parseInt;
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_perform.js":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_perform.js ***!
@@ -2299,60 +2177,6 @@ module.exports = function (TO_STRING) {
       : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
   };
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
-var defined = __webpack_require__(/*! ./_defined */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_defined.js");
-var fails = __webpack_require__(/*! ./_fails */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_fails.js");
-var spaces = __webpack_require__(/*! ./_string-ws */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js");
-var space = '[' + spaces + ']';
-var non = '\u200b\u0085';
-var ltrim = RegExp('^' + space + space + '*');
-var rtrim = RegExp(space + space + '*$');
-
-var exporter = function (KEY, exec, ALIAS) {
-  var exp = {};
-  var FORCE = fails(function () {
-    return !!spaces[KEY]() || non[KEY]() != non;
-  });
-  var fn = exp[KEY] = FORCE ? exec(trim) : spaces[KEY];
-  if (ALIAS) exp[ALIAS] = fn;
-  $export($export.P + $export.F * FORCE, 'String', exp);
-};
-
-// 1 -> String#trimLeft
-// 2 -> String#trimRight
-// 3 -> String#trim
-var trim = exporter.trim = function (string, TYPE) {
-  string = String(defined(string));
-  if (TYPE & 1) string = string.replace(ltrim, '');
-  if (TYPE & 2) string = string.replace(rtrim, '');
-  return string;
-};
-
-module.exports = exporter;
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
-  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
 
 
 /***/ }),
@@ -2741,20 +2565,6 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_ob
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.create.js":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.create.js ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_object-create.js") });
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.define-property.js":
 /*!****************************************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.define-property.js ***!
@@ -2789,26 +2599,6 @@ __webpack_require__(/*! ./_object-sap */ "./node_modules/@babel/runtime-corejs2/
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.keys.js":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.keys.js ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_to-object.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_object-keys.js");
-
-__webpack_require__(/*! ./_object-sap */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
-  return function keys(it) {
-    return $keys(toObject(it));
-  };
-});
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.to-string.js":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.to-string.js ***!
@@ -2816,21 +2606,6 @@ __webpack_require__(/*! ./_object-sap */ "./node_modules/@babel/runtime-corejs2/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
-var $parseInt = __webpack_require__(/*! ./_parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js");
-// 18.2.5 parseInt(string, radix)
-$export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
 
 
 /***/ }),
@@ -3628,6 +3403,52 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/extends.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _extends() {
+  module.exports = _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/build/polyfills/fetch/index.js":
 /*!***************************************************************!*\
   !*** ./node_modules/next/dist/build/polyfills/fetch/index.js ***!
@@ -3640,17 +3461,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
-/*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5f137288facb1107b491 ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/next/dist/build/polyfills/object-assign.js");
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/client/dev/dev-build-watcher.js":
 /*!****************************************************************!*\
   !*** ./node_modules/next/dist/client/dev/dev-build-watcher.js ***!
@@ -3659,114 +3469,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.default = initializeBuildWatcher;
-
-var _eventsource = __webpack_require__(/*! ./error-overlay/eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");
-
-function initializeBuildWatcher() {
-  var shadowHost = document.createElement('div');
-  shadowHost.id = '__next-build-watcher'; // Make sure container is fixed and on a high zIndex so it shows
-
-  shadowHost.style.position = 'fixed';
-  shadowHost.style.bottom = '10px';
-  shadowHost.style.right = '20px';
-  shadowHost.style.width = 0;
-  shadowHost.style.height = 0;
-  shadowHost.style.zIndex = 99999;
-  document.body.appendChild(shadowHost);
-  var shadowRoot;
-  var prefix = '';
-
-  if (shadowHost.attachShadow) {
-    shadowRoot = shadowHost.attachShadow({
-      mode: 'open'
-    });
-  } else {
-    // If attachShadow is undefined then the browser does not support
-    // the Shadow DOM, we need to prefix all the names so there
-    // will be no conflicts
-    shadowRoot = shadowHost;
-    prefix = '__next-build-watcher-';
-  } // Container
-
-
-  var container = createContainer(prefix);
-  shadowRoot.appendChild(container); // CSS
-
-  var css = createCss(prefix);
-  shadowRoot.appendChild(css); // State
-
-  var isVisible = false;
-  var isBuilding = false;
-  var timeoutId = null; // Handle events
-
-  var evtSource = (0, _eventsource.getEventSourceWrapper)({
-    path: '/_next/webpack-hmr'
-  });
-  evtSource.addMessageListener(event => {
-    // This is the heartbeat event
-    if (event.data === '\uD83D\uDC93') {
-      return;
-    }
-
-    try {
-      handleMessage(event);
-    } catch (_unused) {}
-  });
-
-  function handleMessage(event) {
-    var obj = JSON.parse(event.data); // eslint-disable-next-line default-case
-
-    switch (obj.action) {
-      case 'building':
-        timeoutId && clearTimeout(timeoutId);
-        isVisible = true;
-        isBuilding = true;
-        updateContainer();
-        break;
-
-      case 'built':
-        isBuilding = false; // Wait for the fade out transtion to complete
-
-        timeoutId = setTimeout(() => {
-          isVisible = false;
-          updateContainer();
-        }, 100);
-        updateContainer();
-        break;
-    }
-  }
-
-  function updateContainer() {
-    if (isBuilding) {
-      container.classList.add(prefix + "building");
-    } else {
-      container.classList.remove(prefix + "building");
-    }
-
-    if (isVisible) {
-      container.classList.add(prefix + "visible");
-    } else {
-      container.classList.remove(prefix + "visible");
-    }
-  }
-}
-
-function createContainer(prefix) {
-  var container = document.createElement('div');
-  container.id = prefix + "container";
-  container.innerHTML = "\n    <div id=\"" + prefix + "icon-wrapper\">\n      <svg viewBox=\"0 0 226 200\">\n        <defs>\n          <linearGradient\n            x1=\"114.720775%\"\n            y1=\"181.283245%\"\n            x2=\"39.5399306%\"\n            y2=\"100%\"\n            id=\"" + prefix + "linear-gradient\"\n          >\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\" />\n            <stop stop-color=\"#000000\" offset=\"100%\" />\n          </linearGradient>\n        </defs>\n        <g id=\"" + prefix + "icon-group\" fill=\"none\" stroke=\"url(#" + prefix + "linear-gradient)\" stroke-width=\"18\">\n          <path d=\"M113,5.08219117 L4.28393801,197.5 L221.716062,197.5 L113,5.08219117 Z\" />\n        </g>\n      </svg>\n    </div>\n  ";
-  return container;
-}
-
-function createCss(prefix) {
-  var css = document.createElement('style');
-  css.textContent = "\n    #" + prefix + "container {\n      position: absolute;\n      bottom: 10px;\n      right: 30px;\n\n      background: #fff;\n      color: #000;\n      font: initial;\n      cursor: initial;\n      letter-spacing: initial;\n      text-shadow: initial;\n      text-transform: initial;\n      visibility: initial;\n\n      padding: 8px 10px;\n      align-items: center;\n      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\n      display: none;\n      opacity: 0;\n      transition: opacity 0.1s ease, bottom 0.1s ease;\n      animation: " + prefix + "fade-in 0.1s ease-in-out;\n    }\n\n    #" + prefix + "container." + prefix + "visible {\n      display: flex;\n    }\n\n    #" + prefix + "container." + prefix + "building {\n      bottom: 20px;\n      opacity: 1;\n    }\n\n    #" + prefix + "icon-wrapper {\n      width: 16px;\n      height: 16px;\n    }\n\n    #" + prefix + "icon-wrapper > svg {\n      width: 100%;\n      height: 100%;\n    }\n\n    #" + prefix + "icon-group {\n      animation: " + prefix + "strokedash 1s ease-in-out both infinite;\n    }\n\n    @keyframes " + prefix + "fade-in {\n      from {\n        bottom: 10px;\n        opacity: 0;\n      }\n      to {\n        bottom: 20px;\n        opacity: 1;\n      }\n    }\n\n    @keyframes " + prefix + "strokedash {\n      0% {\n        stroke-dasharray: 0 226;\n      }\n      80%,\n      100% {\n        stroke-dasharray: 659 226;\n      }\n    }\n  ";
-  return css;
-}
+exports.__esModule=true;exports.default=initializeBuildWatcher;var _eventsource=__webpack_require__(/*! ./error-overlay/eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");function initializeBuildWatcher(){var shadowHost=document.createElement('div');shadowHost.id='__next-build-watcher';shadowHost.style.position='fixed';shadowHost.style.bottom='10px';shadowHost.style.right='20px';shadowHost.style.width=0;shadowHost.style.height=0;shadowHost.style.zIndex=99999;document.body.appendChild(shadowHost);var shadowRoot;var prefix='';if(shadowHost.attachShadow){shadowRoot=shadowHost.attachShadow({mode:'open'});}else{shadowRoot=shadowHost;prefix='__next-build-watcher-';}var container=createContainer(prefix);shadowRoot.appendChild(container);var css=createCss(prefix);shadowRoot.appendChild(css);var isVisible=false;var isBuilding=false;var timeoutId=null;var evtSource=(0,_eventsource.getEventSourceWrapper)({path:'/_next/webpack-hmr'});evtSource.addMessageListener(function(event){if(event.data==="\uD83D\uDC93"){return;}try{handleMessage(event);}catch(_unused){}});function handleMessage(event){var obj=JSON.parse(event.data);switch(obj.action){case'building':timeoutId&&clearTimeout(timeoutId);isVisible=true;isBuilding=true;updateContainer();break;case'built':isBuilding=false;timeoutId=setTimeout(function(){isVisible=false;updateContainer();},100);updateContainer();break;}}function updateContainer(){if(isBuilding){container.classList.add(prefix+"building");}else{container.classList.remove(prefix+"building");}if(isVisible){container.classList.add(prefix+"visible");}else{container.classList.remove(prefix+"visible");}}}function createContainer(prefix){var container=document.createElement('div');container.id=prefix+"container";container.innerHTML="\n    <div id=\""+prefix+"icon-wrapper\">\n      <svg viewBox=\"0 0 226 200\">\n        <defs>\n          <linearGradient\n            x1=\"114.720775%\"\n            y1=\"181.283245%\"\n            x2=\"39.5399306%\"\n            y2=\"100%\"\n            id=\""+prefix+"linear-gradient\"\n          >\n            <stop stop-color=\"#FFFFFF\" offset=\"0%\" />\n            <stop stop-color=\"#000000\" offset=\"100%\" />\n          </linearGradient>\n        </defs>\n        <g id=\""+prefix+"icon-group\" fill=\"none\" stroke=\"url(#"+prefix+"linear-gradient)\" stroke-width=\"18\">\n          <path d=\"M113,5.08219117 L4.28393801,197.5 L221.716062,197.5 L113,5.08219117 Z\" />\n        </g>\n      </svg>\n    </div>\n  ";return container;}function createCss(prefix){var css=document.createElement('style');css.textContent="\n    #"+prefix+"container {\n      position: absolute;\n      bottom: 10px;\n      right: 30px;\n\n      background: #fff;\n      color: #000;\n      font: initial;\n      cursor: initial;\n      letter-spacing: initial;\n      text-shadow: initial;\n      text-transform: initial;\n      visibility: initial;\n\n      padding: 8px 10px;\n      align-items: center;\n      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\n      display: none;\n      opacity: 0;\n      transition: opacity 0.1s ease, bottom 0.1s ease;\n      animation: "+prefix+"fade-in 0.1s ease-in-out;\n    }\n\n    #"+prefix+"container."+prefix+"visible {\n      display: flex;\n    }\n\n    #"+prefix+"container."+prefix+"building {\n      bottom: 20px;\n      opacity: 1;\n    }\n\n    #"+prefix+"icon-wrapper {\n      width: 16px;\n      height: 16px;\n    }\n\n    #"+prefix+"icon-wrapper > svg {\n      width: 100%;\n      height: 100%;\n    }\n\n    #"+prefix+"icon-group {\n      animation: "+prefix+"strokedash 1s ease-in-out both infinite;\n    }\n\n    @keyframes "+prefix+"fade-in {\n      from {\n        bottom: 10px;\n        opacity: 0;\n      }\n      to {\n        bottom: 20px;\n        opacity: 1;\n      }\n    }\n\n    @keyframes "+prefix+"strokedash {\n      0% {\n        stroke-dasharray: 0 226;\n      }\n      80%,\n      100% {\n        stroke-dasharray: 659 226;\n      }\n    }\n  ";return css;}
 
 /***/ }),
 
@@ -3778,80 +3481,7 @@ function createCss(prefix) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.getEventSourceWrapper = getEventSourceWrapper;
-var eventCallbacks = [];
-
-function EventSourceWrapper(options) {
-  var source;
-  var lastActivity = new Date();
-  var listeners = [];
-
-  if (!options.timeout) {
-    options.timeout = 20 * 1000;
-  }
-
-  init();
-  var timer = setInterval(function () {
-    if (new Date() - lastActivity > options.timeout) {
-      handleDisconnect();
-    }
-  }, options.timeout / 2);
-
-  function init() {
-    source = new window.EventSource(options.path);
-    source.onopen = handleOnline;
-    source.onerror = handleDisconnect;
-    source.onmessage = handleMessage;
-  }
-
-  function handleOnline() {
-    if (options.log) console.log('[HMR] connected');
-    lastActivity = new Date();
-  }
-
-  function handleMessage(event) {
-    lastActivity = new Date();
-
-    for (var i = 0; i < listeners.length; i++) {
-      listeners[i](event);
-    }
-
-    if (event.data.indexOf('action') !== -1) {
-      eventCallbacks.forEach(cb => cb(event));
-    }
-  }
-
-  function handleDisconnect() {
-    clearInterval(timer);
-    source.close();
-    setTimeout(init, options.timeout);
-  }
-
-  return {
-    close: () => {
-      clearTimeout(timer);
-      source.close();
-    },
-    addMessageListener: function addMessageListener(fn) {
-      listeners.push(fn);
-    }
-  };
-}
-
-function getEventSourceWrapper(options) {
-  if (!options.ondemand) {
-    return {
-      addMessageListener: cb => {
-        eventCallbacks.push(cb);
-      }
-    };
-  }
-
-  return EventSourceWrapper(options);
-}
+exports.__esModule=true;exports.getEventSourceWrapper=getEventSourceWrapper;var eventCallbacks=[];function EventSourceWrapper(options){var source;var lastActivity=new Date();var listeners=[];if(!options.timeout){options.timeout=20*1000;}init();var timer=setInterval(function(){if(new Date()-lastActivity>options.timeout){handleDisconnect();}},options.timeout/2);function init(){source=new window.EventSource(options.path);source.onopen=handleOnline;source.onerror=handleDisconnect;source.onmessage=handleMessage;}function handleOnline(){if(options.log)console.log('[HMR] connected');lastActivity=new Date();}function handleMessage(event){lastActivity=new Date();for(var i=0;i<listeners.length;i++){listeners[i](event);}if(event.data.indexOf('action')!==-1){eventCallbacks.forEach(function(cb){return cb(event);});}}function handleDisconnect(){clearInterval(timer);source.close();setTimeout(init,options.timeout);}return{close:function close(){clearTimeout(timer);source.close();},addMessageListener:function addMessageListener(fn){listeners.push(fn);}};}function getEventSourceWrapper(options){if(!options.ondemand){return{addMessageListener:function addMessageListener(cb){eventCallbacks.push(cb);}};}return EventSourceWrapper(options);}
 
 /***/ }),
 
@@ -3863,115 +3493,7 @@ function getEventSourceWrapper(options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-/**
-MIT License
-Copyright (c) 2015-present, Facebook, Inc.
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-*/
-// This file is based on https://github.com/facebook/create-react-app/blob/7b1a32be6ec9f99a6c9a3c66813f3ac09c4736b9/packages/react-dev-utils/formatWebpackMessages.js
-// It's been edited to remove chalk and CRA-specific logic
-
-var friendlySyntaxErrorLabel = 'Syntax error:';
-
-function isLikelyASyntaxError(message) {
-  return message.indexOf(friendlySyntaxErrorLabel) !== -1;
-} // Cleans up webpack error messages.
-// eslint-disable-next-line no-unused-vars
-
-
-function formatMessage(message, isError) {
-  var lines = message.split('\n'); // Strip Webpack-added headers off errors/warnings
-  // https://github.com/webpack/webpack/blob/master/lib/ModuleError.js
-
-  lines = lines.filter(line => !/Module [A-z ]+\(from/.test(line)); // Transform parsing error into syntax error
-  // TODO: move this to our ESLint formatter?
-
-  lines = lines.map(line => {
-    var parsingError = /Line (\d+):(?:(\d+):)?\s*Parsing error: (.+)$/.exec(line);
-
-    if (!parsingError) {
-      return line;
-    }
-
-    var [, errorLine, errorColumn, errorMessage] = parsingError;
-    return friendlySyntaxErrorLabel + " " + errorMessage + " (" + errorLine + ":" + errorColumn + ")";
-  });
-  message = lines.join('\n'); // Smoosh syntax errors (commonly found in CSS)
-
-  message = message.replace(/SyntaxError\s+\((\d+):(\d+)\)\s*(.+?)\n/g, friendlySyntaxErrorLabel + " $3 ($1:$2)\n"); // Remove columns from ESLint formatter output (we added these for more
-  // accurate syntax errors)
-
-  message = message.replace(/Line (\d+):\d+:/g, 'Line $1:'); // Clean up export errors
-
-  message = message.replace(/^.*export '(.+?)' was not found in '(.+?)'.*$/gm, "Attempted import error: '$1' is not exported from '$2'.");
-  message = message.replace(/^.*export 'default' \(imported as '(.+?)'\) was not found in '(.+?)'.*$/gm, "Attempted import error: '$2' does not contain a default export (imported as '$1').");
-  message = message.replace(/^.*export '(.+?)' \(imported as '(.+?)'\) was not found in '(.+?)'.*$/gm, "Attempted import error: '$1' is not exported from '$3' (imported as '$2').");
-  lines = message.split('\n'); // Remove leading newline
-
-  if (lines.length > 2 && lines[1].trim() === '') {
-    lines.splice(1, 1);
-  } // Clean up file name
-
-
-  lines[0] = lines[0].replace(/^(.*) \d+:\d+-\d+$/, '$1'); // Cleans up verbose "module not found" messages for files and packages.
-
-  if (lines[1] && lines[1].indexOf('Module not found: ') === 0) {
-    lines = [lines[0], lines[1].replace('Error: ', '').replace('Module not found: Cannot find file:', 'Cannot find file:')];
-  }
-
-  message = lines.join('\n'); // Internal stacks are generally useless so we strip them... with the
-  // exception of stacks containing `webpack:` because they're normally
-  // from user code generated by Webpack. For more information see
-  // https://github.com/facebook/create-react-app/pull/1050
-
-  message = message.replace(/^\s*at\s((?!webpack:).)*:\d+:\d+[\s)]*(\n|$)/gm, ''); // at ... ...:x:y
-
-  message = message.replace(/^\s*at\s<anonymous>(\n|$)/gm, ''); // at <anonymous>
-
-  lines = message.split('\n'); // Remove duplicated newlines
-
-  lines = lines.filter((line, index, arr) => index === 0 || line.trim() !== '' || line.trim() !== arr[index - 1].trim()); // Reassemble the message
-
-  message = lines.join('\n');
-  return message.trim();
-}
-
-function formatWebpackMessages(json) {
-  var formattedErrors = json.errors.map(function (message) {
-    return formatMessage(message, true);
-  });
-  var formattedWarnings = json.warnings.map(function (message) {
-    return formatMessage(message, false);
-  });
-  var result = {
-    errors: formattedErrors,
-    warnings: formattedWarnings
-  };
-
-  if (result.errors.some(isLikelyASyntaxError)) {
-    // If there are any syntax errors, show just them.
-    result.errors = result.errors.filter(isLikelyASyntaxError);
-  }
-
-  return result;
-}
-
-module.exports = formatWebpackMessages;
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _slicedToArray2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js"));var friendlySyntaxErrorLabel='Syntax error:';function isLikelyASyntaxError(message){return message.indexOf(friendlySyntaxErrorLabel)!==-1;}function formatMessage(message,isError){var lines=message.split('\n');lines=lines.filter(function(line){return!/Module [A-z ]+\(from/.test(line);});lines=lines.map(function(line){var parsingError=/Line (\d+):(?:(\d+):)?\s*Parsing error: (.+)$/.exec(line);if(!parsingError){return line;}var _parsingError=(0,_slicedToArray2.default)(parsingError,4),errorLine=_parsingError[1],errorColumn=_parsingError[2],errorMessage=_parsingError[3];return friendlySyntaxErrorLabel+" "+errorMessage+" ("+errorLine+":"+errorColumn+")";});message=lines.join('\n');message=message.replace(/SyntaxError\s+\((\d+):(\d+)\)\s*(.+?)\n/g,friendlySyntaxErrorLabel+" $3 ($1:$2)\n");message=message.replace(/Line (\d+):\d+:/g,'Line $1:');message=message.replace(/^.*export '(.+?)' was not found in '(.+?)'.*$/gm,"Attempted import error: '$1' is not exported from '$2'.");message=message.replace(/^.*export 'default' \(imported as '(.+?)'\) was not found in '(.+?)'.*$/gm,"Attempted import error: '$2' does not contain a default export (imported as '$1').");message=message.replace(/^.*export '(.+?)' \(imported as '(.+?)'\) was not found in '(.+?)'.*$/gm,"Attempted import error: '$1' is not exported from '$3' (imported as '$2').");lines=message.split('\n');if(lines.length>2&&lines[1].trim()===''){lines.splice(1,1);}lines[0]=lines[0].replace(/^(.*) \d+:\d+-\d+$/,'$1');if(lines[1]&&lines[1].indexOf('Module not found: ')===0){lines=[lines[0],lines[1].replace('Error: ','').replace('Module not found: Cannot find file:','Cannot find file:')];}message=lines.join('\n');message=message.replace(/^\s*at\s((?!webpack:).)*:\d+:\d+[\s)]*(\n|$)/gm,'');message=message.replace(/^\s*at\s<anonymous>(\n|$)/gm,'');lines=message.split('\n');lines=lines.filter(function(line,index,arr){return index===0||line.trim()!==''||line.trim()!==arr[index-1].trim();});message=lines.join('\n');return message.trim();}function formatWebpackMessages(json){var formattedErrors=json.errors.map(function(message){return formatMessage(message,true);});var formattedWarnings=json.warnings.map(function(message){return formatMessage(message,false);});var result={errors:formattedErrors,warnings:formattedWarnings};if(result.errors.some(isLikelyASyntaxError)){result.errors=result.errors.filter(isLikelyASyntaxError);}return result;}module.exports=formatWebpackMessages;
 
 /***/ }),
 
@@ -3983,356 +3505,7 @@ module.exports = formatWebpackMessages;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = connect;
-
-var _eventsource = __webpack_require__(/*! ./eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");
-
-var _formatWebpackMessages = _interopRequireDefault(__webpack_require__(/*! ./format-webpack-messages */ "./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js"));
-
-var ErrorOverlay = _interopRequireWildcard(__webpack_require__(/*! react-error-overlay */ "./node_modules/next/node_modules/react-error-overlay/lib/index.js"));
-
-var _stripAnsi = _interopRequireDefault(__webpack_require__(/*! strip-ansi */ "./node_modules/strip-ansi/index.js"));
-
-var _sourceMapSupport = __webpack_require__(/*! ./source-map-support */ "./node_modules/next/dist/client/dev/error-overlay/source-map-support.js");
-
-var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));
-/* eslint-disable camelcase */
-
-/**
-MIT License
-Copyright (c) 2013-present, Facebook, Inc.
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-*/
-// This file is based on https://github.com/facebook/create-react-app/blob/v1.1.4/packages/react-dev-utils/webpackHotDevClient.js
-// It's been edited to rely on webpack-hot-middleware and to be more compatible with SSR / Next.js
-// This alternative WebpackDevServer combines the functionality of:
-// https://github.com/webpack/webpack-dev-server/blob/webpack-1/client/index.js
-// https://github.com/webpack/webpack/blob/webpack-1/hot/dev-server.js
-// It only supports their simplest configuration (hot updates on same server).
-// It makes some opinionated choices on top, like adding a syntax error overlay
-// that looks similar to our console output. The error overlay is inspired by:
-// https://github.com/glenjamin/webpack-hot-middleware
-// This is a modified version of create-react-app's webpackHotDevClient.js
-// It implements webpack-hot-middleware's EventSource events instead of webpack-dev-server's websocket.
-// https://github.com/facebook/create-react-app/blob/25184c4e91ebabd16fe1cde3d8630830e4a36a01/packages/react-dev-utils/webpackHotDevClient.js
-
-
-var hadRuntimeError = false;
-var customHmrEventHandler;
-
-function connect(options) {
-  // Open stack traces in an editor.
-  ErrorOverlay.setEditorHandler(function editorHandler(_ref) {
-    var {
-      fileName,
-      lineNumber,
-      colNumber
-    } = _ref; // Resolve invalid paths coming from react-error-overlay
-
-    var resolvedFilename = fileName.replace(/^webpack:\/\//, '');
-    (0, _unfetch.default)('/_next/development/open-stack-frame-in-editor' + ("?fileName=" + window.encodeURIComponent(resolvedFilename)) + ("&lineNumber=" + (lineNumber || 1)) + ("&colNumber=" + (colNumber || 1)));
-  }); // We need to keep track of if there has been a runtime error.
-  // Essentially, we cannot guarantee application state was not corrupted by the
-  // runtime error. To prevent confusing behavior, we forcibly reload the entire
-  // application. This is handled below when we are notified of a compile (code
-  // change).
-  // See https://github.com/facebook/create-react-app/issues/3096
-
-  ErrorOverlay.startReportingRuntimeErrors({
-    onError: function onError() {
-      hadRuntimeError = true;
-    }
-  });
-
-  if ( true && typeof module.hot.dispose === 'function') {
-    module.hot.dispose(function () {
-      // TODO: why do we need this?
-      ErrorOverlay.stopReportingRuntimeErrors();
-    });
-  }
-
-  (0, _eventsource.getEventSourceWrapper)(options).addMessageListener(event => {
-    // This is the heartbeat event
-    if (event.data === '\uD83D\uDC93') {
-      return;
-    }
-
-    try {
-      processMessage(event);
-    } catch (ex) {
-      console.warn('Invalid HMR message: ' + event.data + '\n' + ex);
-    }
-  });
-  return {
-    subscribeToHmrEvent(handler) {
-      customHmrEventHandler = handler;
-    },
-
-    reportRuntimeError(err) {
-      ErrorOverlay.reportRuntimeError(err);
-    },
-
-    prepareError(err) {
-      // Temporary workaround for https://github.com/facebook/create-react-app/issues/4760
-      // Should be removed once the fix lands
-      hadRuntimeError = true; // react-error-overlay expects a type of `Error`
-
-      var error = new Error(err.message);
-      error.name = err.name;
-      error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
-
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/stefanini/Desktop/Projetos/nextssr/.next");
-      return error;
-    }
-
-  };
-} // Remember some state related to hot module replacement.
-
-
-var isFirstCompilation = true;
-var mostRecentCompilationHash = null;
-var hasCompileErrors = false;
-var deferredBuildError = null;
-
-function clearOutdatedErrors() {
-  // Clean up outdated compile errors, if any.
-  if (typeof console !== 'undefined' && typeof console.clear === 'function') {
-    if (hasCompileErrors) {
-      console.clear();
-    }
-  }
-
-  deferredBuildError = null;
-} // Successful compilation.
-
-
-function handleSuccess() {
-  var isHotUpdate = !isFirstCompilation;
-  isFirstCompilation = false;
-  hasCompileErrors = false; // Attempt to apply hot updates or reload.
-
-  if (isHotUpdate) {
-    tryApplyUpdates(function onHotUpdateSuccess() {
-      if (deferredBuildError) {
-        deferredBuildError();
-      } else {
-        // Only dismiss it when we're sure it's a hot update.
-        // Otherwise it would flicker right before the reload.
-        ErrorOverlay.dismissBuildError();
-      }
-    });
-  }
-} // Compilation with warnings (e.g. ESLint).
-
-
-function handleWarnings(warnings) {
-  clearOutdatedErrors(); // Print warnings to the console.
-
-  var formatted = (0, _formatWebpackMessages.default)({
-    warnings: warnings,
-    errors: []
-  });
-
-  if (typeof console !== 'undefined' && typeof console.warn === 'function') {
-    for (var i = 0; i < formatted.warnings.length; i++) {
-      if (i === 5) {
-        console.warn('There were more warnings in other files.\n' + 'You can find a complete log in the terminal.');
-        break;
-      }
-
-      console.warn((0, _stripAnsi.default)(formatted.warnings[i]));
-    }
-  }
-} // Compilation with errors (e.g. syntax error or missing modules).
-
-
-function handleErrors(errors) {
-  clearOutdatedErrors();
-  isFirstCompilation = false;
-  hasCompileErrors = true; // "Massage" webpack messages.
-
-  var formatted = (0, _formatWebpackMessages.default)({
-    errors: errors,
-    warnings: []
-  }); // Only show the first error.
-
-  ErrorOverlay.reportBuildError(formatted.errors[0]); // Also log them to the console.
-
-  if (typeof console !== 'undefined' && typeof console.error === 'function') {
-    for (var i = 0; i < formatted.errors.length; i++) {
-      console.error((0, _stripAnsi.default)(formatted.errors[i]));
-    }
-  }
-} // There is a newer version of the code available.
-
-
-function handleAvailableHash(hash) {
-  // Update last known compilation hash.
-  mostRecentCompilationHash = hash;
-} // Handle messages from the server.
-
-
-function processMessage(e) {
-  var obj = JSON.parse(e.data);
-
-  switch (obj.action) {
-    case 'building':
-      {
-        console.log('[HMR] bundle ' + (obj.name ? "'" + obj.name + "' " : '') + 'rebuilding');
-        break;
-      }
-
-    case 'built':
-    case 'sync':
-      {
-        clearOutdatedErrors();
-
-        if (obj.hash) {
-          handleAvailableHash(obj.hash);
-        }
-
-        var {
-          errors,
-          warnings
-        } = obj;
-        var hasErrors = Boolean(errors && errors.length);
-        var hasWarnings = Boolean(warnings && warnings.length);
-
-        if (hasErrors) {
-          // When there is a compilation error coming from SSR we have to reload the page on next successful compile
-          if (obj.action === 'sync') {
-            hadRuntimeError = true;
-          }
-
-          handleErrors(errors);
-          break;
-        } else if (hasWarnings) {
-          handleWarnings(warnings);
-        }
-
-        handleSuccess();
-        break;
-      }
-
-    case 'typeChecked':
-      {
-        var [{
-          errors: _errors,
-          warnings: _warnings
-        }] = obj.data;
-
-        var _hasErrors = Boolean(_errors && _errors.length);
-
-        var _hasWarnings = Boolean(_warnings && _warnings.length);
-
-        if (_hasErrors) {
-          if (canApplyUpdates()) {
-            handleErrors(_errors);
-          } else {
-            deferredBuildError = () => handleErrors(_errors);
-          }
-        } else if (_hasWarnings) {
-          handleWarnings(_warnings);
-        }
-
-        break;
-      }
-
-    default:
-      {
-        if (customHmrEventHandler) {
-          customHmrEventHandler(obj);
-          break;
-        }
-
-        break;
-      }
-  }
-} // Is there a newer version of this code available?
-
-
-function isUpdateAvailable() {
-  /* globals __webpack_hash__ */
-  // __webpack_hash__ is the hash of the current compilation.
-  // It's a global variable injected by Webpack.
-  return mostRecentCompilationHash !== __webpack_require__.h();
-} // Webpack disallows updates in other states.
-
-
-function canApplyUpdates() {
-  return module.hot.status() === 'idle';
-} // Attempt to update code on the fly, fall back to a hard reload.
-
-
-async function tryApplyUpdates(onHotUpdateSuccess) {
-  if (false) {}
-
-  if (!isUpdateAvailable() || !canApplyUpdates()) {
-    ErrorOverlay.dismissBuildError();
-    return;
-  }
-
-  function handleApplyUpdates(err, updatedModules) {
-    if (err || hadRuntimeError) {
-      if (err) {
-        console.warn('Error while applying updates, reloading page', err);
-      }
-
-      if (hadRuntimeError) {
-        console.warn('Had runtime error previously, reloading page');
-      }
-
-      window.location.reload();
-      return;
-    }
-
-    if (typeof onHotUpdateSuccess === 'function') {
-      // Maybe we want to do something.
-      onHotUpdateSuccess();
-    }
-
-    if (isUpdateAvailable()) {
-      // While we were updating, there was a new update! Do it again.
-      tryApplyUpdates();
-    }
-  } // https://webpack.github.io/docs/hot-module-replacement.html#check
-
-
-  try {
-    var updatedModules = await module.hot.check(
-    /* autoApply */
-    {
-      ignoreUnaccepted: true
-    });
-
-    if (updatedModules) {
-      handleApplyUpdates(null, updatedModules);
-    }
-  } catch (err) {
-    handleApplyUpdates(err, null);
-  }
-}
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _regenerator=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js"));var _slicedToArray2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js"));var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=connect;var _eventsource=__webpack_require__(/*! ./eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");var _formatWebpackMessages=_interopRequireDefault(__webpack_require__(/*! ./format-webpack-messages */ "./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js"));var ErrorOverlay=_interopRequireWildcard(__webpack_require__(/*! react-error-overlay */ "./node_modules/next/node_modules/react-error-overlay/lib/index.js"));var _stripAnsi=_interopRequireDefault(__webpack_require__(/*! strip-ansi */ "./node_modules/strip-ansi/index.js"));var _sourceMapSupport=__webpack_require__(/*! ./source-map-support */ "./node_modules/next/dist/client/dev/error-overlay/source-map-support.js");var _unfetch=_interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));var hadRuntimeError=false;var customHmrEventHandler;function connect(options){ErrorOverlay.setEditorHandler(function editorHandler(_ref){var fileName=_ref.fileName,lineNumber=_ref.lineNumber,colNumber=_ref.colNumber;var resolvedFilename=fileName.replace(/^webpack:\/\//,'');(0,_unfetch.default)('/_next/development/open-stack-frame-in-editor'+("?fileName="+window.encodeURIComponent(resolvedFilename))+("&lineNumber="+(lineNumber||1))+("&colNumber="+(colNumber||1)));});ErrorOverlay.startReportingRuntimeErrors({onError:function onError(){hadRuntimeError=true;}});if( true&&typeof module.hot.dispose==='function'){module.hot.dispose(function(){ErrorOverlay.stopReportingRuntimeErrors();});}(0,_eventsource.getEventSourceWrapper)(options).addMessageListener(function(event){if(event.data==="\uD83D\uDC93"){return;}try{processMessage(event);}catch(ex){console.warn('Invalid HMR message: '+event.data+'\n'+ex);}});return{subscribeToHmrEvent:function subscribeToHmrEvent(handler){customHmrEventHandler=handler;},reportRuntimeError:function reportRuntimeError(err){ErrorOverlay.reportRuntimeError(err);},prepareError:function prepareError(err){hadRuntimeError=true;var error=new Error(err.message);error.name=err.name;error.stack=err.stack;(0,_sourceMapSupport.rewriteStacktrace)(error,"/Users/stefanini/Desktop/Projetos/nextssr/.next");return error;}};}var isFirstCompilation=true;var mostRecentCompilationHash=null;var hasCompileErrors=false;var deferredBuildError=null;function clearOutdatedErrors(){if(typeof console!=='undefined'&&typeof console.clear==='function'){if(hasCompileErrors){console.clear();}}deferredBuildError=null;}function handleSuccess(){var isHotUpdate=!isFirstCompilation;isFirstCompilation=false;hasCompileErrors=false;if(isHotUpdate){tryApplyUpdates(function onHotUpdateSuccess(){if(deferredBuildError){deferredBuildError();}else{ErrorOverlay.dismissBuildError();}});}}function handleWarnings(warnings){clearOutdatedErrors();var formatted=(0,_formatWebpackMessages.default)({warnings:warnings,errors:[]});if(typeof console!=='undefined'&&typeof console.warn==='function'){for(var i=0;i<formatted.warnings.length;i++){if(i===5){console.warn('There were more warnings in other files.\n'+'You can find a complete log in the terminal.');break;}console.warn((0,_stripAnsi.default)(formatted.warnings[i]));}}}function handleErrors(errors){clearOutdatedErrors();isFirstCompilation=false;hasCompileErrors=true;var formatted=(0,_formatWebpackMessages.default)({errors:errors,warnings:[]});ErrorOverlay.reportBuildError(formatted.errors[0]);if(typeof console!=='undefined'&&typeof console.error==='function'){for(var i=0;i<formatted.errors.length;i++){console.error((0,_stripAnsi.default)(formatted.errors[i]));}}}function handleAvailableHash(hash){mostRecentCompilationHash=hash;}function processMessage(e){var obj=JSON.parse(e.data);switch(obj.action){case'building':{console.log('[HMR] bundle '+(obj.name?"'"+obj.name+"' ":'')+'rebuilding');break;}case'built':case'sync':{clearOutdatedErrors();if(obj.hash){handleAvailableHash(obj.hash);}var errors=obj.errors,warnings=obj.warnings;var hasErrors=Boolean(errors&&errors.length);var hasWarnings=Boolean(warnings&&warnings.length);if(hasErrors){if(obj.action==='sync'){hadRuntimeError=true;}handleErrors(errors);break;}else if(hasWarnings){handleWarnings(warnings);}handleSuccess();break;}case'typeChecked':{var _obj$data=(0,_slicedToArray2.default)(obj.data,1),_obj$data$=_obj$data[0],_errors=_obj$data$.errors,_warnings=_obj$data$.warnings;var _hasErrors=Boolean(_errors&&_errors.length);var _hasWarnings=Boolean(_warnings&&_warnings.length);if(_hasErrors){if(canApplyUpdates()){handleErrors(_errors);}else{deferredBuildError=function deferredBuildError(){return handleErrors(_errors);};}}else if(_hasWarnings){handleWarnings(_warnings);}break;}default:{if(customHmrEventHandler){customHmrEventHandler(obj);break;}break;}}}function isUpdateAvailable(){return mostRecentCompilationHash!==__webpack_require__.h();}function canApplyUpdates(){return module.hot.status()==='idle';}function tryApplyUpdates(onHotUpdateSuccess){var handleApplyUpdates,updatedModules;return _regenerator.default.async(function tryApplyUpdates$(_context){while(1){switch(_context.prev=_context.next){case 0:handleApplyUpdates=function _ref2(err,updatedModules){if(err||hadRuntimeError){if(err){console.warn('Error while applying updates, reloading page',err);}if(hadRuntimeError){console.warn('Had runtime error previously, reloading page');}window.location.reload();return;}if(typeof onHotUpdateSuccess==='function'){onHotUpdateSuccess();}if(isUpdateAvailable()){tryApplyUpdates();}};if(true){_context.next=4;break;}console.error('HotModuleReplacementPlugin is not in Webpack configuration.');return _context.abrupt("return");case 4:if(!(!isUpdateAvailable()||!canApplyUpdates())){_context.next=7;break;}ErrorOverlay.dismissBuildError();return _context.abrupt("return");case 7:_context.prev=7;_context.next=10;return _regenerator.default.awrap(module.hot.check({ignoreUnaccepted:true}));case 10:updatedModules=_context.sent;if(updatedModules){handleApplyUpdates(null,updatedModules);}_context.next=17;break;case 14:_context.prev=14;_context.t0=_context["catch"](7);handleApplyUpdates(_context.t0,null);case 17:case"end":return _context.stop();}}},null,null,[[7,14]]);}
 
 /***/ }),
 
@@ -4344,36 +3517,7 @@ async function tryApplyUpdates(onHotUpdateSuccess) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.rewriteStacktrace = rewriteStacktrace;
-var filenameRE = /\(([^)]+\.js):(\d+):(\d+)\)$/;
-
-function rewriteStacktrace(e, distDir) {
-  if (!e || typeof e.stack !== 'string') {
-    return;
-  }
-
-  var lines = e.stack.split('\n');
-  var result = lines.map(line => {
-    return rewriteTraceLine(line, distDir);
-  });
-  e.stack = result.join('\n');
-}
-
-function rewriteTraceLine(trace, distDir) {
-  var m = trace.match(filenameRE);
-
-  if (m == null) {
-    return trace;
-  }
-
-  var filename = m[1];
-  var filenameLink = filename.replace(distDir, '/_next/development').replace(/\\/g, '/');
-  trace = trace.replace(filename, filenameLink);
-  return trace;
-}
+exports.__esModule=true;exports.rewriteStacktrace=rewriteStacktrace;var filenameRE=/\(([^)]+\.js):(\d+):(\d+)\)$/;function rewriteStacktrace(e,distDir){if(!e||typeof e.stack!=='string'){return;}var lines=e.stack.split('\n');var result=lines.map(function(line){return rewriteTraceLine(line,distDir);});e.stack=result.join('\n');}function rewriteTraceLine(trace,distDir){var m=trace.match(filenameRE);if(m==null){return trace;}var filename=m[1];var filenameLink=filename.replace(distDir,'/_next/development').replace(/\\/g,'/');trace=trace.replace(filename,filenameLink);return trace;}
 
 /***/ }),
 
@@ -4385,953 +3529,7 @@ function rewriteTraceLine(trace, distDir) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _JSON$stringify = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
-
-var _parseInt = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));
-/* eslint-disable */
-// Improved version of https://github.com/Yaffle/EventSource/
-// Available under MIT License (MIT)
-// Only tries to support IE11 and nothing below
-
-
-var document = window.document;
-var Response = window.Response;
-var TextDecoder = window.TextDecoder;
-var TextEncoder = window.TextEncoder;
-var AbortController = window.AbortController;
-
-if (AbortController == undefined) {
-  AbortController = function AbortController() {
-    this.signal = null;
-
-    this.abort = function () {};
-  };
-}
-
-function TextDecoderPolyfill() {
-  this.bitsNeeded = 0;
-  this.codePoint = 0;
-}
-
-TextDecoderPolyfill.prototype.decode = function (octets) {
-  function valid(codePoint, shift, octetsCount) {
-    if (octetsCount === 1) {
-      return codePoint >= 0x0080 >> shift && codePoint << shift <= 0x07ff;
-    }
-
-    if (octetsCount === 2) {
-      return codePoint >= 0x0800 >> shift && codePoint << shift <= 0xd7ff || codePoint >= 0xe000 >> shift && codePoint << shift <= 0xffff;
-    }
-
-    if (octetsCount === 3) {
-      return codePoint >= 0x010000 >> shift && codePoint << shift <= 0x10ffff;
-    }
-
-    throw new Error();
-  }
-
-  function octetsCount(bitsNeeded, codePoint) {
-    if (bitsNeeded === 6 * 1) {
-      return codePoint >> 6 > 15 ? 3 : codePoint > 31 ? 2 : 1;
-    }
-
-    if (bitsNeeded === 6 * 2) {
-      return codePoint > 15 ? 3 : 2;
-    }
-
-    if (bitsNeeded === 6 * 3) {
-      return 3;
-    }
-
-    throw new Error();
-  }
-
-  var REPLACER = 0xfffd;
-  var string = '';
-  var bitsNeeded = this.bitsNeeded;
-  var codePoint = this.codePoint;
-
-  for (var i = 0; i < octets.length; i += 1) {
-    var octet = octets[i];
-
-    if (bitsNeeded !== 0) {
-      if (octet < 128 || octet > 191 || !valid(codePoint << 6 | octet & 63, bitsNeeded - 6, octetsCount(bitsNeeded, codePoint))) {
-        bitsNeeded = 0;
-        codePoint = REPLACER;
-        string += String.fromCharCode(codePoint);
-      }
-    }
-
-    if (bitsNeeded === 0) {
-      if (octet >= 0 && octet <= 127) {
-        bitsNeeded = 0;
-        codePoint = octet;
-      } else if (octet >= 192 && octet <= 223) {
-        bitsNeeded = 6 * 1;
-        codePoint = octet & 31;
-      } else if (octet >= 224 && octet <= 239) {
-        bitsNeeded = 6 * 2;
-        codePoint = octet & 15;
-      } else if (octet >= 240 && octet <= 247) {
-        bitsNeeded = 6 * 3;
-        codePoint = octet & 7;
-      } else {
-        bitsNeeded = 0;
-        codePoint = REPLACER;
-      }
-
-      if (bitsNeeded !== 0 && !valid(codePoint, bitsNeeded, octetsCount(bitsNeeded, codePoint))) {
-        bitsNeeded = 0;
-        codePoint = REPLACER;
-      }
-    } else {
-      bitsNeeded -= 6;
-      codePoint = codePoint << 6 | octet & 63;
-    }
-
-    if (bitsNeeded === 0) {
-      if (codePoint <= 0xffff) {
-        string += String.fromCharCode(codePoint);
-      } else {
-        string += String.fromCharCode(0xd800 + (codePoint - 0xffff - 1 >> 10));
-        string += String.fromCharCode(0xdc00 + (codePoint - 0xffff - 1 & 0x3ff));
-      }
-    }
-  }
-
-  this.bitsNeeded = bitsNeeded;
-  this.codePoint = codePoint;
-  return string;
-}; // Firefox < 38 throws an error with stream option
-
-
-var supportsStreamOption = function supportsStreamOption() {
-  try {
-    return new TextDecoder().decode(new TextEncoder().encode('test'), {
-      stream: true
-    }) === 'test';
-  } catch (error) {
-    console.log(error);
-  }
-
-  return false;
-}; // IE, Edge
-
-
-if (TextDecoder == undefined || TextEncoder == undefined || !supportsStreamOption()) {
-  TextDecoder = TextDecoderPolyfill;
-}
-
-var k = function k() {};
-
-function XHRWrapper(xhr) {
-  this.withCredentials = false;
-  this.responseType = '';
-  this.readyState = 0;
-  this.status = 0;
-  this.statusText = '';
-  this.responseText = '';
-  this.onprogress = k;
-  this.onreadystatechange = k;
-  this._contentType = '';
-  this._xhr = xhr;
-  this._sendTimeout = 0;
-  this._abort = k;
-}
-
-XHRWrapper.prototype.open = function (method, url) {
-  this._abort(true);
-
-  var that = this;
-  var xhr = this._xhr;
-  var state = 1;
-  var timeout = 0;
-
-  this._abort = function (silent) {
-    if (that._sendTimeout !== 0) {
-      clearTimeout(that._sendTimeout);
-      that._sendTimeout = 0;
-    }
-
-    if (state === 1 || state === 2 || state === 3) {
-      state = 4;
-      xhr.onload = k;
-      xhr.onerror = k;
-      xhr.onabort = k;
-      xhr.onprogress = k;
-      xhr.onreadystatechange = k; // IE 8 - 9: XDomainRequest#abort() does not fire any event
-      // Opera < 10: XMLHttpRequest#abort() does not fire any event
-
-      xhr.abort();
-
-      if (timeout !== 0) {
-        clearTimeout(timeout);
-        timeout = 0;
-      }
-
-      if (!silent) {
-        that.readyState = 4;
-        that.onreadystatechange();
-      }
-    }
-
-    state = 0;
-  };
-
-  var onStart = function onStart() {
-    if (state === 1) {
-      // state = 2;
-      var status = 0;
-      var statusText = '';
-      var contentType = undefined;
-
-      if (!('contentType' in xhr)) {
-        try {
-          status = xhr.status;
-          statusText = xhr.statusText;
-          contentType = xhr.getResponseHeader('Content-Type');
-        } catch (error) {
-          // IE < 10 throws exception for `xhr.status` when xhr.readyState === 2 || xhr.readyState === 3
-          // Opera < 11 throws exception for `xhr.status` when xhr.readyState === 2
-          // https://bugs.webkit.org/show_bug.cgi?id=29121
-          status = 0;
-          statusText = '';
-          contentType = undefined; // Firefox < 14, Chrome ?, Safari ?
-          // https://bugs.webkit.org/show_bug.cgi?id=29658
-          // https://bugs.webkit.org/show_bug.cgi?id=77854
-        }
-      } else {
-        status = 200;
-        statusText = 'OK';
-        contentType = xhr.contentType;
-      }
-
-      if (status !== 0) {
-        state = 2;
-        that.readyState = 2;
-        that.status = status;
-        that.statusText = statusText;
-        that._contentType = contentType;
-        that.onreadystatechange();
-      }
-    }
-  };
-
-  var onProgress = function onProgress() {
-    onStart();
-
-    if (state === 2 || state === 3) {
-      state = 3;
-      var responseText = '';
-
-      try {
-        responseText = xhr.responseText;
-      } catch (error) {// IE 8 - 9 with XMLHttpRequest
-      }
-
-      that.readyState = 3;
-      that.responseText = responseText;
-      that.onprogress();
-    }
-  };
-
-  var onFinish = function onFinish() {
-    // Firefox 52 fires "readystatechange" (xhr.readyState === 4) without final "readystatechange" (xhr.readyState === 3)
-    // IE 8 fires "onload" without "onprogress"
-    onProgress();
-
-    if (state === 1 || state === 2 || state === 3) {
-      state = 4;
-
-      if (timeout !== 0) {
-        clearTimeout(timeout);
-        timeout = 0;
-      }
-
-      that.readyState = 4;
-      that.onreadystatechange();
-    }
-  };
-
-  var onReadyStateChange = function onReadyStateChange() {
-    if (xhr != undefined) {
-      // Opera 12
-      if (xhr.readyState === 4) {
-        onFinish();
-      } else if (xhr.readyState === 3) {
-        onProgress();
-      } else if (xhr.readyState === 2) {
-        onStart();
-      }
-    }
-  };
-
-  var onTimeout = function onTimeout() {
-    timeout = setTimeout(function () {
-      onTimeout();
-    }, 500);
-
-    if (xhr.readyState === 3) {
-      onProgress();
-    }
-  }; // XDomainRequest#abort removes onprogress, onerror, onload
-
-
-  xhr.onload = onFinish;
-  xhr.onerror = onFinish; // improper fix to match Firefox behaviour, but it is better than just ignore abort
-  // see https://bugzilla.mozilla.org/show_bug.cgi?id=768596
-  // https://bugzilla.mozilla.org/show_bug.cgi?id=880200
-  // https://code.google.com/p/chromium/issues/detail?id=153570
-  // IE 8 fires "onload" without "onprogress
-
-  xhr.onabort = onFinish; // https://bugzilla.mozilla.org/show_bug.cgi?id=736723
-
-  if (!('sendAsBinary' in XMLHttpRequest.prototype) && !('mozAnon' in XMLHttpRequest.prototype)) {
-    xhr.onprogress = onProgress;
-  } // IE 8 - 9 (XMLHTTPRequest)
-  // Opera < 12
-  // Firefox < 3.5
-  // Firefox 3.5 - 3.6 - ? < 9.0
-  // onprogress is not fired sometimes or delayed
-  // see also #64
-
-
-  xhr.onreadystatechange = onReadyStateChange;
-
-  if ('contentType' in xhr) {
-    url += (url.indexOf('?') === -1 ? '?' : '&') + 'padding=true';
-  }
-
-  xhr.open(method, url, true);
-
-  if ('readyState' in xhr) {
-    // workaround for Opera 12 issue with "progress" events
-    // #91
-    timeout = setTimeout(function () {
-      onTimeout();
-    }, 0);
-  }
-};
-
-XHRWrapper.prototype.abort = function () {
-  this._abort(false);
-};
-
-XHRWrapper.prototype.getResponseHeader = function (name) {
-  return this._contentType;
-};
-
-XHRWrapper.prototype.setRequestHeader = function (name, value) {
-  var xhr = this._xhr;
-
-  if ('setRequestHeader' in xhr) {
-    xhr.setRequestHeader(name, value);
-  }
-};
-
-XHRWrapper.prototype.getAllResponseHeaders = function () {
-  return this._xhr.getAllResponseHeaders != undefined ? this._xhr.getAllResponseHeaders() : '';
-};
-
-XHRWrapper.prototype.send = function () {
-  // loading indicator in Safari < ? (6), Chrome < 14, Firefox
-  if (!('ontimeout' in XMLHttpRequest.prototype) && document != undefined && document.readyState != undefined && document.readyState !== 'complete') {
-    var that = this;
-    that._sendTimeout = setTimeout(function () {
-      that._sendTimeout = 0;
-      that.send();
-    }, 4);
-    return;
-  }
-
-  var xhr = this._xhr; // withCredentials should be set after "open" for Safari and Chrome (< 19 ?)
-
-  xhr.withCredentials = this.withCredentials;
-  xhr.responseType = this.responseType;
-
-  try {
-    // xhr.send(); throws "Not enough arguments" in Firefox 3.0
-    xhr.send(undefined);
-  } catch (error1) {
-    // Safari 5.1.7, Opera 12
-    throw error1;
-  }
-};
-
-function toLowerCase(name) {
-  return name.replace(/[A-Z]/g, function (c) {
-    return String.fromCharCode(c.charCodeAt(0) + 0x20);
-  });
-}
-
-function HeadersPolyfill(all) {
-  // Get headers: implemented according to mozilla's example code: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/getAllResponseHeaders#Example
-  var map = _Object$create(null);
-
-  var array = all.split('\r\n');
-
-  for (var i = 0; i < array.length; i += 1) {
-    var line = array[i];
-    var parts = line.split(': ');
-    var name = parts.shift();
-    var value = parts.join(': ');
-    map[toLowerCase(name)] = value;
-  }
-
-  this._map = map;
-}
-
-HeadersPolyfill.prototype.get = function (name) {
-  return this._map[toLowerCase(name)];
-};
-
-function XHRTransport() {}
-
-XHRTransport.prototype.open = function (xhr, onStartCallback, onProgressCallback, onFinishCallback, url, withCredentials, headers) {
-  xhr.open('GET', url);
-  var offset = 0;
-
-  xhr.onprogress = function () {
-    var responseText = xhr.responseText;
-    var chunk = responseText.slice(offset);
-    offset += chunk.length;
-    onProgressCallback(chunk);
-  };
-
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 2) {
-      var status = xhr.status;
-      var statusText = xhr.statusText;
-      var contentType = xhr.getResponseHeader('Content-Type');
-      var headers = xhr.getAllResponseHeaders();
-      onStartCallback(status, statusText, contentType, new HeadersPolyfill(headers), function () {
-        xhr.abort();
-      });
-    } else if (xhr.readyState === 4) {
-      onFinishCallback();
-    }
-  };
-
-  xhr.withCredentials = withCredentials;
-  xhr.responseType = 'text';
-
-  for (var name in headers) {
-    if (Object.prototype.hasOwnProperty.call(headers, name)) {
-      xhr.setRequestHeader(name, headers[name]);
-    }
-  }
-
-  xhr.send();
-};
-
-function HeadersWrapper(headers) {
-  this._headers = headers;
-}
-
-HeadersWrapper.prototype.get = function (name) {
-  return this._headers.get(name);
-};
-
-function FetchTransport() {}
-
-FetchTransport.prototype.open = function (xhr, onStartCallback, onProgressCallback, onFinishCallback, url, withCredentials, headers) {
-  var controller = new AbortController();
-  var signal = controller.signal; // see #120
-
-  var textDecoder = new TextDecoder();
-  (0, _unfetch.default)(url, {
-    headers: headers,
-    credentials: withCredentials ? 'include' : 'same-origin',
-    signal: signal,
-    cache: 'no-store'
-  }).then(function (response) {
-    var reader = response.body.getReader();
-    onStartCallback(response.status, response.statusText, response.headers.get('Content-Type'), new HeadersWrapper(response.headers), function () {
-      controller.abort();
-      reader.cancel();
-    });
-    return new _Promise(function (resolve, reject) {
-      var readNextChunk = function readNextChunk() {
-        reader.read().then(function (result) {
-          if (result.done) {
-            // Note: bytes in textDecoder are ignored
-            resolve(undefined);
-          } else {
-            var chunk = textDecoder.decode(result.value, {
-              stream: true
-            });
-            onProgressCallback(chunk);
-            readNextChunk();
-          }
-        })['catch'](function (error) {
-          reject(error);
-        });
-      };
-
-      readNextChunk();
-    });
-  }).then(function (result) {
-    onFinishCallback();
-    return result;
-  }, function (error) {
-    onFinishCallback();
-    return _Promise.reject(error);
-  });
-};
-
-function EventTarget() {
-  this._listeners = _Object$create(null);
-}
-
-function throwError(e) {
-  setTimeout(function () {
-    throw e;
-  }, 0);
-}
-
-EventTarget.prototype.dispatchEvent = function (event) {
-  event.target = this;
-  var typeListeners = this._listeners[event.type];
-
-  if (typeListeners != undefined) {
-    var length = typeListeners.length;
-
-    for (var i = 0; i < length; i += 1) {
-      var listener = typeListeners[i];
-
-      try {
-        if (typeof listener.handleEvent === 'function') {
-          listener.handleEvent(event);
-        } else {
-          listener.call(this, event);
-        }
-      } catch (e) {
-        throwError(e);
-      }
-    }
-  }
-};
-
-EventTarget.prototype.addEventListener = function (type, listener) {
-  type = String(type);
-  var listeners = this._listeners;
-  var typeListeners = listeners[type];
-
-  if (typeListeners == undefined) {
-    typeListeners = [];
-    listeners[type] = typeListeners;
-  }
-
-  var found = false;
-
-  for (var i = 0; i < typeListeners.length; i += 1) {
-    if (typeListeners[i] === listener) {
-      found = true;
-    }
-  }
-
-  if (!found) {
-    typeListeners.push(listener);
-  }
-};
-
-EventTarget.prototype.removeEventListener = function (type, listener) {
-  type = String(type);
-  var listeners = this._listeners;
-  var typeListeners = listeners[type];
-
-  if (typeListeners != undefined) {
-    var filtered = [];
-
-    for (var i = 0; i < typeListeners.length; i += 1) {
-      if (typeListeners[i] !== listener) {
-        filtered.push(typeListeners[i]);
-      }
-    }
-
-    if (filtered.length === 0) {
-      delete listeners[type];
-    } else {
-      listeners[type] = filtered;
-    }
-  }
-};
-
-function Event(type) {
-  this.type = type;
-  this.target = undefined;
-}
-
-function MessageEvent(type, options) {
-  Event.call(this, type);
-  this.data = options.data;
-  this.lastEventId = options.lastEventId;
-}
-
-MessageEvent.prototype = _Object$create(Event.prototype);
-
-function ConnectionEvent(type, options) {
-  Event.call(this, type);
-  this.status = options.status;
-  this.statusText = options.statusText;
-  this.headers = options.headers;
-}
-
-ConnectionEvent.prototype = _Object$create(Event.prototype);
-var WAITING = -1;
-var CONNECTING = 0;
-var OPEN = 1;
-var CLOSED = 2;
-var AFTER_CR = -1;
-var FIELD_START = 0;
-var FIELD = 1;
-var VALUE_START = 2;
-var VALUE = 3;
-var contentTypeRegExp = /^text\/event\-stream;?(\s*charset\=utf\-8)?$/i;
-var MINIMUM_DURATION = 1000;
-var MAXIMUM_DURATION = 18000000;
-
-var parseDuration = function parseDuration(value, def) {
-  var n = _parseInt(value, 10);
-
-  if (n !== n) {
-    n = def;
-  }
-
-  return clampDuration(n);
-};
-
-var clampDuration = function clampDuration(n) {
-  return Math.min(Math.max(n, MINIMUM_DURATION), MAXIMUM_DURATION);
-};
-
-var fire = function fire(that, f, event) {
-  try {
-    if (typeof f === 'function') {
-      f.call(that, event);
-    }
-  } catch (e) {
-    throwError(e);
-  }
-};
-
-function EventSourcePolyfill(url, options) {
-  EventTarget.call(this);
-  this.onopen = undefined;
-  this.onmessage = undefined;
-  this.onerror = undefined;
-  this.url = undefined;
-  this.readyState = undefined;
-  this.withCredentials = undefined;
-  this._close = undefined;
-  start(this, url, options);
-}
-
-var isFetchSupported = _unfetch.default != undefined && Response != undefined && 'body' in Response.prototype;
-
-function start(es, url, options) {
-  url = String(url);
-  var withCredentials = options != undefined && Boolean(options.withCredentials);
-  var initialRetry = clampDuration(1000);
-  var heartbeatTimeout = options != undefined && options.heartbeatTimeout != undefined ? parseDuration(options.heartbeatTimeout, 45000) : clampDuration(45000);
-  var lastEventId = '';
-  var retry = initialRetry;
-  var wasActivity = false;
-  var headers = options != undefined && options.headers != undefined ? JSON.parse(_JSON$stringify(options.headers)) : undefined;
-  var CurrentTransport = options != undefined && options.Transport != undefined ? options.Transport : XMLHttpRequest;
-  var xhr = isFetchSupported && !(options != undefined && options.Transport != undefined) ? undefined : new XHRWrapper(new CurrentTransport());
-  var transport = xhr == undefined ? new FetchTransport() : new XHRTransport();
-  var cancelFunction = undefined;
-  var timeout = 0;
-  var currentState = WAITING;
-  var dataBuffer = '';
-  var lastEventIdBuffer = '';
-  var eventTypeBuffer = '';
-  var textBuffer = '';
-  var state = FIELD_START;
-  var fieldStart = 0;
-  var valueStart = 0;
-
-  var onStart = function onStart(status, statusText, contentType, headers, cancel) {
-    if (currentState === CONNECTING) {
-      cancelFunction = cancel;
-
-      if (status === 200 && contentType != undefined && contentTypeRegExp.test(contentType)) {
-        currentState = OPEN;
-        wasActivity = true;
-        retry = initialRetry;
-        es.readyState = OPEN;
-        var event = new ConnectionEvent('open', {
-          status: status,
-          statusText: statusText,
-          headers: headers
-        });
-        es.dispatchEvent(event);
-        fire(es, es.onopen, event);
-      } else {
-        var message = '';
-
-        if (status !== 200) {
-          if (statusText) {
-            statusText = statusText.replace(/\s+/g, ' ');
-          }
-
-          message = "EventSource's response has a status " + status + ' ' + statusText + ' that is not 200. Aborting the connection.';
-        } else {
-          message = "EventSource's response has a Content-Type specifying an unsupported type: " + (contentType == undefined ? '-' : contentType.replace(/\s+/g, ' ')) + '. Aborting the connection.';
-        }
-
-        throwError(new Error(message));
-        close();
-        var event = new ConnectionEvent('error', {
-          status: status,
-          statusText: statusText,
-          headers: headers
-        });
-        es.dispatchEvent(event);
-        fire(es, es.onerror, event);
-      }
-    }
-  };
-
-  var onProgress = function onProgress(textChunk) {
-    if (currentState === OPEN) {
-      var n = -1;
-
-      for (var i = 0; i < textChunk.length; i += 1) {
-        var c = textChunk.charCodeAt(i);
-
-        if (c === '\n'.charCodeAt(0) || c === '\r'.charCodeAt(0)) {
-          n = i;
-        }
-      }
-
-      var chunk = (n !== -1 ? textBuffer : '') + textChunk.slice(0, n + 1);
-      textBuffer = (n === -1 ? textBuffer : '') + textChunk.slice(n + 1);
-
-      if (chunk !== '') {
-        wasActivity = true;
-      }
-
-      for (var position = 0; position < chunk.length; position += 1) {
-        var c = chunk.charCodeAt(position);
-
-        if (state === AFTER_CR && c === '\n'.charCodeAt(0)) {
-          state = FIELD_START;
-        } else {
-          if (state === AFTER_CR) {
-            state = FIELD_START;
-          }
-
-          if (c === '\r'.charCodeAt(0) || c === '\n'.charCodeAt(0)) {
-            if (state !== FIELD_START) {
-              if (state === FIELD) {
-                valueStart = position + 1;
-              }
-
-              var field = chunk.slice(fieldStart, valueStart - 1);
-              var value = chunk.slice(valueStart + (valueStart < position && chunk.charCodeAt(valueStart) === ' '.charCodeAt(0) ? 1 : 0), position);
-
-              if (field === 'data') {
-                dataBuffer += '\n';
-                dataBuffer += value;
-              } else if (field === 'id') {
-                lastEventIdBuffer = value;
-              } else if (field === 'event') {
-                eventTypeBuffer = value;
-              } else if (field === 'retry') {
-                initialRetry = parseDuration(value, initialRetry);
-                retry = initialRetry;
-              } else if (field === 'heartbeatTimeout') {
-                heartbeatTimeout = parseDuration(value, heartbeatTimeout);
-
-                if (timeout !== 0) {
-                  clearTimeout(timeout);
-                  timeout = setTimeout(function () {
-                    onTimeout();
-                  }, heartbeatTimeout);
-                }
-              }
-            }
-
-            if (state === FIELD_START) {
-              if (dataBuffer !== '') {
-                lastEventId = lastEventIdBuffer;
-
-                if (eventTypeBuffer === '') {
-                  eventTypeBuffer = 'message';
-                }
-
-                var event = new MessageEvent(eventTypeBuffer, {
-                  data: dataBuffer.slice(1),
-                  lastEventId: lastEventIdBuffer
-                });
-                es.dispatchEvent(event);
-
-                if (eventTypeBuffer === 'message') {
-                  fire(es, es.onmessage, event);
-                }
-
-                if (currentState === CLOSED) {
-                  return;
-                }
-              }
-
-              dataBuffer = '';
-              eventTypeBuffer = '';
-            }
-
-            state = c === '\r'.charCodeAt(0) ? AFTER_CR : FIELD_START;
-          } else {
-            if (state === FIELD_START) {
-              fieldStart = position;
-              state = FIELD;
-            }
-
-            if (state === FIELD) {
-              if (c === ':'.charCodeAt(0)) {
-                valueStart = position + 1;
-                state = VALUE_START;
-              }
-            } else if (state === VALUE_START) {
-              state = VALUE;
-            }
-          }
-        }
-      }
-    }
-  };
-
-  var onFinish = function onFinish() {
-    if (currentState === OPEN || currentState === CONNECTING) {
-      currentState = WAITING;
-
-      if (timeout !== 0) {
-        clearTimeout(timeout);
-        timeout = 0;
-      }
-
-      timeout = setTimeout(function () {
-        onTimeout();
-      }, retry);
-      retry = clampDuration(Math.min(initialRetry * 16, retry * 2));
-      es.readyState = CONNECTING;
-      var event = new Event('error');
-      es.dispatchEvent(event);
-      fire(es, es.onerror, event);
-    }
-  };
-
-  var close = function close() {
-    currentState = CLOSED;
-
-    if (cancelFunction != undefined) {
-      cancelFunction();
-      cancelFunction = undefined;
-    }
-
-    if (timeout !== 0) {
-      clearTimeout(timeout);
-      timeout = 0;
-    }
-
-    es.readyState = CLOSED;
-  };
-
-  var onTimeout = function onTimeout() {
-    timeout = 0;
-
-    if (currentState !== WAITING) {
-      if (!wasActivity && cancelFunction != undefined) {
-        throwError(new Error('No activity within ' + heartbeatTimeout + ' milliseconds. Reconnecting.'));
-        cancelFunction();
-        cancelFunction = undefined;
-      } else {
-        wasActivity = false;
-        timeout = setTimeout(function () {
-          onTimeout();
-        }, heartbeatTimeout);
-      }
-
-      return;
-    }
-
-    wasActivity = false;
-    timeout = setTimeout(function () {
-      onTimeout();
-    }, heartbeatTimeout);
-    currentState = CONNECTING;
-    dataBuffer = '';
-    eventTypeBuffer = '';
-    lastEventIdBuffer = lastEventId;
-    textBuffer = '';
-    fieldStart = 0;
-    valueStart = 0;
-    state = FIELD_START; // https://bugzilla.mozilla.org/show_bug.cgi?id=428916
-    // Request header field Last-Event-ID is not allowed by Access-Control-Allow-Headers.
-
-    var requestURL = url;
-
-    if (url.slice(0, 5) !== 'data:' && url.slice(0, 5) !== 'blob:') {
-      if (lastEventId !== '') {
-        requestURL += (url.indexOf('?') === -1 ? '?' : '&') + 'lastEventId=' + encodeURIComponent(lastEventId);
-      }
-    }
-
-    var requestHeaders = {};
-    requestHeaders['Accept'] = 'text/event-stream';
-
-    if (headers != undefined) {
-      for (var name in headers) {
-        if (Object.prototype.hasOwnProperty.call(headers, name)) {
-          requestHeaders[name] = headers[name];
-        }
-      }
-    }
-
-    try {
-      transport.open(xhr, onStart, onProgress, onFinish, requestURL, withCredentials, requestHeaders);
-    } catch (error) {
-      close();
-      throw error;
-    }
-  };
-
-  es.url = url;
-  es.readyState = CONNECTING;
-  es.withCredentials = withCredentials;
-  es._close = close;
-  onTimeout();
-}
-
-EventSourcePolyfill.prototype = _Object$create(EventTarget.prototype);
-EventSourcePolyfill.prototype.CONNECTING = CONNECTING;
-EventSourcePolyfill.prototype.OPEN = OPEN;
-EventSourcePolyfill.prototype.CLOSED = CLOSED;
-
-EventSourcePolyfill.prototype.close = function () {
-  this._close();
-};
-
-EventSourcePolyfill.CONNECTING = CONNECTING;
-EventSourcePolyfill.OPEN = OPEN;
-EventSourcePolyfill.CLOSED = CLOSED;
-EventSourcePolyfill.prototype.withCredentials = undefined;
-var _default = EventSourcePolyfill;
-exports.default = _default;
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=void 0;var _unfetch=_interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));var document=window.document;var Response=window.Response;var TextDecoder=window.TextDecoder;var TextEncoder=window.TextEncoder;var AbortController=window.AbortController;if(AbortController==undefined){AbortController=function AbortController(){this.signal=null;this.abort=function(){};};}function TextDecoderPolyfill(){this.bitsNeeded=0;this.codePoint=0;}TextDecoderPolyfill.prototype.decode=function(octets){function valid(codePoint,shift,octetsCount){if(octetsCount===1){return codePoint>=0x0080>>shift&&codePoint<<shift<=0x07ff;}if(octetsCount===2){return codePoint>=0x0800>>shift&&codePoint<<shift<=0xd7ff||codePoint>=0xe000>>shift&&codePoint<<shift<=0xffff;}if(octetsCount===3){return codePoint>=0x010000>>shift&&codePoint<<shift<=0x10ffff;}throw new Error();}function octetsCount(bitsNeeded,codePoint){if(bitsNeeded===6*1){return codePoint>>6>15?3:codePoint>31?2:1;}if(bitsNeeded===6*2){return codePoint>15?3:2;}if(bitsNeeded===6*3){return 3;}throw new Error();}var REPLACER=0xfffd;var string='';var bitsNeeded=this.bitsNeeded;var codePoint=this.codePoint;for(var i=0;i<octets.length;i+=1){var octet=octets[i];if(bitsNeeded!==0){if(octet<128||octet>191||!valid(codePoint<<6|octet&63,bitsNeeded-6,octetsCount(bitsNeeded,codePoint))){bitsNeeded=0;codePoint=REPLACER;string+=String.fromCharCode(codePoint);}}if(bitsNeeded===0){if(octet>=0&&octet<=127){bitsNeeded=0;codePoint=octet;}else if(octet>=192&&octet<=223){bitsNeeded=6*1;codePoint=octet&31;}else if(octet>=224&&octet<=239){bitsNeeded=6*2;codePoint=octet&15;}else if(octet>=240&&octet<=247){bitsNeeded=6*3;codePoint=octet&7;}else{bitsNeeded=0;codePoint=REPLACER;}if(bitsNeeded!==0&&!valid(codePoint,bitsNeeded,octetsCount(bitsNeeded,codePoint))){bitsNeeded=0;codePoint=REPLACER;}}else{bitsNeeded-=6;codePoint=codePoint<<6|octet&63;}if(bitsNeeded===0){if(codePoint<=0xffff){string+=String.fromCharCode(codePoint);}else{string+=String.fromCharCode(0xd800+(codePoint-0xffff-1>>10));string+=String.fromCharCode(0xdc00+(codePoint-0xffff-1&0x3ff));}}}this.bitsNeeded=bitsNeeded;this.codePoint=codePoint;return string;};var supportsStreamOption=function supportsStreamOption(){try{return new TextDecoder().decode(new TextEncoder().encode('test'),{stream:true})==='test';}catch(error){console.log(error);}return false;};if(TextDecoder==undefined||TextEncoder==undefined||!supportsStreamOption()){TextDecoder=TextDecoderPolyfill;}var k=function k(){};function XHRWrapper(xhr){this.withCredentials=false;this.responseType='';this.readyState=0;this.status=0;this.statusText='';this.responseText='';this.onprogress=k;this.onreadystatechange=k;this._contentType='';this._xhr=xhr;this._sendTimeout=0;this._abort=k;}XHRWrapper.prototype.open=function(method,url){this._abort(true);var that=this;var xhr=this._xhr;var state=1;var timeout=0;this._abort=function(silent){if(that._sendTimeout!==0){clearTimeout(that._sendTimeout);that._sendTimeout=0;}if(state===1||state===2||state===3){state=4;xhr.onload=k;xhr.onerror=k;xhr.onabort=k;xhr.onprogress=k;xhr.onreadystatechange=k;xhr.abort();if(timeout!==0){clearTimeout(timeout);timeout=0;}if(!silent){that.readyState=4;that.onreadystatechange();}}state=0;};var onStart=function onStart(){if(state===1){var status=0;var statusText='';var contentType=undefined;if(!('contentType'in xhr)){try{status=xhr.status;statusText=xhr.statusText;contentType=xhr.getResponseHeader('Content-Type');}catch(error){status=0;statusText='';contentType=undefined;}}else{status=200;statusText='OK';contentType=xhr.contentType;}if(status!==0){state=2;that.readyState=2;that.status=status;that.statusText=statusText;that._contentType=contentType;that.onreadystatechange();}}};var onProgress=function onProgress(){onStart();if(state===2||state===3){state=3;var responseText='';try{responseText=xhr.responseText;}catch(error){}that.readyState=3;that.responseText=responseText;that.onprogress();}};var onFinish=function onFinish(){onProgress();if(state===1||state===2||state===3){state=4;if(timeout!==0){clearTimeout(timeout);timeout=0;}that.readyState=4;that.onreadystatechange();}};var onReadyStateChange=function onReadyStateChange(){if(xhr!=undefined){if(xhr.readyState===4){onFinish();}else if(xhr.readyState===3){onProgress();}else if(xhr.readyState===2){onStart();}}};var onTimeout=function onTimeout(){timeout=setTimeout(function(){onTimeout();},500);if(xhr.readyState===3){onProgress();}};xhr.onload=onFinish;xhr.onerror=onFinish;xhr.onabort=onFinish;if(!('sendAsBinary'in XMLHttpRequest.prototype)&&!('mozAnon'in XMLHttpRequest.prototype)){xhr.onprogress=onProgress;}xhr.onreadystatechange=onReadyStateChange;if('contentType'in xhr){url+=(url.indexOf('?')===-1?'?':'&')+'padding=true';}xhr.open(method,url,true);if('readyState'in xhr){timeout=setTimeout(function(){onTimeout();},0);}};XHRWrapper.prototype.abort=function(){this._abort(false);};XHRWrapper.prototype.getResponseHeader=function(name){return this._contentType;};XHRWrapper.prototype.setRequestHeader=function(name,value){var xhr=this._xhr;if('setRequestHeader'in xhr){xhr.setRequestHeader(name,value);}};XHRWrapper.prototype.getAllResponseHeaders=function(){return this._xhr.getAllResponseHeaders!=undefined?this._xhr.getAllResponseHeaders():'';};XHRWrapper.prototype.send=function(){if(!('ontimeout'in XMLHttpRequest.prototype)&&document!=undefined&&document.readyState!=undefined&&document.readyState!=='complete'){var that=this;that._sendTimeout=setTimeout(function(){that._sendTimeout=0;that.send();},4);return;}var xhr=this._xhr;xhr.withCredentials=this.withCredentials;xhr.responseType=this.responseType;try{xhr.send(undefined);}catch(error1){throw error1;}};function toLowerCase(name){return name.replace(/[A-Z]/g,function(c){return String.fromCharCode(c.charCodeAt(0)+0x20);});}function HeadersPolyfill(all){var map=Object.create(null);var array=all.split('\r\n');for(var i=0;i<array.length;i+=1){var line=array[i];var parts=line.split(': ');var name=parts.shift();var value=parts.join(': ');map[toLowerCase(name)]=value;}this._map=map;}HeadersPolyfill.prototype.get=function(name){return this._map[toLowerCase(name)];};function XHRTransport(){}XHRTransport.prototype.open=function(xhr,onStartCallback,onProgressCallback,onFinishCallback,url,withCredentials,headers){xhr.open('GET',url);var offset=0;xhr.onprogress=function(){var responseText=xhr.responseText;var chunk=responseText.slice(offset);offset+=chunk.length;onProgressCallback(chunk);};xhr.onreadystatechange=function(){if(xhr.readyState===2){var status=xhr.status;var statusText=xhr.statusText;var contentType=xhr.getResponseHeader('Content-Type');var headers=xhr.getAllResponseHeaders();onStartCallback(status,statusText,contentType,new HeadersPolyfill(headers),function(){xhr.abort();});}else if(xhr.readyState===4){onFinishCallback();}};xhr.withCredentials=withCredentials;xhr.responseType='text';for(var name in headers){if(Object.prototype.hasOwnProperty.call(headers,name)){xhr.setRequestHeader(name,headers[name]);}}xhr.send();};function HeadersWrapper(headers){this._headers=headers;}HeadersWrapper.prototype.get=function(name){return this._headers.get(name);};function FetchTransport(){}FetchTransport.prototype.open=function(xhr,onStartCallback,onProgressCallback,onFinishCallback,url,withCredentials,headers){var controller=new AbortController();var signal=controller.signal;var textDecoder=new TextDecoder();(0,_unfetch.default)(url,{headers:headers,credentials:withCredentials?'include':'same-origin',signal:signal,cache:'no-store'}).then(function(response){var reader=response.body.getReader();onStartCallback(response.status,response.statusText,response.headers.get('Content-Type'),new HeadersWrapper(response.headers),function(){controller.abort();reader.cancel();});return new Promise(function(resolve,reject){var readNextChunk=function readNextChunk(){reader.read().then(function(result){if(result.done){resolve(undefined);}else{var chunk=textDecoder.decode(result.value,{stream:true});onProgressCallback(chunk);readNextChunk();}})['catch'](function(error){reject(error);});};readNextChunk();});}).then(function(result){onFinishCallback();return result;},function(error){onFinishCallback();return Promise.reject(error);});};function EventTarget(){this._listeners=Object.create(null);}function throwError(e){setTimeout(function(){throw e;},0);}EventTarget.prototype.dispatchEvent=function(event){event.target=this;var typeListeners=this._listeners[event.type];if(typeListeners!=undefined){var length=typeListeners.length;for(var i=0;i<length;i+=1){var listener=typeListeners[i];try{if(typeof listener.handleEvent==='function'){listener.handleEvent(event);}else{listener.call(this,event);}}catch(e){throwError(e);}}}};EventTarget.prototype.addEventListener=function(type,listener){type=String(type);var listeners=this._listeners;var typeListeners=listeners[type];if(typeListeners==undefined){typeListeners=[];listeners[type]=typeListeners;}var found=false;for(var i=0;i<typeListeners.length;i+=1){if(typeListeners[i]===listener){found=true;}}if(!found){typeListeners.push(listener);}};EventTarget.prototype.removeEventListener=function(type,listener){type=String(type);var listeners=this._listeners;var typeListeners=listeners[type];if(typeListeners!=undefined){var filtered=[];for(var i=0;i<typeListeners.length;i+=1){if(typeListeners[i]!==listener){filtered.push(typeListeners[i]);}}if(filtered.length===0){delete listeners[type];}else{listeners[type]=filtered;}}};function Event(type){this.type=type;this.target=undefined;}function MessageEvent(type,options){Event.call(this,type);this.data=options.data;this.lastEventId=options.lastEventId;}MessageEvent.prototype=Object.create(Event.prototype);function ConnectionEvent(type,options){Event.call(this,type);this.status=options.status;this.statusText=options.statusText;this.headers=options.headers;}ConnectionEvent.prototype=Object.create(Event.prototype);var WAITING=-1;var CONNECTING=0;var OPEN=1;var CLOSED=2;var AFTER_CR=-1;var FIELD_START=0;var FIELD=1;var VALUE_START=2;var VALUE=3;var contentTypeRegExp=/^text\/event\-stream;?(\s*charset\=utf\-8)?$/i;var MINIMUM_DURATION=1000;var MAXIMUM_DURATION=18000000;var parseDuration=function parseDuration(value,def){var n=parseInt(value,10);if(n!==n){n=def;}return clampDuration(n);};var clampDuration=function clampDuration(n){return Math.min(Math.max(n,MINIMUM_DURATION),MAXIMUM_DURATION);};var fire=function fire(that,f,event){try{if(typeof f==='function'){f.call(that,event);}}catch(e){throwError(e);}};function EventSourcePolyfill(url,options){EventTarget.call(this);this.onopen=undefined;this.onmessage=undefined;this.onerror=undefined;this.url=undefined;this.readyState=undefined;this.withCredentials=undefined;this._close=undefined;start(this,url,options);}var isFetchSupported=_unfetch.default!=undefined&&Response!=undefined&&'body'in Response.prototype;function start(es,url,options){url=String(url);var withCredentials=options!=undefined&&Boolean(options.withCredentials);var initialRetry=clampDuration(1000);var heartbeatTimeout=options!=undefined&&options.heartbeatTimeout!=undefined?parseDuration(options.heartbeatTimeout,45000):clampDuration(45000);var lastEventId='';var retry=initialRetry;var wasActivity=false;var headers=options!=undefined&&options.headers!=undefined?JSON.parse(JSON.stringify(options.headers)):undefined;var CurrentTransport=options!=undefined&&options.Transport!=undefined?options.Transport:XMLHttpRequest;var xhr=isFetchSupported&&!(options!=undefined&&options.Transport!=undefined)?undefined:new XHRWrapper(new CurrentTransport());var transport=xhr==undefined?new FetchTransport():new XHRTransport();var cancelFunction=undefined;var timeout=0;var currentState=WAITING;var dataBuffer='';var lastEventIdBuffer='';var eventTypeBuffer='';var textBuffer='';var state=FIELD_START;var fieldStart=0;var valueStart=0;var onStart=function onStart(status,statusText,contentType,headers,cancel){if(currentState===CONNECTING){cancelFunction=cancel;if(status===200&&contentType!=undefined&&contentTypeRegExp.test(contentType)){currentState=OPEN;wasActivity=true;retry=initialRetry;es.readyState=OPEN;var event=new ConnectionEvent('open',{status:status,statusText:statusText,headers:headers});es.dispatchEvent(event);fire(es,es.onopen,event);}else{var message='';if(status!==200){if(statusText){statusText=statusText.replace(/\s+/g,' ');}message="EventSource's response has a status "+status+' '+statusText+' that is not 200. Aborting the connection.';}else{message="EventSource's response has a Content-Type specifying an unsupported type: "+(contentType==undefined?'-':contentType.replace(/\s+/g,' '))+'. Aborting the connection.';}throwError(new Error(message));close();var event=new ConnectionEvent('error',{status:status,statusText:statusText,headers:headers});es.dispatchEvent(event);fire(es,es.onerror,event);}}};var onProgress=function onProgress(textChunk){if(currentState===OPEN){var n=-1;for(var i=0;i<textChunk.length;i+=1){var c=textChunk.charCodeAt(i);if(c==='\n'.charCodeAt(0)||c==='\r'.charCodeAt(0)){n=i;}}var chunk=(n!==-1?textBuffer:'')+textChunk.slice(0,n+1);textBuffer=(n===-1?textBuffer:'')+textChunk.slice(n+1);if(chunk!==''){wasActivity=true;}for(var position=0;position<chunk.length;position+=1){var c=chunk.charCodeAt(position);if(state===AFTER_CR&&c==='\n'.charCodeAt(0)){state=FIELD_START;}else{if(state===AFTER_CR){state=FIELD_START;}if(c==='\r'.charCodeAt(0)||c==='\n'.charCodeAt(0)){if(state!==FIELD_START){if(state===FIELD){valueStart=position+1;}var field=chunk.slice(fieldStart,valueStart-1);var value=chunk.slice(valueStart+(valueStart<position&&chunk.charCodeAt(valueStart)===' '.charCodeAt(0)?1:0),position);if(field==='data'){dataBuffer+='\n';dataBuffer+=value;}else if(field==='id'){lastEventIdBuffer=value;}else if(field==='event'){eventTypeBuffer=value;}else if(field==='retry'){initialRetry=parseDuration(value,initialRetry);retry=initialRetry;}else if(field==='heartbeatTimeout'){heartbeatTimeout=parseDuration(value,heartbeatTimeout);if(timeout!==0){clearTimeout(timeout);timeout=setTimeout(function(){onTimeout();},heartbeatTimeout);}}}if(state===FIELD_START){if(dataBuffer!==''){lastEventId=lastEventIdBuffer;if(eventTypeBuffer===''){eventTypeBuffer='message';}var event=new MessageEvent(eventTypeBuffer,{data:dataBuffer.slice(1),lastEventId:lastEventIdBuffer});es.dispatchEvent(event);if(eventTypeBuffer==='message'){fire(es,es.onmessage,event);}if(currentState===CLOSED){return;}}dataBuffer='';eventTypeBuffer='';}state=c==='\r'.charCodeAt(0)?AFTER_CR:FIELD_START;}else{if(state===FIELD_START){fieldStart=position;state=FIELD;}if(state===FIELD){if(c===':'.charCodeAt(0)){valueStart=position+1;state=VALUE_START;}}else if(state===VALUE_START){state=VALUE;}}}}}};var onFinish=function onFinish(){if(currentState===OPEN||currentState===CONNECTING){currentState=WAITING;if(timeout!==0){clearTimeout(timeout);timeout=0;}timeout=setTimeout(function(){onTimeout();},retry);retry=clampDuration(Math.min(initialRetry*16,retry*2));es.readyState=CONNECTING;var event=new Event('error');es.dispatchEvent(event);fire(es,es.onerror,event);}};var close=function close(){currentState=CLOSED;if(cancelFunction!=undefined){cancelFunction();cancelFunction=undefined;}if(timeout!==0){clearTimeout(timeout);timeout=0;}es.readyState=CLOSED;};var onTimeout=function onTimeout(){timeout=0;if(currentState!==WAITING){if(!wasActivity&&cancelFunction!=undefined){throwError(new Error('No activity within '+heartbeatTimeout+' milliseconds. Reconnecting.'));cancelFunction();cancelFunction=undefined;}else{wasActivity=false;timeout=setTimeout(function(){onTimeout();},heartbeatTimeout);}return;}wasActivity=false;timeout=setTimeout(function(){onTimeout();},heartbeatTimeout);currentState=CONNECTING;dataBuffer='';eventTypeBuffer='';lastEventIdBuffer=lastEventId;textBuffer='';fieldStart=0;valueStart=0;state=FIELD_START;var requestURL=url;if(url.slice(0,5)!=='data:'&&url.slice(0,5)!=='blob:'){if(lastEventId!==''){requestURL+=(url.indexOf('?')===-1?'?':'&')+'lastEventId='+encodeURIComponent(lastEventId);}}var requestHeaders={};requestHeaders['Accept']='text/event-stream';if(headers!=undefined){for(var name in headers){if(Object.prototype.hasOwnProperty.call(headers,name)){requestHeaders[name]=headers[name];}}}try{transport.open(xhr,onStart,onProgress,onFinish,requestURL,withCredentials,requestHeaders);}catch(error){close();throw error;}};es.url=url;es.readyState=CONNECTING;es.withCredentials=withCredentials;es._close=close;onTimeout();}EventSourcePolyfill.prototype=Object.create(EventTarget.prototype);EventSourcePolyfill.prototype.CONNECTING=CONNECTING;EventSourcePolyfill.prototype.OPEN=OPEN;EventSourcePolyfill.prototype.CLOSED=CLOSED;EventSourcePolyfill.prototype.close=function(){this._close();};EventSourcePolyfill.CONNECTING=CONNECTING;EventSourcePolyfill.OPEN=OPEN;EventSourcePolyfill.CLOSED=CLOSED;EventSourcePolyfill.prototype.withCredentials=undefined;var _default=EventSourcePolyfill;exports.default=_default;
 
 /***/ }),
 
@@ -5343,26 +3541,7 @@ exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.displayContent = displayContent;
-
-function displayContent(callback) {
-  // This is the fallback helper that removes Next.js' no-FOUC styles when
-  // CSS mode is enabled. This only really activates if you haven't created
-  // _any_ styles in your application yet.
-  ;
-  (window.requestAnimationFrame || setTimeout)(function () {
-    for (var x = document.querySelectorAll('[data-next-hide-fouc]'), i = x.length; i--;) {
-      x[i].parentNode.removeChild(x[i]);
-    }
-
-    if (callback) {
-      callback();
-    }
-  });
-}
+exports.__esModule=true;exports.displayContent=displayContent;function displayContent(callback){;(window.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}if(callback){callback();}});}
 
 /***/ }),
 
@@ -5374,45 +3553,7 @@ function displayContent(callback) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var _router = _interopRequireDefault(__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js"));
-
-var _onDemandEntriesUtils = __webpack_require__(/*! ./on-demand-entries-utils */ "./node_modules/next/dist/client/dev/on-demand-entries-utils.js");
-
-var _default = async _ref => {
-  var {
-    assetPrefix
-  } = _ref;
-
-  _router.default.ready(() => {
-    _router.default.events.on('routeChangeComplete', _onDemandEntriesUtils.setupPing.bind(void 0, assetPrefix, () => _router.default.pathname));
-  });
-
-  (0, _onDemandEntriesUtils.setupPing)(assetPrefix, () => _router.default.pathname, _onDemandEntriesUtils.currentPage); // prevent HMR connection from being closed when running tests
-
-  if (!undefined) {
-    document.addEventListener('visibilitychange', event => {
-      var state = document.visibilityState;
-
-      if (state === 'visible') {
-        (0, _onDemandEntriesUtils.setupPing)(assetPrefix, () => _router.default.pathname, true);
-      } else {
-        (0, _onDemandEntriesUtils.closePing)();
-      }
-    });
-    window.addEventListener('beforeunload', () => {
-      (0, _onDemandEntriesUtils.closePing)();
-    });
-  }
-};
-
-exports.default = _default;
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _regenerator=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js"));var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=void 0;var _router=_interopRequireDefault(__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js"));var _onDemandEntriesUtils=__webpack_require__(/*! ./on-demand-entries-utils */ "./node_modules/next/dist/client/dev/on-demand-entries-utils.js");var _default=function _default(_ref){var assetPrefix;return _regenerator.default.async(function _default$(_context){while(1){switch(_context.prev=_context.next){case 0:assetPrefix=_ref.assetPrefix;_router.default.ready(function(){_router.default.events.on('routeChangeComplete',_onDemandEntriesUtils.setupPing.bind(void 0,assetPrefix,function(){return _router.default.pathname;}));});(0,_onDemandEntriesUtils.setupPing)(assetPrefix,function(){return _router.default.pathname;},_onDemandEntriesUtils.currentPage);if(!undefined){document.addEventListener('visibilitychange',function(event){var state=document.visibilityState;if(state==='visible'){(0,_onDemandEntriesUtils.setupPing)(assetPrefix,function(){return _router.default.pathname;},true);}else{(0,_onDemandEntriesUtils.closePing)();}});window.addEventListener('beforeunload',function(){(0,_onDemandEntriesUtils.closePing)();});}case 4:case"end":return _context.stop();}}});};exports.default=_default;
 
 /***/ }),
 
@@ -5424,65 +3565,7 @@ exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.closePing = closePing;
-exports.setupPing = setupPing;
-exports.currentPage = void 0;
-
-var _unfetch = _interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));
-
-var _eventsource = __webpack_require__(/*! ./error-overlay/eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");
-/* global location */
-
-
-var evtSource;
-var currentPage;
-exports.currentPage = currentPage;
-
-function closePing() {
-  if (evtSource) evtSource.close();
-  evtSource = null;
-}
-
-function setupPing(assetPrefix, pathnameFn, retry) {
-  var pathname = pathnameFn(); // Make sure to only create new EventSource request if page has changed
-
-  if (pathname === currentPage && !retry) return;
-  exports.currentPage = currentPage = pathname; // close current EventSource connection
-
-  closePing();
-  var url = assetPrefix + "/_next/webpack-hmr?page=" + currentPage;
-  evtSource = (0, _eventsource.getEventSourceWrapper)({
-    path: url,
-    timeout: 5000,
-    ondemand: 1
-  });
-  evtSource.addMessageListener(event => {
-    if (event.data.indexOf('{') === -1) return;
-
-    try {
-      var payload = JSON.parse(event.data);
-
-      if (payload.invalid) {
-        // Payload can be invalid even if the page does not exist.
-        // So, we need to make sure it exists before reloading.
-        (0, _unfetch.default)(location.href, {
-          credentials: 'same-origin'
-        }).then(pageRes => {
-          if (pageRes.status === 200) {
-            location.reload();
-          }
-        });
-      }
-    } catch (err) {
-      console.error('on-demand-entries failed to parse response', err);
-    }
-  });
-}
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.closePing=closePing;exports.setupPing=setupPing;exports.currentPage=void 0;var _unfetch=_interopRequireDefault(__webpack_require__(/*! unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js"));var _eventsource=__webpack_require__(/*! ./error-overlay/eventsource */ "./node_modules/next/dist/client/dev/error-overlay/eventsource.js");var evtSource;var currentPage;exports.currentPage=currentPage;function closePing(){if(evtSource)evtSource.close();evtSource=null;}function setupPing(assetPrefix,pathnameFn,retry){var pathname=pathnameFn();if(pathname===currentPage&&!retry)return;exports.currentPage=currentPage=pathname;closePing();var url=assetPrefix+"/_next/webpack-hmr?page="+currentPage;evtSource=(0,_eventsource.getEventSourceWrapper)({path:url,timeout:5000,ondemand:1});evtSource.addMessageListener(function(event){if(event.data.indexOf('{')===-1)return;try{var payload=JSON.parse(event.data);if(payload.invalid){(0,_unfetch.default)(location.href,{credentials:'same-origin'}).then(function(pageRes){if(pageRes.status===200){location.reload();}});}}catch(err){console.error('on-demand-entries failed to parse response',err);}});}
 
 /***/ }),
 
@@ -5494,119 +3577,7 @@ function setupPing(assetPrefix, pathnameFn, retry) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _parseInt = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = initializeBuildWatcher;
-
-var _router = _interopRequireDefault(__webpack_require__(/*! ../router */ "./node_modules/next/dist/client/router.js"));
-
-function initializeBuildWatcher() {
-  var shadowHost = document.createElement('div');
-  shadowHost.id = '__next-prerender-indicator'; // Make sure container is fixed and on a high zIndex so it shows
-
-  shadowHost.style.position = 'fixed';
-  shadowHost.style.bottom = '20px';
-  shadowHost.style.right = '10px';
-  shadowHost.style.width = 0;
-  shadowHost.style.height = 0;
-  shadowHost.style.zIndex = 99998;
-  shadowHost.style.transition = 'all 100ms ease';
-  document.body.appendChild(shadowHost);
-  var shadowRoot;
-  var prefix = '';
-
-  if (shadowHost.attachShadow) {
-    shadowRoot = shadowHost.attachShadow({
-      mode: 'open'
-    });
-  } else {
-    // If attachShadow is undefined then the browser does not support
-    // the Shadow DOM, we need to prefix all the names so there
-    // will be no conflicts
-    shadowRoot = shadowHost;
-    prefix = '__next-prerender-indicator-';
-  } // Container
-
-
-  var container = createContainer(prefix);
-  shadowRoot.appendChild(container); // CSS
-
-  var css = createCss(prefix);
-  shadowRoot.appendChild(css);
-  var expandEl = container.querySelector('a');
-  var closeEl = container.querySelector("#" + prefix + "close"); // State
-
-  var dismissKey = '__NEXT_DISMISS_PRERENDER_INDICATOR';
-
-  var dismissUntil = _parseInt(window.localStorage.getItem(dismissKey), 10);
-
-  var dismissed = dismissUntil > new Date().getTime();
-  var isVisible = !dismissed && window.__NEXT_DATA__.nextExport;
-
-  function updateContainer() {
-    if (isVisible) {
-      container.classList.add(prefix + "visible");
-    } else {
-      container.classList.remove(prefix + "visible");
-    }
-  }
-
-  var expandedClass = prefix + "expanded";
-  var toggleTimeout;
-
-  var toggleExpand = function toggleExpand(expand) {
-    if (expand === void 0) {
-      expand = true;
-    }
-
-    clearTimeout(toggleTimeout);
-    toggleTimeout = setTimeout(() => {
-      if (expand) {
-        expandEl.classList.add(expandedClass);
-        closeEl.style.display = 'flex';
-      } else {
-        expandEl.classList.remove(expandedClass);
-        closeEl.style.display = 'none';
-      }
-    }, 50);
-  };
-
-  closeEl.addEventListener('click', () => {
-    var oneHourAway = new Date().getTime() + 1 * 60 * 60 * 1000;
-    window.localStorage.setItem(dismissKey, oneHourAway + '');
-    isVisible = false;
-    updateContainer();
-  });
-  closeEl.addEventListener('mouseenter', () => toggleExpand());
-  closeEl.addEventListener('mouseleave', () => toggleExpand(false));
-  expandEl.addEventListener('mouseenter', () => toggleExpand());
-  expandEl.addEventListener('mouseleave', () => toggleExpand(false));
-
-  _router.default.events.on('routeChangeComplete', () => {
-    isVisible = window.next.isPrerendered;
-    updateContainer();
-  });
-
-  updateContainer();
-}
-
-function createContainer(prefix) {
-  var container = document.createElement('div');
-  container.id = prefix + "container";
-  container.innerHTML = "\n    <button id=\"" + prefix + "close\" title=\"Hide indicator for session\">\n      <span>\xD7</span>\n    </button>\n    <a href=\"https://nextjs.org/docs#automatic-static-optimization-indicator\" target=\"_blank\">\n      <div id=\"" + prefix + "icon-wrapper\">\n          <svg width=\"15\" height=\"20\" viewBox=\"0 0 60 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M36 3L30.74 41H8L36 3Z\" fill=\"black\"/>\n          <path d=\"M25 77L30.26 39H53L25 77Z\" fill=\"black\"/>\n          <path d=\"M13.5 33.5L53 39L47.5 46.5L7 41.25L13.5 33.5Z\" fill=\"black\"/>\n          </svg>\n          Prerendered Page\n      </div>\n    </a>\n  ";
-  return container;
-}
-
-function createCss(prefix) {
-  var css = document.createElement('style');
-  css.textContent = "\n    #" + prefix + "container {\n      position: absolute;\n      display: none;\n      bottom: 10px;\n      right: 15px;\n    }\n\n    #" + prefix + "close {\n      top: -10px;\n      right: -10px;\n      border: none;\n      width: 18px;\n      height: 18px;\n      color: #333333;\n      font-size: 16px;\n      cursor: pointer;\n      display: none;\n      position: absolute;\n      background: #ffffff;\n      border-radius: 100%;\n      align-items: center;\n      flex-direction: column;\n      justify-content: center;\n    }\n\n    #" + prefix + "container a {\n      color: inherit;\n      text-decoration: none;\n      width: 15px;\n      height: 23px;\n      overflow: hidden;\n\n      border-radius: 3px;\n      background: #fff;\n      color: #000;\n      font: initial;\n      cursor: pointer;\n      letter-spacing: initial;\n      text-shadow: initial;\n      text-transform: initial;\n      visibility: initial;\n      font-size: 14px;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n\n      padding: 4px 2px;\n      align-items: center;\n      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\n      display: flex;\n      transition: opacity 0.1s ease, bottom 0.1s ease, width 0.3s ease;\n      animation: " + prefix + "fade-in 0.1s ease-in-out;\n    }\n\n    #" + prefix + "icon-wrapper {\n      width: 140px;\n      height: 20px;\n      display: flex;\n      flex-shrink: 0;\n      align-items: center;\n      position: relative;\n    }\n\n    #" + prefix + "icon-wrapper svg {\n      flex-shrink: 0;\n      margin-right: 3px;\n    }\n\n    #" + prefix + "container a." + prefix + "expanded {\n      width: 135px;\n    }\n\n    #" + prefix + "container." + prefix + "visible {\n      display: flex;\n      bottom: 10px;\n      opacity: 1;\n    }\n\n    @keyframes " + prefix + "fade-in {\n      from {\n        bottom: 0px;\n        opacity: 0;\n      }\n      to {\n        bottom: 10px;\n        opacity: 1;\n      }\n    }\n  ";
-  return css;
-}
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=initializeBuildWatcher;var _router=_interopRequireDefault(__webpack_require__(/*! ../router */ "./node_modules/next/dist/client/router.js"));function initializeBuildWatcher(){var shadowHost=document.createElement('div');shadowHost.id='__next-prerender-indicator';shadowHost.style.position='fixed';shadowHost.style.bottom='20px';shadowHost.style.right='10px';shadowHost.style.width=0;shadowHost.style.height=0;shadowHost.style.zIndex=99998;shadowHost.style.transition='all 100ms ease';document.body.appendChild(shadowHost);var shadowRoot;var prefix='';if(shadowHost.attachShadow){shadowRoot=shadowHost.attachShadow({mode:'open'});}else{shadowRoot=shadowHost;prefix='__next-prerender-indicator-';}var container=createContainer(prefix);shadowRoot.appendChild(container);var css=createCss(prefix);shadowRoot.appendChild(css);var expandEl=container.querySelector('a');var closeEl=container.querySelector("#"+prefix+"close");var dismissKey='__NEXT_DISMISS_PRERENDER_INDICATOR';var dismissUntil=parseInt(window.localStorage.getItem(dismissKey),10);var dismissed=dismissUntil>new Date().getTime();var isVisible=!dismissed&&window.__NEXT_DATA__.nextExport;function updateContainer(){if(isVisible){container.classList.add(prefix+"visible");}else{container.classList.remove(prefix+"visible");}}var expandedClass=prefix+"expanded";var toggleTimeout;var toggleExpand=function toggleExpand(expand){if(expand===void 0){expand=true;}clearTimeout(toggleTimeout);toggleTimeout=setTimeout(function(){if(expand){expandEl.classList.add(expandedClass);closeEl.style.display='flex';}else{expandEl.classList.remove(expandedClass);closeEl.style.display='none';}},50);};closeEl.addEventListener('click',function(){var oneHourAway=new Date().getTime()+1*60*60*1000;window.localStorage.setItem(dismissKey,oneHourAway+'');isVisible=false;updateContainer();});closeEl.addEventListener('mouseenter',function(){return toggleExpand();});closeEl.addEventListener('mouseleave',function(){return toggleExpand(false);});expandEl.addEventListener('mouseenter',function(){return toggleExpand();});expandEl.addEventListener('mouseleave',function(){return toggleExpand(false);});_router.default.events.on('routeChangeComplete',function(){isVisible=window.next.isPrerendered;updateContainer();});updateContainer();}function createContainer(prefix){var container=document.createElement('div');container.id=prefix+"container";container.innerHTML="\n    <button id=\""+prefix+"close\" title=\"Hide indicator for session\">\n      <span>\xD7</span>\n    </button>\n    <a href=\"https://nextjs.org/docs#automatic-static-optimization-indicator\" target=\"_blank\">\n      <div id=\""+prefix+"icon-wrapper\">\n          <svg width=\"15\" height=\"20\" viewBox=\"0 0 60 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M36 3L30.74 41H8L36 3Z\" fill=\"black\"/>\n          <path d=\"M25 77L30.26 39H53L25 77Z\" fill=\"black\"/>\n          <path d=\"M13.5 33.5L53 39L47.5 46.5L7 41.25L13.5 33.5Z\" fill=\"black\"/>\n          </svg>\n          Prerendered Page\n      </div>\n    </a>\n  ";return container;}function createCss(prefix){var css=document.createElement('style');css.textContent="\n    #"+prefix+"container {\n      position: absolute;\n      display: none;\n      bottom: 10px;\n      right: 15px;\n    }\n\n    #"+prefix+"close {\n      top: -10px;\n      right: -10px;\n      border: none;\n      width: 18px;\n      height: 18px;\n      color: #333333;\n      font-size: 16px;\n      cursor: pointer;\n      display: none;\n      position: absolute;\n      background: #ffffff;\n      border-radius: 100%;\n      align-items: center;\n      flex-direction: column;\n      justify-content: center;\n    }\n\n    #"+prefix+"container a {\n      color: inherit;\n      text-decoration: none;\n      width: 15px;\n      height: 23px;\n      overflow: hidden;\n\n      border-radius: 3px;\n      background: #fff;\n      color: #000;\n      font: initial;\n      cursor: pointer;\n      letter-spacing: initial;\n      text-shadow: initial;\n      text-transform: initial;\n      visibility: initial;\n      font-size: 14px;\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n\n      padding: 4px 2px;\n      align-items: center;\n      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\n      display: flex;\n      transition: opacity 0.1s ease, bottom 0.1s ease, width 0.3s ease;\n      animation: "+prefix+"fade-in 0.1s ease-in-out;\n    }\n\n    #"+prefix+"icon-wrapper {\n      width: 140px;\n      height: 20px;\n      display: flex;\n      flex-shrink: 0;\n      align-items: center;\n      position: relative;\n    }\n\n    #"+prefix+"icon-wrapper svg {\n      flex-shrink: 0;\n      margin-right: 3px;\n    }\n\n    #"+prefix+"container a."+prefix+"expanded {\n      width: 135px;\n    }\n\n    #"+prefix+"container."+prefix+"visible {\n      display: flex;\n      bottom: 10px;\n      opacity: 1;\n    }\n\n    @keyframes "+prefix+"fade-in {\n      from {\n        bottom: 0px;\n        opacity: 0;\n      }\n      to {\n        bottom: 10px;\n        opacity: 1;\n      }\n    }\n  ";return css;}
 
 /***/ }),
 
@@ -5618,54 +3589,7 @@ function createCss(prefix) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var _hotDevClient = _interopRequireDefault(__webpack_require__(/*! ./error-overlay/hot-dev-client */ "./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js"));
-
-var _default = _ref => {
-  var {
-    assetPrefix
-  } = _ref;
-  var options = {
-    path: assetPrefix + "/_next/webpack-hmr"
-  };
-  var devClient = (0, _hotDevClient.default)(options);
-  devClient.subscribeToHmrEvent(obj => {
-    if (obj.action === 'reloadPage') {
-      return window.location.reload();
-    }
-
-    if (obj.action === 'removedPage') {
-      var [page] = obj.data;
-
-      if (page === window.next.router.pathname) {
-        return window.location.reload();
-      }
-
-      return;
-    }
-
-    if (obj.action === 'addedPage') {
-      var [_page] = obj.data;
-
-      if (_page === window.next.router.pathname && typeof window.next.router.components[_page] === 'undefined') {
-        return window.location.reload();
-      }
-
-      return;
-    }
-
-    throw new Error('Unexpected action ' + obj.action);
-  });
-  return devClient;
-};
-
-exports.default = _default;
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _slicedToArray2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js"));var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=void 0;var _hotDevClient=_interopRequireDefault(__webpack_require__(/*! ./error-overlay/hot-dev-client */ "./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js"));var _default=function _default(_ref){var assetPrefix=_ref.assetPrefix;var options={path:assetPrefix+"/_next/webpack-hmr"};var devClient=(0,_hotDevClient.default)(options);devClient.subscribeToHmrEvent(function(obj){if(obj.action==='reloadPage'){return window.location.reload();}if(obj.action==='removedPage'){var _obj$data=(0,_slicedToArray2.default)(obj.data,1),page=_obj$data[0];if(page===window.next.router.pathname){return window.location.reload();}return;}if(obj.action==='addedPage'){var _obj$data2=(0,_slicedToArray2.default)(obj.data,1),_page=_obj$data2[0];if(_page===window.next.router.pathname&&typeof window.next.router.components[_page]==='undefined'){return window.location.reload();}return;}throw new Error('Unexpected action '+obj.action);});return devClient;};exports.default=_default;
 
 /***/ }),
 
@@ -5677,127 +3601,7 @@ exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-var DOMAttributeNames = {
-  acceptCharset: 'accept-charset',
-  className: 'class',
-  htmlFor: 'for',
-  httpEquiv: 'http-equiv'
-};
-
-class HeadManager {
-  constructor() {
-    this.updateHead = head => {
-      var promise = this.updatePromise = _Promise.resolve().then(() => {
-        if (promise !== this.updatePromise) return;
-        this.updatePromise = null;
-        this.doUpdateHead(head);
-      });
-    };
-
-    this.updatePromise = null;
-  }
-
-  doUpdateHead(head) {
-    var tags = {};
-    head.forEach(h => {
-      var components = tags[h.type] || [];
-      components.push(h);
-      tags[h.type] = components;
-    });
-    this.updateTitle(tags.title ? tags.title[0] : null);
-    var types = ['meta', 'base', 'link', 'style', 'script'];
-    types.forEach(type => {
-      this.updateElements(type, tags[type] || []);
-    });
-  }
-
-  updateTitle(component) {
-    var title = '';
-
-    if (component) {
-      var {
-        children
-      } = component.props;
-      title = typeof children === 'string' ? children : children.join('');
-    }
-
-    if (title !== document.title) document.title = title;
-  }
-
-  updateElements(type, components) {
-    var headEl = document.getElementsByTagName('head')[0];
-    var headCountEl = headEl.querySelector('meta[name=next-head-count]');
-
-    if (true) {
-      if (!headCountEl) {
-        console.error('Warning: next-head-count is missing. https://err.sh/next.js/next-head-count-missing');
-        return;
-      }
-    }
-
-    var headCount = Number(headCountEl.content);
-    var oldTags = [];
-
-    for (var i = 0, j = headCountEl.previousElementSibling; i < headCount; i++, j = j.previousElementSibling) {
-      if (j.tagName.toLowerCase() === type) {
-        oldTags.push(j);
-      }
-    }
-
-    var newTags = components.map(reactElementToDOM).filter(newTag => {
-      for (var k = 0, len = oldTags.length; k < len; k++) {
-        var oldTag = oldTags[k];
-
-        if (oldTag.isEqualNode(newTag)) {
-          oldTags.splice(k, 1);
-          return false;
-        }
-      }
-
-      return true;
-    });
-    oldTags.forEach(t => t.parentNode.removeChild(t));
-    newTags.forEach(t => headEl.insertBefore(t, headCountEl));
-    headCountEl.content = (headCount - oldTags.length + newTags.length).toString();
-  }
-
-}
-
-exports.default = HeadManager;
-
-function reactElementToDOM(_ref) {
-  var {
-    type,
-    props
-  } = _ref;
-  var el = document.createElement(type);
-
-  for (var p in props) {
-    if (!props.hasOwnProperty(p)) continue;
-    if (p === 'children' || p === 'dangerouslySetInnerHTML') continue;
-    var attr = DOMAttributeNames[p] || p.toLowerCase();
-    el.setAttribute(attr, props[p]);
-  }
-
-  var {
-    children,
-    dangerouslySetInnerHTML
-  } = props;
-
-  if (dangerouslySetInnerHTML) {
-    el.innerHTML = dangerouslySetInnerHTML.__html || '';
-  } else if (children) {
-    el.textContent = typeof children === 'string' ? children : children.join('');
-  }
-
-  return el;
-}
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _classCallCheck2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));var _createClass2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));exports.__esModule=true;exports.default=void 0;var DOMAttributeNames={acceptCharset:'accept-charset',className:'class',htmlFor:'for',httpEquiv:'http-equiv'};var HeadManager=function(){function HeadManager(){var _this=this;(0,_classCallCheck2.default)(this,HeadManager);this.updateHead=function(head){var promise=_this.updatePromise=Promise.resolve().then(function(){if(promise!==_this.updatePromise)return;_this.updatePromise=null;_this.doUpdateHead(head);});};this.updatePromise=null;}(0,_createClass2.default)(HeadManager,[{key:"doUpdateHead",value:function doUpdateHead(head){var _this2=this;var tags={};head.forEach(function(h){var components=tags[h.type]||[];components.push(h);tags[h.type]=components;});this.updateTitle(tags.title?tags.title[0]:null);var types=['meta','base','link','style','script'];types.forEach(function(type){_this2.updateElements(type,tags[type]||[]);});}},{key:"updateTitle",value:function updateTitle(component){var title='';if(component){var children=component.props.children;title=typeof children==='string'?children:children.join('');}if(title!==document.title)document.title=title;}},{key:"updateElements",value:function updateElements(type,components){var headEl=document.getElementsByTagName('head')[0];var headCountEl=headEl.querySelector('meta[name=next-head-count]');if(true){if(!headCountEl){console.error('Warning: next-head-count is missing. https://err.sh/next.js/next-head-count-missing');return;}}var headCount=Number(headCountEl.content);var oldTags=[];for(var i=0,j=headCountEl.previousElementSibling;i<headCount;i++,j=j.previousElementSibling){if(j.tagName.toLowerCase()===type){oldTags.push(j);}}var newTags=components.map(reactElementToDOM).filter(function(newTag){for(var k=0,len=oldTags.length;k<len;k++){var oldTag=oldTags[k];if(oldTag.isEqualNode(newTag)){oldTags.splice(k,1);return false;}}return true;});oldTags.forEach(function(t){return t.parentNode.removeChild(t);});newTags.forEach(function(t){return headEl.insertBefore(t,headCountEl);});headCountEl.content=(headCount-oldTags.length+newTags.length).toString();}}]);return HeadManager;}();exports.default=HeadManager;function reactElementToDOM(_ref){var type=_ref.type,props=_ref.props;var el=document.createElement(type);for(var p in props){if(!props.hasOwnProperty(p))continue;if(p==='children'||p==='dangerouslySetInnerHTML')continue;var attr=DOMAttributeNames[p]||p.toLowerCase();el.setAttribute(attr,props[p]);}var children=props.children,dangerouslySetInnerHTML=props.dangerouslySetInnerHTML;if(dangerouslySetInnerHTML){el.innerHTML=dangerouslySetInnerHTML.__html||'';}else if(children){el.textContent=typeof children==='string'?children:children.join('');}return el;}
 
 /***/ }),
 
@@ -5809,478 +3613,7 @@ function reactElementToDOM(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-var _interopRequireWildcard3 = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.render = render;
-exports.renderError = renderError;
-exports.default = exports.emitter = exports.router = exports.version = void 0;
-
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
-
-var _interopRequireWildcard2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js"));
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
-
-var _headManager = _interopRequireDefault(__webpack_require__(/*! ./head-manager */ "./node_modules/next/dist/client/head-manager.js"));
-
-var _router = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-
-var _mitt = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-var _pageLoader = _interopRequireDefault(__webpack_require__(/*! ./page-loader */ "./node_modules/next/dist/client/page-loader.js"));
-
-var envConfig = _interopRequireWildcard3(__webpack_require__(/*! ../next-server/lib/runtime-config */ "./node_modules/next/dist/next-server/lib/runtime-config.js"));
-
-var _headManagerContext = __webpack_require__(/*! ../next-server/lib/head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");
-
-var _routerContext = __webpack_require__(/*! ../next-server/lib/router-context */ "./node_modules/next/dist/next-server/lib/router-context.js");
-
-var _querystring = __webpack_require__(/*! querystring */ "./node_modules/querystring-es3/index.js");
-
-var _isDynamic = __webpack_require__(/*! ../next-server/lib/router/utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");
-/* global location */
-
-
-if (!window.Promise) {
-  window.Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-}
-
-var data = JSON.parse(document.getElementById('__NEXT_DATA__').textContent);
-window.__NEXT_DATA__ = data;
-var version = "9.2.1";
-exports.version = version;
-var {
-  props,
-  err,
-  page,
-  query,
-  buildId,
-  assetPrefix,
-  runtimeConfig,
-  dynamicIds
-} = data;
-var prefix = assetPrefix || ''; // With dynamic assetPrefix it's no longer possible to set assetPrefix at the build time
-// So, this is how we do it in the client side at runtime
-
-__webpack_require__.p = prefix + "/_next/"; //eslint-disable-line
-// Initialize next/config with the environment configuration
-
-envConfig.setConfig({
-  serverRuntimeConfig: {},
-  publicRuntimeConfig: runtimeConfig || {}
-});
-var asPath = (0, _utils.getURL)();
-var pageLoader = new _pageLoader.default(buildId, prefix);
-
-var register = _ref => {
-  var [r, f] = _ref;
-  return pageLoader.registerPage(r, f);
-};
-
-if (window.__NEXT_P) {
-  window.__NEXT_P.map(register);
-}
-
-window.__NEXT_P = [];
-window.__NEXT_P.push = register;
-var headManager = new _headManager.default();
-var appElement = document.getElementById('__next');
-var lastAppProps;
-var webpackHMR;
-var router;
-exports.router = router;
-var ErrorComponent;
-var Component;
-var App, onPerfEntry;
-
-class Container extends _react.default.Component {
-  componentDidCatch(err, info) {
-    this.props.fn(err, info);
-  }
-
-  componentDidMount() {
-    this.scrollToHash();
-
-    if (false) {} // If page was exported and has a querystring
-    // If it's a dynamic route or has a querystring
-
-
-    if (data.nextExport && ((0, _isDynamic.isDynamicRoute)(router.pathname) || location.search) || Component && Component.__N_SSG && location.search) {
-      // update query on mount for exported pages
-      router.replace(router.pathname + '?' + (0, _querystring.stringify)((0, _extends2.default)({}, router.query, {}, (0, _querystring.parse)(location.search.substr(1)))), asPath, {
-        // WARNING: `_h` is an internal option for handing Next.js
-        // client-side hydration. Your app should _never_ use this property.
-        // It may change at any time without notice.
-        _h: 1,
-        shallow: true
-      });
-    }
-
-    if (undefined) {
-      window.__NEXT_HYDRATED = true;
-
-      if (window.__NEXT_HYDRATED_CB) {
-        window.__NEXT_HYDRATED_CB();
-      }
-    }
-  }
-
-  componentDidUpdate() {
-    this.scrollToHash();
-  }
-
-  scrollToHash() {
-    var {
-      hash
-    } = location;
-    hash = hash && hash.substring(1);
-    if (!hash) return;
-    var el = document.getElementById(hash);
-    if (!el) return; // If we call scrollIntoView() in here without a setTimeout
-    // it won't scroll properly.
-
-    setTimeout(() => el.scrollIntoView(), 0);
-  }
-
-  render() {
-    return this.props.children;
-  }
-
-}
-
-var emitter = (0, _mitt.default)();
-exports.emitter = emitter;
-
-var _default = async function _default(_temp) {
-  var {
-    webpackHMR: passedWebpackHMR
-  } = _temp === void 0 ? {} : _temp; // This makes sure this specific lines are removed in production
-
-  if (true) {
-    webpackHMR = passedWebpackHMR;
-  }
-
-  var {
-    page: app,
-    mod
-  } = await pageLoader.loadPageScript('/_app');
-  App = app;
-
-  if (mod && mod.unstable_onPerformanceData) {
-    onPerfEntry = function onPerfEntry(_ref2) {
-      var {
-        name,
-        startTime,
-        value,
-        duration
-      } = _ref2;
-      mod.unstable_onPerformanceData({
-        name,
-        startTime,
-        value,
-        duration
-      });
-    };
-  }
-
-  var initialErr = err;
-
-  try {
-    Component = await pageLoader.loadPage(page);
-
-    if (true) {
-      var {
-        isValidElementType
-      } = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js");
-
-      if (!isValidElementType(Component)) {
-        throw new Error("The default export is not a React Component in page: \"" + page + "\"");
-      }
-    }
-  } catch (error) {
-    // This catches errors like throwing in the top level of a module
-    initialErr = error;
-  }
-
-  if (window.__NEXT_PRELOADREADY) {
-    await window.__NEXT_PRELOADREADY(dynamicIds);
-  }
-
-  exports.router = router = (0, _router.createRouter)(page, query, asPath, {
-    initialProps: props,
-    pageLoader,
-    App,
-    Component,
-    wrapApp,
-    err: initialErr,
-    subscription: (_ref3, App) => {
-      var {
-        Component,
-        props,
-        err
-      } = _ref3;
-      render({
-        App,
-        Component,
-        props,
-        err
-      });
-    }
-  }); // call init-client middleware
-
-  if (false) {}
-
-  var renderCtx = {
-    App,
-    Component,
-    props,
-    err: initialErr
-  };
-
-  if (false) {}
-
-  if (true) {
-    return {
-      emitter,
-      render,
-      renderCtx
-    };
-  }
-};
-
-exports.default = _default;
-
-async function render(props) {
-  if (props.err) {
-    await renderError(props);
-    return;
-  }
-
-  try {
-    await doRender(props);
-  } catch (err) {
-    await renderError((0, _extends2.default)({}, props, {
-      err
-    }));
-  }
-} // This method handles all runtime and debug errors.
-// 404 and 500 errors are special kind of errors
-// and they are still handle via the main render method.
-
-
-async function renderError(props) {
-  var {
-    App,
-    err
-  } = props; // In development runtime errors are caught by react-error-overlay
-  // In production we catch runtime errors using componentDidCatch which will trigger renderError
-
-  if (true) {
-    return webpackHMR.reportRuntimeError(webpackHMR.prepareError(err));
-  }
-
-  if (false) {} // Make sure we log the error to the console, otherwise users can't track down issues.
-
-
-  console.error(err);
-  ErrorComponent = await pageLoader.loadPage('/_error'); // In production we do a normal render with the `ErrorComponent` as component.
-  // If we've gotten here upon initial render, we can use the props from the server.
-  // Otherwise, we need to call `getInitialProps` on `App` before mounting.
-
-  var AppTree = wrapApp(App);
-  var appCtx = {
-    Component: ErrorComponent,
-    AppTree,
-    router,
-    ctx: {
-      err,
-      pathname: page,
-      query,
-      asPath,
-      AppTree
-    }
-  };
-  var initProps = props.props ? props.props : await (0, _utils.loadGetInitialProps)(App, appCtx);
-  await doRender((0, _extends2.default)({}, props, {
-    err,
-    Component: ErrorComponent,
-    props: initProps
-  }));
-} // If hydrate does not exist, eg in preact.
-
-
-var isInitialRender = typeof _reactDom.default.hydrate === 'function';
-var reactRoot = null;
-
-function renderReactElement(reactEl, domEl) {
-  if (false) { var opts; } else {
-    // mark start of hydrate/render
-    if (_utils.ST) {
-      performance.mark('beforeRender');
-    } // The check for `.hydrate` is there to support React alternatives like preact
-
-
-    if (isInitialRender) {
-      _reactDom.default.hydrate(reactEl, domEl, markHydrateComplete);
-
-      isInitialRender = false;
-    } else {
-      _reactDom.default.render(reactEl, domEl, markRenderComplete);
-    }
-  }
-
-  if (onPerfEntry && _utils.ST) {
-    try {
-      var observer = new PerformanceObserver(list => {
-        list.getEntries().forEach(onPerfEntry);
-      }); // Start observing paint entry types.
-
-      observer.observe({
-        type: 'paint',
-        buffered: true
-      });
-    } catch (e) {
-      window.addEventListener('load', () => {
-        performance.getEntriesByType('paint').forEach(onPerfEntry);
-      });
-    }
-  }
-}
-
-function markHydrateComplete() {
-  if (!_utils.ST) return;
-  performance.mark('afterHydrate'); // mark end of hydration
-
-  performance.measure('Next.js-before-hydration', 'navigationStart', 'beforeRender');
-  performance.measure('Next.js-hydration', 'beforeRender', 'afterHydrate');
-
-  if (onPerfEntry) {
-    performance.getEntriesByName('Next.js-hydration').forEach(onPerfEntry);
-    performance.getEntriesByName('beforeRender').forEach(onPerfEntry);
-  }
-
-  clearMarks();
-}
-
-function markRenderComplete() {
-  if (!_utils.ST) return;
-  performance.mark('afterRender'); // mark end of render
-
-  var navStartEntries = performance.getEntriesByName('routeChange', 'mark');
-
-  if (!navStartEntries.length) {
-    return;
-  }
-
-  performance.measure('Next.js-route-change-to-render', navStartEntries[0].name, 'beforeRender');
-  performance.measure('Next.js-render', 'beforeRender', 'afterRender');
-
-  if (onPerfEntry) {
-    performance.getEntriesByName('Next.js-render').forEach(onPerfEntry);
-    performance.getEntriesByName('Next.js-route-change-to-render').forEach(onPerfEntry);
-  }
-
-  clearMarks();
-}
-
-function clearMarks() {
-  ;
-  ['beforeRender', 'afterHydrate', 'afterRender', 'routeChange'].forEach(mark => performance.clearMarks(mark));
-  ['Next.js-before-hydration', 'Next.js-hydration', 'Next.js-route-change-to-render', 'Next.js-render'].forEach(measure => performance.clearMeasures(measure));
-}
-
-function AppContainer(_ref4) {
-  var {
-    children
-  } = _ref4;
-  return _react.default.createElement(Container, {
-    fn: error => renderError({
-      App,
-      err: error
-    }).catch(err => console.error('Error rendering page: ', err))
-  }, _react.default.createElement(_routerContext.RouterContext.Provider, {
-    value: (0, _router.makePublicRouterInstance)(router)
-  }, _react.default.createElement(_headManagerContext.HeadManagerContext.Provider, {
-    value: headManager.updateHead
-  }, children)));
-}
-
-var wrapApp = App => props => {
-  var appProps = (0, _extends2.default)({}, props, {
-    Component,
-    err,
-    router
-  });
-  return _react.default.createElement(AppContainer, null, _react.default.createElement(App, appProps));
-};
-
-async function doRender(_ref5) {
-  var {
-    App,
-    Component,
-    props,
-    err
-  } = _ref5; // Usual getInitialProps fetching is handled in next/router
-  // this is for when ErrorComponent gets replaced by Component by HMR
-
-  if (!props && Component && Component !== ErrorComponent && lastAppProps.Component === ErrorComponent) {
-    var {
-      pathname,
-      query: _query,
-      asPath: _asPath
-    } = router;
-    var AppTree = wrapApp(App);
-    var appCtx = {
-      router,
-      AppTree,
-      Component: ErrorComponent,
-      ctx: {
-        err,
-        pathname,
-        query: _query,
-        asPath: _asPath,
-        AppTree
-      }
-    };
-    props = await (0, _utils.loadGetInitialProps)(App, appCtx);
-  }
-
-  Component = Component || lastAppProps.Component;
-  props = props || lastAppProps.props;
-  var appProps = (0, _extends2.default)({}, props, {
-    Component,
-    err,
-    router
-  }); // lastAppProps has to be set before ReactDom.render to account for ReactDom throwing an error.
-
-  lastAppProps = appProps;
-  emitter.emit('before-reactdom-render', {
-    Component,
-    ErrorComponent,
-    appProps
-  });
-
-  var elem = _react.default.createElement(AppContainer, null, _react.default.createElement(App, appProps)); // We catch runtime errors using componentDidCatch which will trigger renderError
-
-
-  renderReactElement( false ? undefined : elem, appElement);
-  emitter.emit('after-reactdom-render', {
-    Component,
-    ErrorComponent,
-    appProps
-  });
-}
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _regenerator=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js"));var _classCallCheck2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));var _createClass2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));var _possibleConstructorReturn2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));var _getPrototypeOf2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js"));var _inherits2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js"));var _slicedToArray2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js"));var _interopRequireWildcard3=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.render=render;exports.renderError=renderError;exports.default=exports.emitter=exports.router=exports.version=void 0;var _extends2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));var _interopRequireWildcard2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js"));var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));var _reactDom=_interopRequireDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));var _headManager=_interopRequireDefault(__webpack_require__(/*! ./head-manager */ "./node_modules/next/dist/client/head-manager.js"));var _router=__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");var _mitt=_interopRequireDefault(__webpack_require__(/*! ../next-server/lib/mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));var _utils=__webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");var _pageLoader=_interopRequireDefault(__webpack_require__(/*! ./page-loader */ "./node_modules/next/dist/client/page-loader.js"));var envConfig=_interopRequireWildcard3(__webpack_require__(/*! ../next-server/lib/runtime-config */ "./node_modules/next/dist/next-server/lib/runtime-config.js"));var _headManagerContext=__webpack_require__(/*! ../next-server/lib/head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");var _routerContext=__webpack_require__(/*! ../next-server/lib/router-context */ "./node_modules/next/dist/next-server/lib/router-context.js");var _querystring=__webpack_require__(/*! querystring */ "./node_modules/querystring-es3/index.js");var _isDynamic=__webpack_require__(/*! ../next-server/lib/router/utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");if(!window.Promise){window.Promise=__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");}var data=JSON.parse(document.getElementById('__NEXT_DATA__').textContent);window.__NEXT_DATA__=data;var version="9.2.1";exports.version=version;var props=data.props,err=data.err,page=data.page,query=data.query,buildId=data.buildId,assetPrefix=data.assetPrefix,runtimeConfig=data.runtimeConfig,dynamicIds=data.dynamicIds;var prefix=assetPrefix||'';__webpack_require__.p=prefix+"/_next/";envConfig.setConfig({serverRuntimeConfig:{},publicRuntimeConfig:runtimeConfig||{}});var asPath=(0,_utils.getURL)();var pageLoader=new _pageLoader.default(buildId,prefix);var register=function register(_ref){var _ref6=(0,_slicedToArray2.default)(_ref,2),r=_ref6[0],f=_ref6[1];return pageLoader.registerPage(r,f);};if(window.__NEXT_P){window.__NEXT_P.map(register);}window.__NEXT_P=[];window.__NEXT_P.push=register;var headManager=new _headManager.default();var appElement=document.getElementById('__next');var lastAppProps;var webpackHMR;var router;exports.router=router;var ErrorComponent;var Component;var App,onPerfEntry;var Container=function(_react$default$Compon){(0,_inherits2.default)(Container,_react$default$Compon);function Container(){(0,_classCallCheck2.default)(this,Container);return(0,_possibleConstructorReturn2.default)(this,(0,_getPrototypeOf2.default)(Container).apply(this,arguments));}(0,_createClass2.default)(Container,[{key:"componentDidCatch",value:function componentDidCatch(err,info){this.props.fn(err,info);}},{key:"componentDidMount",value:function componentDidMount(){this.scrollToHash();if(false){}if(data.nextExport&&((0,_isDynamic.isDynamicRoute)(router.pathname)||location.search)||Component&&Component.__N_SSG&&location.search){router.replace(router.pathname+'?'+(0,_querystring.stringify)((0,_extends2.default)({},router.query,{},(0,_querystring.parse)(location.search.substr(1)))),asPath,{_h:1,shallow:true});}if(undefined){window.__NEXT_HYDRATED=true;if(window.__NEXT_HYDRATED_CB){window.__NEXT_HYDRATED_CB();}}}},{key:"componentDidUpdate",value:function componentDidUpdate(){this.scrollToHash();}},{key:"scrollToHash",value:function scrollToHash(){var _location=location,hash=_location.hash;hash=hash&&hash.substring(1);if(!hash)return;var el=document.getElementById(hash);if(!el)return;setTimeout(function(){return el.scrollIntoView();},0);}},{key:"render",value:function render(){return this.props.children;}}]);return Container;}(_react.default.Component);var emitter=(0,_mitt.default)();exports.emitter=emitter;var _default=function _default(_temp){var _ref7,passedWebpackHMR,_ref8,app,mod,initialErr,_require,isValidElementType,renderCtx;return _regenerator.default.async(function _default$(_context){while(1){switch(_context.prev=_context.next){case 0:_ref7=_temp===void 0?{}:_temp,passedWebpackHMR=_ref7.webpackHMR;if(true){webpackHMR=passedWebpackHMR;}_context.next=4;return _regenerator.default.awrap(pageLoader.loadPageScript('/_app'));case 4:_ref8=_context.sent;app=_ref8.page;mod=_ref8.mod;App=app;if(mod&&mod.unstable_onPerformanceData){onPerfEntry=function onPerfEntry(_ref2){var name=_ref2.name,startTime=_ref2.startTime,value=_ref2.value,duration=_ref2.duration;mod.unstable_onPerformanceData({name:name,startTime:startTime,value:value,duration:duration});};}initialErr=err;_context.prev=10;_context.next=13;return _regenerator.default.awrap(pageLoader.loadPage(page));case 13:Component=_context.sent;if(false){}_require=__webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js"),isValidElementType=_require.isValidElementType;if(isValidElementType(Component)){_context.next=18;break;}throw new Error("The default export is not a React Component in page: \""+page+"\"");case 18:_context.next=23;break;case 20:_context.prev=20;_context.t0=_context["catch"](10);initialErr=_context.t0;case 23:if(!window.__NEXT_PRELOADREADY){_context.next=26;break;}_context.next=26;return _regenerator.default.awrap(window.__NEXT_PRELOADREADY(dynamicIds));case 26:exports.router=router=(0,_router.createRouter)(page,query,asPath,{initialProps:props,pageLoader:pageLoader,App:App,Component:Component,wrapApp:wrapApp,err:initialErr,subscription:function subscription(_ref3,App){var Component=_ref3.Component,props=_ref3.props,err=_ref3.err;render({App:App,Component:Component,props:props,err:err});}});if(false){}renderCtx={App:App,Component:Component,props:props,err:initialErr};if(true){_context.next=32;break;}render(renderCtx);return _context.abrupt("return",emitter);case 32:if(false){}return _context.abrupt("return",{emitter:emitter,render:render,renderCtx:renderCtx});case 34:case"end":return _context.stop();}}},null,null,[[10,20]]);};exports.default=_default;function render(props){return _regenerator.default.async(function render$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:if(!props.err){_context2.next=4;break;}_context2.next=3;return _regenerator.default.awrap(renderError(props));case 3:return _context2.abrupt("return");case 4:_context2.prev=4;_context2.next=7;return _regenerator.default.awrap(doRender(props));case 7:_context2.next=13;break;case 9:_context2.prev=9;_context2.t0=_context2["catch"](4);_context2.next=13;return _regenerator.default.awrap(renderError((0,_extends2.default)({},props,{err:_context2.t0})));case 13:case"end":return _context2.stop();}}},null,null,[[4,9]]);}function renderError(props){var App,err,AppTree,appCtx,initProps;return _regenerator.default.async(function renderError$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:App=props.App,err=props.err;if(false){}return _context3.abrupt("return",webpackHMR.reportRuntimeError(webpackHMR.prepareError(err)));case 3:if(false){}console.error(err);_context3.next=7;return _regenerator.default.awrap(pageLoader.loadPage('/_error'));case 7:ErrorComponent=_context3.sent;AppTree=wrapApp(App);appCtx={Component:ErrorComponent,AppTree:AppTree,router:router,ctx:{err:err,pathname:page,query:query,asPath:asPath,AppTree:AppTree}};if(!props.props){_context3.next=14;break;}_context3.t0=props.props;_context3.next=17;break;case 14:_context3.next=16;return _regenerator.default.awrap((0,_utils.loadGetInitialProps)(App,appCtx));case 16:_context3.t0=_context3.sent;case 17:initProps=_context3.t0;_context3.next=20;return _regenerator.default.awrap(doRender((0,_extends2.default)({},props,{err:err,Component:ErrorComponent,props:initProps})));case 20:case"end":return _context3.stop();}}});}var isInitialRender=typeof _reactDom.default.hydrate==='function';var reactRoot=null;function renderReactElement(reactEl,domEl){if(false){ var opts; }else{if(_utils.ST){performance.mark('beforeRender');}if(isInitialRender){_reactDom.default.hydrate(reactEl,domEl,markHydrateComplete);isInitialRender=false;}else{_reactDom.default.render(reactEl,domEl,markRenderComplete);}}if(onPerfEntry&&_utils.ST){try{var observer=new PerformanceObserver(function(list){list.getEntries().forEach(onPerfEntry);});observer.observe({type:'paint',buffered:true});}catch(e){window.addEventListener('load',function(){performance.getEntriesByType('paint').forEach(onPerfEntry);});}}}function markHydrateComplete(){if(!_utils.ST)return;performance.mark('afterHydrate');performance.measure('Next.js-before-hydration','navigationStart','beforeRender');performance.measure('Next.js-hydration','beforeRender','afterHydrate');if(onPerfEntry){performance.getEntriesByName('Next.js-hydration').forEach(onPerfEntry);performance.getEntriesByName('beforeRender').forEach(onPerfEntry);}clearMarks();}function markRenderComplete(){if(!_utils.ST)return;performance.mark('afterRender');var navStartEntries=performance.getEntriesByName('routeChange','mark');if(!navStartEntries.length){return;}performance.measure('Next.js-route-change-to-render',navStartEntries[0].name,'beforeRender');performance.measure('Next.js-render','beforeRender','afterRender');if(onPerfEntry){performance.getEntriesByName('Next.js-render').forEach(onPerfEntry);performance.getEntriesByName('Next.js-route-change-to-render').forEach(onPerfEntry);}clearMarks();}function clearMarks(){;['beforeRender','afterHydrate','afterRender','routeChange'].forEach(function(mark){return performance.clearMarks(mark);});['Next.js-before-hydration','Next.js-hydration','Next.js-route-change-to-render','Next.js-render'].forEach(function(measure){return performance.clearMeasures(measure);});}function AppContainer(_ref4){var children=_ref4.children;return _react.default.createElement(Container,{fn:function fn(error){return renderError({App:App,err:error}).catch(function(err){return console.error('Error rendering page: ',err);});}},_react.default.createElement(_routerContext.RouterContext.Provider,{value:(0,_router.makePublicRouterInstance)(router)},_react.default.createElement(_headManagerContext.HeadManagerContext.Provider,{value:headManager.updateHead},children)));}var wrapApp=function wrapApp(App){return function(props){var appProps=(0,_extends2.default)({},props,{Component:Component,err:err,router:router});return _react.default.createElement(AppContainer,null,_react.default.createElement(App,appProps));};};function doRender(_ref5){var App,Component,props,err,_router2,pathname,_query,_asPath,AppTree,appCtx,appProps,elem;return _regenerator.default.async(function doRender$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:App=_ref5.App,Component=_ref5.Component,props=_ref5.props,err=_ref5.err;if(!(!props&&Component&&Component!==ErrorComponent&&lastAppProps.Component===ErrorComponent)){_context4.next=8;break;}_router2=router,pathname=_router2.pathname,_query=_router2.query,_asPath=_router2.asPath;AppTree=wrapApp(App);appCtx={router:router,AppTree:AppTree,Component:ErrorComponent,ctx:{err:err,pathname:pathname,query:_query,asPath:_asPath,AppTree:AppTree}};_context4.next=7;return _regenerator.default.awrap((0,_utils.loadGetInitialProps)(App,appCtx));case 7:props=_context4.sent;case 8:Component=Component||lastAppProps.Component;props=props||lastAppProps.props;appProps=(0,_extends2.default)({},props,{Component:Component,err:err,router:router});lastAppProps=appProps;emitter.emit('before-reactdom-render',{Component:Component,ErrorComponent:ErrorComponent,appProps:appProps});elem=_react.default.createElement(AppContainer,null,_react.default.createElement(App,appProps));renderReactElement( false?undefined:elem,appElement);emitter.emit('after-reactdom-render',{Component:Component,ErrorComponent:ErrorComponent,appProps:appProps});case 16:case"end":return _context4.stop();}}});}
 
 /***/ }),
 
@@ -6292,104 +3625,7 @@ async function doRender(_ref5) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
-
-var next = _interopRequireWildcard(__webpack_require__(/*! ./ */ "./node_modules/next/dist/client/index.js"));
-
-var _eventSourcePolyfill = _interopRequireDefault(__webpack_require__(/*! ./dev/event-source-polyfill */ "./node_modules/next/dist/client/dev/event-source-polyfill.js"));
-
-var _onDemandEntriesClient = _interopRequireDefault(__webpack_require__(/*! ./dev/on-demand-entries-client */ "./node_modules/next/dist/client/dev/on-demand-entries-client.js"));
-
-var _webpackHotMiddlewareClient = _interopRequireDefault(__webpack_require__(/*! ./dev/webpack-hot-middleware-client */ "./node_modules/next/dist/client/dev/webpack-hot-middleware-client.js"));
-
-var _devBuildWatcher = _interopRequireDefault(__webpack_require__(/*! ./dev/dev-build-watcher */ "./node_modules/next/dist/client/dev/dev-build-watcher.js"));
-
-var _prerenderIndicator = _interopRequireDefault(__webpack_require__(/*! ./dev/prerender-indicator */ "./node_modules/next/dist/client/dev/prerender-indicator.js"));
-
-var _fouc = __webpack_require__(/*! ./dev/fouc */ "./node_modules/next/dist/client/dev/fouc.js");
-/* globals import('./dev/noop'); */
-
-
-__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! ./dev/noop */ "./node_modules/next/dist/client/dev/noop.js", 7));
-; // Support EventSource on Internet Explorer 11
-
-if (!window.EventSource) {
-  window.EventSource = _eventSourcePolyfill.default;
-}
-
-var {
-  __NEXT_DATA__: {
-    assetPrefix
-  }
-} = window;
-var prefix = assetPrefix || '';
-var webpackHMR = (0, _webpackHotMiddlewareClient.default)({
-  assetPrefix: prefix
-});
-window.next = next;
-(0, next.default)({
-  webpackHMR
-}).then(_ref => {
-  var {
-    emitter,
-    renderCtx,
-    render
-  } = _ref;
-  (0, _onDemandEntriesClient.default)({
-    assetPrefix: prefix
-  });
-  if (true) (0, _devBuildWatcher.default)();
-
-  if ( true && // disable by default in electron
-  !(typeof process !== 'undefined' && 'electron' in process.versions)) {
-    (0, _prerenderIndicator.default)();
-  } // delay rendering until after styles have been applied in development
-
-
-  (0, _fouc.displayContent)(() => {
-    render(renderCtx);
-  });
-  var lastScroll;
-  emitter.on('before-reactdom-render', _ref2 => {
-    var {
-      Component,
-      ErrorComponent
-    } = _ref2; // Remember scroll when ErrorComponent is being rendered to later restore it
-
-    if (!lastScroll && Component === ErrorComponent) {
-      var {
-        pageXOffset,
-        pageYOffset
-      } = window;
-      lastScroll = {
-        x: pageXOffset,
-        y: pageYOffset
-      };
-    }
-  });
-  emitter.on('after-reactdom-render', _ref3 => {
-    var {
-      Component,
-      ErrorComponent
-    } = _ref3;
-
-    if (lastScroll && Component !== ErrorComponent) {
-      // Restore scroll after ErrorComponent was replaced with a page component by HMR
-      var {
-        x,
-        y
-      } = lastScroll;
-      window.scroll(x, y);
-      lastScroll = null;
-    }
-  });
-}).catch(err => {
-  console.error('Error was not caught', err);
-});
+/* WEBPACK VAR INJECTION */(function(process) {var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");var next=_interopRequireWildcard(__webpack_require__(/*! ./ */ "./node_modules/next/dist/client/index.js"));var _eventSourcePolyfill=_interopRequireDefault(__webpack_require__(/*! ./dev/event-source-polyfill */ "./node_modules/next/dist/client/dev/event-source-polyfill.js"));var _onDemandEntriesClient=_interopRequireDefault(__webpack_require__(/*! ./dev/on-demand-entries-client */ "./node_modules/next/dist/client/dev/on-demand-entries-client.js"));var _webpackHotMiddlewareClient=_interopRequireDefault(__webpack_require__(/*! ./dev/webpack-hot-middleware-client */ "./node_modules/next/dist/client/dev/webpack-hot-middleware-client.js"));var _devBuildWatcher=_interopRequireDefault(__webpack_require__(/*! ./dev/dev-build-watcher */ "./node_modules/next/dist/client/dev/dev-build-watcher.js"));var _prerenderIndicator=_interopRequireDefault(__webpack_require__(/*! ./dev/prerender-indicator */ "./node_modules/next/dist/client/dev/prerender-indicator.js"));var _fouc=__webpack_require__(/*! ./dev/fouc */ "./node_modules/next/dist/client/dev/fouc.js");__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! ./dev/noop */ "./node_modules/next/dist/client/dev/noop.js", 7));;if(!window.EventSource){window.EventSource=_eventSourcePolyfill.default;}var _window=window,assetPrefix=_window.__NEXT_DATA__.assetPrefix;var prefix=assetPrefix||'';var webpackHMR=(0,_webpackHotMiddlewareClient.default)({assetPrefix:prefix});window.next=next;(0,next.default)({webpackHMR:webpackHMR}).then(function(_ref){var emitter=_ref.emitter,renderCtx=_ref.renderCtx,render=_ref.render;(0,_onDemandEntriesClient.default)({assetPrefix:prefix});if(true)(0,_devBuildWatcher.default)();if( true&&!(typeof process!=='undefined'&&'electron'in process.versions)){(0,_prerenderIndicator.default)();}(0,_fouc.displayContent)(function(){render(renderCtx);});var lastScroll;emitter.on('before-reactdom-render',function(_ref2){var Component=_ref2.Component,ErrorComponent=_ref2.ErrorComponent;if(!lastScroll&&Component===ErrorComponent){var _window2=window,pageXOffset=_window2.pageXOffset,pageYOffset=_window2.pageYOffset;lastScroll={x:pageXOffset,y:pageYOffset};}});emitter.on('after-reactdom-render',function(_ref3){var Component=_ref3.Component,ErrorComponent=_ref3.ErrorComponent;if(lastScroll&&Component!==ErrorComponent){var _lastScroll=lastScroll,x=_lastScroll.x,y=_lastScroll.y;window.scroll(x,y);lastScroll=null;}});}).catch(function(err){console.error('Error was not caught',err);});
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
@@ -6402,229 +3638,7 @@ window.next = next;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var _mitt = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));
-
-function hasRel(rel, link) {
-  try {
-    link = document.createElement('link');
-    return link.relList.supports(rel);
-  } catch (_unused) {}
-}
-
-var relPrefetch = hasRel('preload') && !hasRel('prefetch') ? // https://caniuse.com/#feat=link-rel-preload
-// macOS and iOS (Safari does not support prefetch)
-'preload' : // https://caniuse.com/#feat=link-rel-prefetch
-// IE 11, Edge 12+, nearly all evergreen
-'prefetch';
-var hasNoModule = 'noModule' in document.createElement('script');
-
-function normalizeRoute(route) {
-  if (route[0] !== '/') {
-    throw new Error("Route name should start with a \"/\", got \"" + route + "\"");
-  }
-
-  route = route.replace(/\/index$/, '/');
-  if (route === '/') return route;
-  return route.replace(/\/$/, '');
-}
-
-function appendLink(href, rel, as) {
-  return new _Promise((res, rej, link) => {
-    link = document.createElement('link');
-    link.crossOrigin = undefined;
-    link.href = href;
-    link.rel = rel;
-    if (as) link.as = as;
-    link.onload = res;
-    link.onerror = rej;
-    document.head.appendChild(link);
-  });
-}
-
-class PageLoader {
-  constructor(buildId, assetPrefix) {
-    this.buildId = buildId;
-    this.assetPrefix = assetPrefix;
-    this.pageCache = {};
-    this.pageRegisterEvents = (0, _mitt.default)();
-    this.loadingRoutes = {};
-
-    if (false) {}
-  } // Returns a promise for the dependencies for a particular route
-
-
-  getDependencies(route) {
-    return this.promisedBuildManifest.then(man => man[route] && man[route].map(url => this.assetPrefix + "/_next/" + encodeURI(url)) || []);
-  }
-
-  loadPage(route) {
-    return this.loadPageScript(route).then(v => v.page);
-  }
-
-  loadPageScript(route) {
-    route = normalizeRoute(route);
-    return new _Promise((resolve, reject) => {
-      var fire = _ref => {
-        var {
-          error,
-          page,
-          mod
-        } = _ref;
-        this.pageRegisterEvents.off(route, fire);
-        delete this.loadingRoutes[route];
-
-        if (error) {
-          reject(error);
-        } else {
-          resolve({
-            page,
-            mod
-          });
-        }
-      }; // If there's a cached version of the page, let's use it.
-
-
-      var cachedPage = this.pageCache[route];
-
-      if (cachedPage) {
-        var {
-          error,
-          page,
-          mod
-        } = cachedPage;
-        error ? reject(error) : resolve({
-          page,
-          mod
-        });
-        return;
-      } // Register a listener to get the page
-
-
-      this.pageRegisterEvents.on(route, fire); // If the page is loading via SSR, we need to wait for it
-      // rather downloading it again.
-
-      if (document.querySelector("script[data-next-page=\"" + route + "\"]")) {
-        return;
-      }
-
-      if (!this.loadingRoutes[route]) {
-        this.loadingRoutes[route] = true;
-
-        if (false) {} else {
-          this.loadRoute(route);
-        }
-      }
-    });
-  }
-
-  loadRoute(route) {
-    route = normalizeRoute(route);
-    var scriptRoute = route === '/' ? '/index.js' : route + ".js";
-    var url = this.assetPrefix + "/_next/static/" + encodeURIComponent(this.buildId) + "/pages" + encodeURI(scriptRoute);
-    this.loadScript(url, route, true);
-  }
-
-  loadScript(url, route, isPage) {
-    var script = document.createElement('script');
-
-    if (false) {}
-
-    script.crossOrigin = undefined;
-    script.src = url;
-
-    script.onerror = () => {
-      var error = new Error("Error loading script " + url);
-      error.code = 'PAGE_LOAD_ERROR';
-      this.pageRegisterEvents.emit(route, {
-        error
-      });
-    };
-
-    document.body.appendChild(script);
-  } // This method if called by the route code.
-
-
-  registerPage(route, regFn) {
-    var register = () => {
-      try {
-        var mod = regFn();
-        var pageData = {
-          page: mod.default || mod,
-          mod
-        };
-        this.pageCache[route] = pageData;
-        this.pageRegisterEvents.emit(route, pageData);
-      } catch (error) {
-        this.pageCache[route] = {
-          error
-        };
-        this.pageRegisterEvents.emit(route, {
-          error
-        });
-      }
-    };
-
-    if (true) {
-      // Wait for webpack to become idle if it's not.
-      // More info: https://github.com/zeit/next.js/pull/1511
-      if ( true && module.hot.status() !== 'idle') {
-        console.log("Waiting for webpack to become \"idle\" to initialize the page: \"" + route + "\"");
-
-        var check = status => {
-          if (status === 'idle') {
-            module.hot.removeStatusHandler(check);
-            register();
-          }
-        };
-
-        module.hot.status(check);
-        return;
-      }
-    }
-
-    register();
-  }
-
-  prefetch(route, isDependency) {
-    // https://github.com/GoogleChromeLabs/quicklink/blob/453a661fa1fa940e2d2e044452398e38c67a98fb/src/index.mjs#L115-L118
-    // License: Apache 2.0
-    var cn;
-
-    if (cn = navigator.connection) {
-      // Don't prefetch if using 2G or if Save-Data is enabled.
-      if (cn.saveData || /2g/.test(cn.effectiveType)) return _Promise.resolve();
-    }
-
-    var url;
-
-    if (isDependency) {
-      url = route;
-    } else {
-      route = normalizeRoute(route);
-      var scriptRoute = (route === '/' ? '/index' : route) + ".js";
-
-      if (false) {}
-
-      url = this.assetPrefix + "/_next/static/" + encodeURIComponent(this.buildId) + "/pages" + encodeURI(scriptRoute);
-    }
-
-    return _Promise.all(document.querySelector("link[rel=\"" + relPrefetch + "\"][href^=\"" + url + "\"], script[data-next-page=\"" + route + "\"]") ? [] : [appendLink(url, relPrefetch, url.match(/\.css$/) ? 'style' : 'script'),  false && false]).then( // do not return any data
-    () => {}, // swallow prefetch errors
-    () => {});
-  }
-
-}
-
-exports.default = PageLoader;
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _classCallCheck2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));var _createClass2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=void 0;var _mitt=_interopRequireDefault(__webpack_require__(/*! ../next-server/lib/mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));function hasRel(rel,link){try{link=document.createElement('link');return link.relList.supports(rel);}catch(_unused){}}var relPrefetch=hasRel('preload')&&!hasRel('prefetch')?'preload':'prefetch';var hasNoModule='noModule'in document.createElement('script');function normalizeRoute(route){if(route[0]!=='/'){throw new Error("Route name should start with a \"/\", got \""+route+"\"");}route=route.replace(/\/index$/,'/');if(route==='/')return route;return route.replace(/\/$/,'');}function appendLink(href,rel,as){return new Promise(function(res,rej,link){link=document.createElement('link');link.crossOrigin=undefined;link.href=href;link.rel=rel;if(as)link.as=as;link.onload=res;link.onerror=rej;document.head.appendChild(link);});}var PageLoader=function(){function PageLoader(buildId,assetPrefix){(0,_classCallCheck2.default)(this,PageLoader);this.buildId=buildId;this.assetPrefix=assetPrefix;this.pageCache={};this.pageRegisterEvents=(0,_mitt.default)();this.loadingRoutes={};if(false){}}(0,_createClass2.default)(PageLoader,[{key:"getDependencies",value:function getDependencies(route){var _this=this;return this.promisedBuildManifest.then(function(man){return man[route]&&man[route].map(function(url){return _this.assetPrefix+"/_next/"+encodeURI(url);})||[];});}},{key:"loadPage",value:function loadPage(route){return this.loadPageScript(route).then(function(v){return v.page;});}},{key:"loadPageScript",value:function loadPageScript(route){var _this2=this;route=normalizeRoute(route);return new Promise(function(resolve,reject){var fire=function fire(_ref){var error=_ref.error,page=_ref.page,mod=_ref.mod;_this2.pageRegisterEvents.off(route,fire);delete _this2.loadingRoutes[route];if(error){reject(error);}else{resolve({page:page,mod:mod});}};var cachedPage=_this2.pageCache[route];if(cachedPage){var error=cachedPage.error,page=cachedPage.page,mod=cachedPage.mod;error?reject(error):resolve({page:page,mod:mod});return;}_this2.pageRegisterEvents.on(route,fire);if(document.querySelector("script[data-next-page=\""+route+"\"]")){return;}if(!_this2.loadingRoutes[route]){_this2.loadingRoutes[route]=true;if(false){}else{_this2.loadRoute(route);}}});}},{key:"loadRoute",value:function loadRoute(route){route=normalizeRoute(route);var scriptRoute=route==='/'?'/index.js':route+".js";var url=this.assetPrefix+"/_next/static/"+encodeURIComponent(this.buildId)+"/pages"+encodeURI(scriptRoute);this.loadScript(url,route,true);}},{key:"loadScript",value:function loadScript(url,route,isPage){var _this3=this;var script=document.createElement('script');if(false){}script.crossOrigin=undefined;script.src=url;script.onerror=function(){var error=new Error("Error loading script "+url);error.code='PAGE_LOAD_ERROR';_this3.pageRegisterEvents.emit(route,{error:error});};document.body.appendChild(script);}},{key:"registerPage",value:function registerPage(route,regFn){var _this4=this;var register=function register(){try{var mod=regFn();var pageData={page:mod.default||mod,mod:mod};_this4.pageCache[route]=pageData;_this4.pageRegisterEvents.emit(route,pageData);}catch(error){_this4.pageCache[route]={error:error};_this4.pageRegisterEvents.emit(route,{error:error});}};if(true){if( true&&module.hot.status()!=='idle'){console.log("Waiting for webpack to become \"idle\" to initialize the page: \""+route+"\"");var check=function check(status){if(status==='idle'){module.hot.removeStatusHandler(check);register();}};module.hot.status(check);return;}}register();}},{key:"prefetch",value:function prefetch(route,isDependency){var _this5=this;var cn;if(cn=navigator.connection){if(cn.saveData||/2g/.test(cn.effectiveType))return Promise.resolve();}var url;if(isDependency){url=route;}else{route=normalizeRoute(route);var scriptRoute=(route==='/'?'/index':route)+".js";if(false){}url=this.assetPrefix+"/_next/static/"+encodeURIComponent(this.buildId)+"/pages"+encodeURI(scriptRoute);}return Promise.all(document.querySelector("link[rel=\""+relPrefetch+"\"][href^=\""+url+"\"], script[data-next-page=\""+route+"\"]")?[]:[appendLink(url,relPrefetch,url.match(/\.css$/)?'style':'script'), false&&false]).then(function(){},function(){});}}]);return PageLoader;}();exports.default=PageLoader;
 
 /***/ }),
 
@@ -6636,164 +3650,7 @@ exports.default = PageLoader;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.useRouter = useRouter;
-exports.makePublicRouterInstance = makePublicRouterInstance;
-exports.createRouter = exports.withRouter = exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _router2 = _interopRequireWildcard(__webpack_require__(/*! ../next-server/lib/router/router */ "./node_modules/next/dist/next-server/lib/router/router.js"));
-
-exports.Router = _router2.default;
-exports.NextRouter = _router2.NextRouter;
-
-var _routerContext = __webpack_require__(/*! ../next-server/lib/router-context */ "./node_modules/next/dist/next-server/lib/router-context.js");
-
-var _withRouter = _interopRequireDefault(__webpack_require__(/*! ./with-router */ "./node_modules/next/dist/client/with-router.js"));
-
-exports.withRouter = _withRouter.default;
-/* global window */
-
-var singletonRouter = {
-  router: null,
-  // holds the actual router instance
-  readyCallbacks: [],
-
-  ready(cb) {
-    if (this.router) return cb();
-
-    if (true) {
-      this.readyCallbacks.push(cb);
-    }
-  }
-
-}; // Create public properties and methods of the router in the singletonRouter
-
-var urlPropertyFields = ['pathname', 'route', 'query', 'asPath', 'components'];
-var routerEvents = ['routeChangeStart', 'beforeHistoryChange', 'routeChangeComplete', 'routeChangeError', 'hashChangeStart', 'hashChangeComplete'];
-var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'beforePopState']; // Events is a static property on the router, the router doesn't have to be initialized to use it
-
-_Object$defineProperty(singletonRouter, 'events', {
-  get() {
-    return _router2.default.events;
-  }
-
-});
-
-urlPropertyFields.forEach(field => {
-  // Here we need to use Object.defineProperty because, we need to return
-  // the property assigned to the actual router
-  // The value might get changed as we change routes and this is the
-  // proper way to access it
-  _Object$defineProperty(singletonRouter, field, {
-    get() {
-      var router = getRouter();
-      return router[field];
-    }
-
-  });
-});
-coreMethodFields.forEach(field => {
-  // We don't really know the types here, so we add them later instead
-  ;
-
-  singletonRouter[field] = function () {
-    var router = getRouter();
-    return router[field](...arguments);
-  };
-});
-routerEvents.forEach(event => {
-  singletonRouter.ready(() => {
-    _router2.default.events.on(event, function () {
-      var eventField = "on" + event.charAt(0).toUpperCase() + event.substring(1);
-      var _singletonRouter = singletonRouter;
-
-      if (_singletonRouter[eventField]) {
-        try {
-          _singletonRouter[eventField](...arguments);
-        } catch (err) {
-          // tslint:disable-next-line:no-console
-          console.error("Error when running the Router event: " + eventField); // tslint:disable-next-line:no-console
-
-          console.error(err.message + "\n" + err.stack);
-        }
-      }
-    });
-  });
-});
-
-function getRouter() {
-  if (!singletonRouter.router) {
-    var message = 'No router instance found.\n' + 'You should only use "next/router" inside the client side of your app.\n';
-    throw new Error(message);
-  }
-
-  return singletonRouter.router;
-} // Export the singletonRouter and this is the public API.
-
-
-var _default = singletonRouter; // Reexport the withRoute HOC
-
-exports.default = _default;
-
-function useRouter() {
-  return _react.default.useContext(_routerContext.RouterContext);
-} // INTERNAL APIS
-// -------------
-// (do not use following exports inside the app)
-// Create a router and assign it as the singleton instance.
-// This is used in client side when we are initilizing the app.
-// This should **not** use inside the server.
-
-
-var createRouter = function createRouter() {
-  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-    args[_key] = arguments[_key];
-  }
-
-  singletonRouter.router = new _router2.default(...args);
-  singletonRouter.readyCallbacks.forEach(cb => cb());
-  singletonRouter.readyCallbacks = [];
-  return singletonRouter.router;
-}; // This function is used to create the `withRouter` router instance
-
-
-exports.createRouter = createRouter;
-
-function makePublicRouterInstance(router) {
-  var _router = router;
-  var instance = {};
-
-  for (var property of urlPropertyFields) {
-    if (typeof _router[property] === 'object') {
-      instance[property] = _Object$assign({}, _router[property]); // makes sure query is not stateful
-
-      continue;
-    }
-
-    instance[property] = _router[property];
-  } // Events is a static property on the router, the router doesn't have to be initialized to use it
-
-
-  instance.events = _router2.default.events;
-  coreMethodFields.forEach(field => {
-    instance[field] = function () {
-      return _router[field](...arguments);
-    };
-  });
-  return instance;
-}
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _extends2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/next/node_modules/@babel/runtime/helpers/extends.js"));var _construct2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/construct */ "./node_modules/next/node_modules/@babel/runtime/helpers/construct.js"));var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.useRouter=useRouter;exports.makePublicRouterInstance=makePublicRouterInstance;exports.createRouter=exports.withRouter=exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));var _router2=_interopRequireWildcard(__webpack_require__(/*! ../next-server/lib/router/router */ "./node_modules/next/dist/next-server/lib/router/router.js"));exports.Router=_router2.default;exports.NextRouter=_router2.NextRouter;var _routerContext=__webpack_require__(/*! ../next-server/lib/router-context */ "./node_modules/next/dist/next-server/lib/router-context.js");var _withRouter=_interopRequireDefault(__webpack_require__(/*! ./with-router */ "./node_modules/next/dist/client/with-router.js"));exports.withRouter=_withRouter.default;var singletonRouter={router:null,readyCallbacks:[],ready:function ready(cb){if(this.router)return cb();if(true){this.readyCallbacks.push(cb);}}};var urlPropertyFields=['pathname','route','query','asPath','components'];var routerEvents=['routeChangeStart','beforeHistoryChange','routeChangeComplete','routeChangeError','hashChangeStart','hashChangeComplete'];var coreMethodFields=['push','replace','reload','back','prefetch','beforePopState'];Object.defineProperty(singletonRouter,'events',{get:function get(){return _router2.default.events;}});urlPropertyFields.forEach(function(field){Object.defineProperty(singletonRouter,field,{get:function get(){var router=getRouter();return router[field];}});});coreMethodFields.forEach(function(field){;singletonRouter[field]=function(){var router=getRouter();return router[field].apply(router,arguments);};});routerEvents.forEach(function(event){singletonRouter.ready(function(){_router2.default.events.on(event,function(){var eventField="on"+event.charAt(0).toUpperCase()+event.substring(1);var _singletonRouter=singletonRouter;if(_singletonRouter[eventField]){try{_singletonRouter[eventField].apply(_singletonRouter,arguments);}catch(err){console.error("Error when running the Router event: "+eventField);console.error(err.message+"\n"+err.stack);}}});});});function getRouter(){if(!singletonRouter.router){var message='No router instance found.\n'+'You should only use "next/router" inside the client side of your app.\n';throw new Error(message);}return singletonRouter.router;}var _default=singletonRouter;exports.default=_default;function useRouter(){return _react.default.useContext(_routerContext.RouterContext);}var createRouter=function createRouter(){for(var _len=arguments.length,args=new Array(_len),_key=0;_key<_len;_key++){args[_key]=arguments[_key];}singletonRouter.router=(0,_construct2.default)(_router2.default,args);singletonRouter.readyCallbacks.forEach(function(cb){return cb();});singletonRouter.readyCallbacks=[];return singletonRouter.router;};exports.createRouter=createRouter;function makePublicRouterInstance(router){var _router=router;var instance={};for(var _iterator=urlPropertyFields,_isArray=Array.isArray(_iterator),_i=0,_iterator=_isArray?_iterator:_iterator[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var _ref;if(_isArray){if(_i>=_iterator.length)break;_ref=_iterator[_i++];}else{_i=_iterator.next();if(_i.done)break;_ref=_i.value;}var property=_ref;if(typeof _router[property]==='object'){instance[property]=(0,_extends2.default)({},_router[property]);continue;}instance[property]=_router[property];}instance.events=_router2.default.events;coreMethodFields.forEach(function(field){instance[field]=function(){return _router[field].apply(_router,arguments);};});return instance;}
 
 /***/ }),
 
@@ -6805,37 +3662,7 @@ function makePublicRouterInstance(router) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = withRouter;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _router = __webpack_require__(/*! ./router */ "./node_modules/next/dist/client/router.js");
-
-function withRouter(ComposedComponent) {
-  function WithRouterWrapper(props) {
-    return _react.default.createElement(ComposedComponent, _Object$assign({
-      router: (0, _router.useRouter)()
-    }, props));
-  }
-
-  WithRouterWrapper.getInitialProps = ComposedComponent.getInitialProps // This is needed to allow checking for custom getInitialProps in _app
-  ;
-  WithRouterWrapper.origGetInitialProps = ComposedComponent.origGetInitialProps;
-
-  if (true) {
-    var name = ComposedComponent.displayName || ComposedComponent.name || 'Unknown';
-    WithRouterWrapper.displayName = "withRouter(" + name + ")";
-  }
-
-  return WithRouterWrapper;
-}
+var _interopRequireDefault2=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _extends2=_interopRequireDefault2(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/next/node_modules/@babel/runtime/helpers/extends.js"));var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");exports.__esModule=true;exports.default=withRouter;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));var _router=__webpack_require__(/*! ./router */ "./node_modules/next/dist/client/router.js");function withRouter(ComposedComponent){function WithRouterWrapper(props){return _react.default.createElement(ComposedComponent,(0,_extends2.default)({router:(0,_router.useRouter)()},props));}WithRouterWrapper.getInitialProps=ComposedComponent.getInitialProps;WithRouterWrapper.origGetInitialProps=ComposedComponent.origGetInitialProps;if(true){var name=ComposedComponent.displayName||ComposedComponent.name||'Unknown';WithRouterWrapper.displayName="withRouter("+name+")";}return WithRouterWrapper;}
 
 /***/ }),
 
@@ -6847,25 +3674,7 @@ function withRouter(ComposedComponent) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  result["default"] = mod;
-  return result;
-};
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-const React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.HeadManagerContext = React.createContext(null);
+var __importStar=void 0&&(void 0).__importStar||function(mod){if(mod&&mod.__esModule)return mod;var result={};if(mod!=null)for(var k in mod){if(Object.hasOwnProperty.call(mod,k))result[k]=mod[k];}result["default"]=mod;return result;};Object.defineProperty(exports,"__esModule",{value:true});var React=__importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));exports.HeadManagerContext=React.createContext(null);
 
 /***/ }),
 
@@ -6877,55 +3686,7 @@ exports.HeadManagerContext = React.createContext(null);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-/*
-MIT License
-
-Copyright (c) Jason Miller (https://jasonformat.com/)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
-
-var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function mitt() {
-  const all = _Object$create(null);
-
-  return {
-    on(type, handler) {
-      ;
-      (all[type] || (all[type] = [])).push(handler);
-    },
-
-    off(type, handler) {
-      if (all[type]) {
-        // tslint:disable-next-line:no-bitwise
-        all[type].splice(all[type].indexOf(handler) >>> 0, 1);
-      }
-    },
-
-    emit(type, ...evts) {
-      // eslint-disable-next-line array-callback-return
-      ;
-      (all[type] || []).slice().map(handler => {
-        handler(...evts);
-      });
-    }
-
-  };
-}
-
-exports.default = mitt;
+Object.defineProperty(exports,"__esModule",{value:true});function mitt(){var all=Object.create(null);return{on:function on(type,handler){;(all[type]||(all[type]=[])).push(handler);},off:function off(type,handler){if(all[type]){all[type].splice(all[type].indexOf(handler)>>>0,1);}},emit:function emit(type){for(var _len=arguments.length,evts=new Array(_len>1?_len-1:0),_key=1;_key<_len;_key++){evts[_key-1]=arguments[_key];};(all[type]||[]).slice().map(function(handler){handler.apply(void 0,evts);});}};}exports.default=mitt;
 
 /***/ }),
 
@@ -6937,25 +3698,7 @@ exports.default = mitt;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  result["default"] = mod;
-  return result;
-};
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-const React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.RouterContext = React.createContext(null);
+var __importStar=void 0&&(void 0).__importStar||function(mod){if(mod&&mod.__esModule)return mod;var result={};if(mod!=null)for(var k in mod){if(Object.hasOwnProperty.call(mod,k))result[k]=mod[k];}result["default"]=mod;return result;};Object.defineProperty(exports,"__esModule",{value:true});var React=__importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));exports.RouterContext=React.createContext(null);
 
 /***/ }),
 
@@ -6967,659 +3710,7 @@ exports.RouterContext = React.createContext(null);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _Promise = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-const url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
-
-const mitt_1 = __importDefault(__webpack_require__(/*! ../mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));
-
-const utils_1 = __webpack_require__(/*! ../utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-const is_dynamic_1 = __webpack_require__(/*! ./utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");
-
-const route_matcher_1 = __webpack_require__(/*! ./utils/route-matcher */ "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js");
-
-const route_regex_1 = __webpack_require__(/*! ./utils/route-regex */ "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js");
-
-function addBasePath(path) {
-  // @ts-ignore variable is always a string
-  const p = "";
-  return path.indexOf(p) !== 0 ? p + path : path;
-}
-
-function toRoute(path) {
-  return path.replace(/\/$/, '') || '/';
-}
-
-class Router {
-  constructor(pathname, query, as, {
-    initialProps,
-    pageLoader,
-    App,
-    wrapApp,
-    Component,
-    err,
-    subscription
-  }) {
-    // Static Data Cache
-    this.sdc = {};
-
-    this.onPopState = e => {
-      if (!e.state) {
-        // We get state as undefined for two reasons.
-        //  1. With older safari (< 8) and older chrome (< 34)
-        //  2. When the URL changed with #
-        //
-        // In the both cases, we don't need to proceed and change the route.
-        // (as it's already changed)
-        // But we can simply replace the state with the new changes.
-        // Actually, for (1) we don't need to nothing. But it's hard to detect that event.
-        // So, doing the following for (1) does no harm.
-        const {
-          pathname,
-          query
-        } = this;
-        this.changeState('replaceState', utils_1.formatWithValidation({
-          pathname,
-          query
-        }), utils_1.getURL());
-        return;
-      } // Make sure we don't re-render on initial load,
-      // can be caused by navigating back from an external site
-
-
-      if (e.state && this.isSsr && e.state.url === this.pathname && e.state.as === this.asPath) {
-        return;
-      } // If the downstream application returns falsy, return.
-      // They will then be responsible for handling the event.
-
-
-      if (this._bps && !this._bps(e.state)) {
-        return;
-      }
-
-      const {
-        url,
-        as,
-        options
-      } = e.state;
-
-      if (true) {
-        if (typeof url === 'undefined' || typeof as === 'undefined') {
-          console.warn('`popstate` event triggered but `event.state` did not have `url` or `as` https://err.sh/zeit/next.js/popstate-state-empty');
-        }
-      }
-
-      this.replace(url, as, options);
-    };
-
-    this._getStaticData = (asPath, _cachedData) => {
-      let pathname = url_1.parse(asPath).pathname;
-      pathname = toRoute(!pathname || pathname === '/' ? '/index' : pathname);
-      return  false ? undefined : fetch( // @ts-ignore __NEXT_DATA__
-      "/_next/data/".concat(__NEXT_DATA__.buildId).concat(pathname, ".json")).then(res => {
-        if (!res.ok) {
-          throw new Error("Failed to load static props");
-        }
-
-        return res.json();
-      }).then(data => {
-        this.sdc[pathname] = data;
-        return data;
-      }).catch(err => {
-        ;
-        err.code = 'PAGE_LOAD_ERROR';
-        throw err;
-      });
-    }; // represents the current component key
-
-
-    this.route = toRoute(pathname); // set up the component cache (by route keys)
-
-    this.components = {}; // We should not keep the cache, if there's an error
-    // Otherwise, this cause issues when when going back and
-    // come again to the errored page.
-
-    if (pathname !== '/_error') {
-      this.components[this.route] = {
-        Component,
-        props: initialProps,
-        err
-      };
-    }
-
-    this.components['/_app'] = {
-      Component: App
-    }; // Backwards compat for Router.router.events
-    // TODO: Should be remove the following major version as it was never documented
-    // @ts-ignore backwards compatibility
-
-    this.events = Router.events;
-    this.pageLoader = pageLoader;
-    this.pathname = pathname;
-    this.query = query; // if auto prerendered and dynamic route wait to update asPath
-    // until after mount to prevent hydration mismatch
-
-    this.asPath = // @ts-ignore this is temporarily global (attached to window)
-    is_dynamic_1.isDynamicRoute(pathname) && __NEXT_DATA__.autoExport ? pathname : as;
-    this.sub = subscription;
-    this.clc = null;
-    this._wrapApp = wrapApp; // make sure to ignore extra popState in safari on navigating
-    // back from external site
-
-    this.isSsr = true;
-
-    if (true) {
-      // in order for `e.state` to work on the `onpopstate` event
-      // we have to register the initial route upon initialization
-      this.changeState('replaceState', utils_1.formatWithValidation({
-        pathname,
-        query
-      }), as);
-      window.addEventListener('popstate', this.onPopState);
-    }
-  } // @deprecated backwards compatibility even though it's a private method.
-
-
-  static _rewriteUrlForNextExport(url) {
-    if (false) {} else {
-      return url;
-    }
-  }
-
-  update(route, mod) {
-    const Component = mod.default || mod;
-    const data = this.components[route];
-
-    if (!data) {
-      throw new Error("Cannot update unavailable route: ".concat(route));
-    }
-
-    const newData = _Object$assign(_Object$assign({}, data), {
-      Component
-    });
-
-    this.components[route] = newData; // pages/_app.js updated
-
-    if (route === '/_app') {
-      this.notify(this.components[this.route]);
-      return;
-    }
-
-    if (route === this.route) {
-      this.notify(newData);
-    }
-  }
-
-  reload() {
-    window.location.reload();
-  }
-  /**
-   * Go back in history
-   */
-
-
-  back() {
-    window.history.back();
-  }
-  /**
-   * Performs a `pushState` with arguments
-   * @param url of the route
-   * @param as masks `url` for the browser
-   * @param options object you can define `shallow` and other options
-   */
-
-
-  push(url, as = url, options = {}) {
-    return this.change('pushState', url, as, options);
-  }
-  /**
-   * Performs a `replaceState` with arguments
-   * @param url of the route
-   * @param as masks `url` for the browser
-   * @param options object you can define `shallow` and other options
-   */
-
-
-  replace(url, as = url, options = {}) {
-    return this.change('replaceState', url, as, options);
-  }
-
-  change(method, _url, _as, options) {
-    return new _Promise((resolve, reject) => {
-      if (!options._h) {
-        this.isSsr = false;
-      } // marking route changes as a navigation start entry
-
-
-      if (utils_1.ST) {
-        performance.mark('routeChange');
-      } // If url and as provided as an object representation,
-      // we'll format them into the string version here.
-
-
-      const url = typeof _url === 'object' ? utils_1.formatWithValidation(_url) : _url;
-      let as = typeof _as === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
-      // "<page>/index.html" directly for the SSR page.
-
-      if (false) {}
-
-      this.abortComponentLoad(as); // If the url change is only related to a hash change
-      // We should not proceed. We should only change the state.
-      // WARNING: `_h` is an internal option for handing Next.js client-side
-      // hydration. Your app should _never_ use this property. It may change at
-      // any time without notice.
-
-      if (!options._h && this.onlyAHashChange(as)) {
-        this.asPath = as;
-        Router.events.emit('hashChangeStart', as);
-        this.changeState(method, url, addBasePath(as), options);
-        this.scrollToHash(as);
-        Router.events.emit('hashChangeComplete', as);
-        return resolve(true);
-      }
-
-      const {
-        pathname,
-        query,
-        protocol
-      } = url_1.parse(url, true);
-
-      if (!pathname || protocol) {
-        if (true) {
-          throw new Error("Invalid href passed to router: ".concat(url, " https://err.sh/zeit/next.js/invalid-href-passed"));
-        }
-
-        return resolve(false);
-      } // If asked to change the current URL we should reload the current page
-      // (not location.reload() but reload getInitialProps and other Next.js stuffs)
-      // We also need to set the method = replaceState always
-      // as this should not go into the history (That's how browsers work)
-      // We should compare the new asPath to the current asPath, not the url
-
-
-      if (!this.urlIsNew(as)) {
-        method = 'replaceState';
-      } // @ts-ignore pathname is always a string
-
-
-      const route = toRoute(pathname);
-      const {
-        shallow = false
-      } = options;
-
-      if (is_dynamic_1.isDynamicRoute(route)) {
-        const {
-          pathname: asPathname
-        } = url_1.parse(as);
-        const routeRegex = route_regex_1.getRouteRegex(route);
-        const routeMatch = route_matcher_1.getRouteMatcher(routeRegex)(asPathname);
-
-        if (!routeMatch) {
-          const missingParams = _Object$keys(routeRegex.groups).filter(param => !query[param]);
-
-          if (missingParams.length > 0) {
-            if (true) {
-              console.warn("Mismatching `as` and `href` failed to manually provide " + "the params: ".concat(missingParams.join(', '), " in the `href`'s `query`"));
-            }
-
-            return reject(new Error("The provided `as` value (".concat(asPathname, ") is incompatible with the `href` value (").concat(route, "). ") + "Read more: https://err.sh/zeit/next.js/incompatible-href-as"));
-          }
-        } else {
-          // Merge params into `query`, overwriting any specified in search
-          _Object$assign(query, routeMatch);
-        }
-      }
-
-      Router.events.emit('routeChangeStart', as); // If shallow is true and the route exists in the router cache we reuse the previous result
-      // @ts-ignore pathname is always a string
-
-      this.getRouteInfo(route, pathname, query, as, shallow).then(routeInfo => {
-        const {
-          error
-        } = routeInfo;
-
-        if (error && error.cancelled) {
-          return resolve(false);
-        }
-
-        Router.events.emit('beforeHistoryChange', as);
-        this.changeState(method, url, addBasePath(as), options);
-        const hash = window.location.hash.substring(1);
-
-        if (true) {
-          const appComp = this.components['/_app'].Component;
-          window.next.isPrerendered = appComp.getInitialProps === appComp.origGetInitialProps && !routeInfo.Component.getInitialProps;
-        } // @ts-ignore pathname is always defined
-
-
-        this.set(route, pathname, query, as, _Object$assign(_Object$assign({}, routeInfo), {
-          hash
-        }));
-
-        if (error) {
-          Router.events.emit('routeChangeError', error, as);
-          throw error;
-        }
-
-        Router.events.emit('routeChangeComplete', as);
-        return resolve(true);
-      }, reject);
-    });
-  }
-
-  changeState(method, url, as, options = {}) {
-    if (true) {
-      if (typeof window.history === 'undefined') {
-        console.error("Warning: window.history is not available.");
-        return;
-      } // @ts-ignore method should always exist on history
-
-
-      if (typeof window.history[method] === 'undefined') {
-        console.error("Warning: window.history.".concat(method, " is not available"));
-        return;
-      }
-    }
-
-    if (method !== 'pushState' || utils_1.getURL() !== as) {
-      // @ts-ignore method should always exist on history
-      window.history[method]({
-        url,
-        as,
-        options
-      }, null, as);
-    }
-  }
-
-  getRouteInfo(route, pathname, query, as, shallow = false) {
-    const cachedRouteInfo = this.components[route]; // If there is a shallow route transition possible
-    // If the route is already rendered on the screen.
-
-    if (shallow && cachedRouteInfo && this.route === route) {
-      return _Promise.resolve(cachedRouteInfo);
-    }
-
-    return new _Promise((resolve, reject) => {
-      if (cachedRouteInfo) {
-        return resolve(cachedRouteInfo);
-      }
-
-      this.fetchComponent(route).then(Component => resolve({
-        Component
-      }), reject);
-    }).then(routeInfo => {
-      const {
-        Component
-      } = routeInfo;
-
-      if (true) {
-        const {
-          isValidElementType
-        } = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js");
-
-        if (!isValidElementType(Component)) {
-          throw new Error("The default export is not a React Component in page: \"".concat(pathname, "\""));
-        }
-      }
-
-      return this._getData(() => Component.__N_SSG ? this._getStaticData(as) : this.getInitialProps(Component, // we provide AppTree later so this needs to be `any`
-      {
-        pathname,
-        query,
-        asPath: as
-      })).then(props => {
-        routeInfo.props = props;
-        this.components[route] = routeInfo;
-        return routeInfo;
-      });
-    }).catch(err => {
-      return new _Promise(resolve => {
-        if (err.code === 'PAGE_LOAD_ERROR') {
-          // If we can't load the page it could be one of following reasons
-          //  1. Page doesn't exists
-          //  2. Page does exist in a different zone
-          //  3. Internal error while loading the page
-          // So, doing a hard reload is the proper way to deal with this.
-          window.location.href = as; // Changing the URL doesn't block executing the current code path.
-          // So, we need to mark it as a cancelled error and stop the routing logic.
-
-          err.cancelled = true; // @ts-ignore TODO: fix the control flow here
-
-          return resolve({
-            error: err
-          });
-        }
-
-        if (err.cancelled) {
-          // @ts-ignore TODO: fix the control flow here
-          return resolve({
-            error: err
-          });
-        }
-
-        resolve(this.fetchComponent('/_error').then(Component => {
-          const routeInfo = {
-            Component,
-            err
-          };
-          return new _Promise(resolve => {
-            this.getInitialProps(Component, {
-              err,
-              pathname,
-              query
-            }).then(props => {
-              routeInfo.props = props;
-              routeInfo.error = err;
-              resolve(routeInfo);
-            }, gipErr => {
-              console.error('Error in error page `getInitialProps`: ', gipErr);
-              routeInfo.error = err;
-              routeInfo.props = {};
-              resolve(routeInfo);
-            });
-          });
-        }));
-      });
-    });
-  }
-
-  set(route, pathname, query, as, data) {
-    this.route = route;
-    this.pathname = pathname;
-    this.query = query;
-    this.asPath = as;
-    this.notify(data);
-  }
-  /**
-   * Callback to execute before replacing router state
-   * @param cb callback to be executed
-   */
-
-
-  beforePopState(cb) {
-    this._bps = cb;
-  }
-
-  onlyAHashChange(as) {
-    if (!this.asPath) return false;
-    const [oldUrlNoHash, oldHash] = this.asPath.split('#');
-    const [newUrlNoHash, newHash] = as.split('#'); // Makes sure we scroll to the provided hash if the url/hash are the same
-
-    if (newHash && oldUrlNoHash === newUrlNoHash && oldHash === newHash) {
-      return true;
-    } // If the urls are change, there's more than a hash change
-
-
-    if (oldUrlNoHash !== newUrlNoHash) {
-      return false;
-    } // If the hash has changed, then it's a hash only change.
-    // This check is necessary to handle both the enter and
-    // leave hash === '' cases. The identity case falls through
-    // and is treated as a next reload.
-
-
-    return oldHash !== newHash;
-  }
-
-  scrollToHash(as) {
-    const [, hash] = as.split('#'); // Scroll to top if the hash is just `#` with no value
-
-    if (hash === '') {
-      window.scrollTo(0, 0);
-      return;
-    } // First we check if the element by id is found
-
-
-    const idEl = document.getElementById(hash);
-
-    if (idEl) {
-      idEl.scrollIntoView();
-      return;
-    } // If there's no element with the id, we check the `name` property
-    // To mirror browsers
-
-
-    const nameEl = document.getElementsByName(hash)[0];
-
-    if (nameEl) {
-      nameEl.scrollIntoView();
-    }
-  }
-
-  urlIsNew(asPath) {
-    return this.asPath !== asPath;
-  }
-  /**
-   * Prefetch `page` code, you may wait for the data during `page` rendering.
-   * This feature only works in production!
-   * @param url of prefetched `page`
-   */
-
-
-  prefetch(url) {
-    return new _Promise((resolve, reject) => {
-      const {
-        pathname,
-        protocol
-      } = url_1.parse(url);
-
-      if (!pathname || protocol) {
-        if (true) {
-          throw new Error("Invalid href passed to router: ".concat(url, " https://err.sh/zeit/next.js/invalid-href-passed"));
-        }
-
-        return;
-      } // Prefetch is not supported in development mode because it would trigger on-demand-entries
-
-
-      if (true) {
-        return;
-      } // @ts-ignore pathname is always defined
-
-
-      const route = toRoute(pathname);
-      this.pageLoader.prefetch(route).then(resolve, reject);
-    });
-  }
-
-  async fetchComponent(route) {
-    let cancelled = false;
-
-    const cancel = this.clc = () => {
-      cancelled = true;
-    };
-
-    const Component = await this.pageLoader.loadPage(route);
-
-    if (cancelled) {
-      const error = new Error("Abort fetching component for route: \"".concat(route, "\""));
-      error.cancelled = true;
-      throw error;
-    }
-
-    if (cancel === this.clc) {
-      this.clc = null;
-    }
-
-    return Component;
-  }
-
-  _getData(fn) {
-    let cancelled = false;
-
-    const cancel = () => {
-      cancelled = true;
-    };
-
-    this.clc = cancel;
-    return fn().then(data => {
-      if (cancel === this.clc) {
-        this.clc = null;
-      }
-
-      if (cancelled) {
-        const err = new Error('Loading initial props cancelled');
-        err.cancelled = true;
-        throw err;
-      }
-
-      return data;
-    });
-  }
-
-  getInitialProps(Component, ctx) {
-    const {
-      Component: App
-    } = this.components['/_app'];
-
-    const AppTree = this._wrapApp(App);
-
-    ctx.AppTree = AppTree;
-    return utils_1.loadGetInitialProps(App, {
-      AppTree,
-      Component,
-      router: this,
-      ctx
-    });
-  }
-
-  abortComponentLoad(as) {
-    if (this.clc) {
-      const e = new Error('Route Cancelled');
-      e.cancelled = true;
-      Router.events.emit('routeChangeError', e, as);
-      this.clc();
-      this.clc = null;
-    }
-  }
-
-  notify(data) {
-    this.sub(data, this.components['/_app'].Component);
-  }
-
-}
-
-exports.default = Router;
-Router.events = mitt_1.default();
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _regenerator=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js"));var _slicedToArray2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js"));var _extends2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/next/node_modules/@babel/runtime/helpers/extends.js"));var _classCallCheck2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));var _createClass2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));var __importDefault=void 0&&(void 0).__importDefault||function(mod){return mod&&mod.__esModule?mod:{"default":mod};};Object.defineProperty(exports,"__esModule",{value:true});var url_1=__webpack_require__(/*! url */ "./node_modules/url/url.js");var mitt_1=__importDefault(__webpack_require__(/*! ../mitt */ "./node_modules/next/dist/next-server/lib/mitt.js"));var utils_1=__webpack_require__(/*! ../utils */ "./node_modules/next/dist/next-server/lib/utils.js");var is_dynamic_1=__webpack_require__(/*! ./utils/is-dynamic */ "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js");var route_matcher_1=__webpack_require__(/*! ./utils/route-matcher */ "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js");var route_regex_1=__webpack_require__(/*! ./utils/route-regex */ "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js");function addBasePath(path){var p="";return path.indexOf(p)!==0?p+path:path;}function toRoute(path){return path.replace(/\/$/,'')||'/';}var Router=function(){function Router(pathname,query,as,_ref){var _this=this;var initialProps=_ref.initialProps,pageLoader=_ref.pageLoader,App=_ref.App,wrapApp=_ref.wrapApp,Component=_ref.Component,err=_ref.err,subscription=_ref.subscription;(0,_classCallCheck2.default)(this,Router);this.sdc={};this.onPopState=function(e){if(!e.state){var _pathname=_this.pathname,_query=_this.query;_this.changeState('replaceState',utils_1.formatWithValidation({pathname:_pathname,query:_query}),utils_1.getURL());return;}if(e.state&&_this.isSsr&&e.state.url===_this.pathname&&e.state.as===_this.asPath){return;}if(_this._bps&&!_this._bps(e.state)){return;}var _e$state=e.state,url=_e$state.url,as=_e$state.as,options=_e$state.options;if(true){if(typeof url==='undefined'||typeof as==='undefined'){console.warn('`popstate` event triggered but `event.state` did not have `url` or `as` https://err.sh/zeit/next.js/popstate-state-empty');}}_this.replace(url,as,options);};this._getStaticData=function(asPath,_cachedData){var pathname=url_1.parse(asPath).pathname;pathname=toRoute(!pathname||pathname==='/'?'/index':pathname);return  false?undefined:fetch("/_next/data/"+__NEXT_DATA__.buildId+pathname+".json").then(function(res){if(!res.ok){throw new Error("Failed to load static props");}return res.json();}).then(function(data){_this.sdc[pathname]=data;return data;}).catch(function(err){;err.code='PAGE_LOAD_ERROR';throw err;});};this.route=toRoute(pathname);this.components={};if(pathname!=='/_error'){this.components[this.route]={Component:Component,props:initialProps,err:err};}this.components['/_app']={Component:App};this.events=Router.events;this.pageLoader=pageLoader;this.pathname=pathname;this.query=query;this.asPath=is_dynamic_1.isDynamicRoute(pathname)&&__NEXT_DATA__.autoExport?pathname:as;this.sub=subscription;this.clc=null;this._wrapApp=wrapApp;this.isSsr=true;if(true){this.changeState('replaceState',utils_1.formatWithValidation({pathname:pathname,query:query}),as);window.addEventListener('popstate',this.onPopState);}}(0,_createClass2.default)(Router,[{key:"update",value:function update(route,mod){var Component=mod.default||mod;var data=this.components[route];if(!data){throw new Error("Cannot update unavailable route: "+route);}var newData=(0,_extends2.default)((0,_extends2.default)({},data),{Component:Component});this.components[route]=newData;if(route==='/_app'){this.notify(this.components[this.route]);return;}if(route===this.route){this.notify(newData);}}},{key:"reload",value:function reload(){window.location.reload();}},{key:"back",value:function back(){window.history.back();}},{key:"push",value:function push(url){var as=arguments.length>1&&arguments[1]!==undefined?arguments[1]:url;var options=arguments.length>2&&arguments[2]!==undefined?arguments[2]:{};return this.change('pushState',url,as,options);}},{key:"replace",value:function replace(url){var as=arguments.length>1&&arguments[1]!==undefined?arguments[1]:url;var options=arguments.length>2&&arguments[2]!==undefined?arguments[2]:{};return this.change('replaceState',url,as,options);}},{key:"change",value:function change(method,_url,_as,options){var _this2=this;return new Promise(function(resolve,reject){if(!options._h){_this2.isSsr=false;}if(utils_1.ST){performance.mark('routeChange');}var url=typeof _url==='object'?utils_1.formatWithValidation(_url):_url;var as=typeof _as==='object'?utils_1.formatWithValidation(_as):_as;if(false){ var rewriteUrlForNextExport; }_this2.abortComponentLoad(as);if(!options._h&&_this2.onlyAHashChange(as)){_this2.asPath=as;Router.events.emit('hashChangeStart',as);_this2.changeState(method,url,addBasePath(as),options);_this2.scrollToHash(as);Router.events.emit('hashChangeComplete',as);return resolve(true);}var _url_1$parse=url_1.parse(url,true),pathname=_url_1$parse.pathname,query=_url_1$parse.query,protocol=_url_1$parse.protocol;if(!pathname||protocol){if(true){throw new Error("Invalid href passed to router: "+url+" https://err.sh/zeit/next.js/invalid-href-passed");}return resolve(false);}if(!_this2.urlIsNew(as)){method='replaceState';}var route=toRoute(pathname);var _options$shallow=options.shallow,shallow=_options$shallow===void 0?false:_options$shallow;if(is_dynamic_1.isDynamicRoute(route)){var _url_1$parse2=url_1.parse(as),asPathname=_url_1$parse2.pathname;var routeRegex=route_regex_1.getRouteRegex(route);var routeMatch=route_matcher_1.getRouteMatcher(routeRegex)(asPathname);if(!routeMatch){var missingParams=Object.keys(routeRegex.groups).filter(function(param){return!query[param];});if(missingParams.length>0){if(true){console.warn("Mismatching `as` and `href` failed to manually provide "+("the params: "+missingParams.join(', ')+" in the `href`'s `query`"));}return reject(new Error("The provided `as` value ("+asPathname+") is incompatible with the `href` value ("+route+"). "+"Read more: https://err.sh/zeit/next.js/incompatible-href-as"));}}else{(0,_extends2.default)(query,routeMatch);}}Router.events.emit('routeChangeStart',as);_this2.getRouteInfo(route,pathname,query,as,shallow).then(function(routeInfo){var error=routeInfo.error;if(error&&error.cancelled){return resolve(false);}Router.events.emit('beforeHistoryChange',as);_this2.changeState(method,url,addBasePath(as),options);var hash=window.location.hash.substring(1);if(true){var appComp=_this2.components['/_app'].Component;window.next.isPrerendered=appComp.getInitialProps===appComp.origGetInitialProps&&!routeInfo.Component.getInitialProps;}_this2.set(route,pathname,query,as,(0,_extends2.default)((0,_extends2.default)({},routeInfo),{hash:hash}));if(error){Router.events.emit('routeChangeError',error,as);throw error;}Router.events.emit('routeChangeComplete',as);return resolve(true);},reject);});}},{key:"changeState",value:function changeState(method,url,as){var options=arguments.length>3&&arguments[3]!==undefined?arguments[3]:{};if(true){if(typeof window.history==='undefined'){console.error("Warning: window.history is not available.");return;}if(typeof window.history[method]==='undefined'){console.error("Warning: window.history."+method+" is not available");return;}}if(method!=='pushState'||utils_1.getURL()!==as){window.history[method]({url:url,as:as,options:options},null,as);}}},{key:"getRouteInfo",value:function getRouteInfo(route,pathname,query,as){var _this3=this;var shallow=arguments.length>4&&arguments[4]!==undefined?arguments[4]:false;var cachedRouteInfo=this.components[route];if(shallow&&cachedRouteInfo&&this.route===route){return Promise.resolve(cachedRouteInfo);}return new Promise(function(resolve,reject){if(cachedRouteInfo){return resolve(cachedRouteInfo);}_this3.fetchComponent(route).then(function(Component){return resolve({Component:Component});},reject);}).then(function(routeInfo){var Component=routeInfo.Component;if(true){var _require=__webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js"),isValidElementType=_require.isValidElementType;if(!isValidElementType(Component)){throw new Error("The default export is not a React Component in page: \""+pathname+"\"");}}return _this3._getData(function(){return Component.__N_SSG?_this3._getStaticData(as):_this3.getInitialProps(Component,{pathname:pathname,query:query,asPath:as});}).then(function(props){routeInfo.props=props;_this3.components[route]=routeInfo;return routeInfo;});}).catch(function(err){return new Promise(function(resolve){if(err.code==='PAGE_LOAD_ERROR'){window.location.href=as;err.cancelled=true;return resolve({error:err});}if(err.cancelled){return resolve({error:err});}resolve(_this3.fetchComponent('/_error').then(function(Component){var routeInfo={Component:Component,err:err};return new Promise(function(resolve){_this3.getInitialProps(Component,{err:err,pathname:pathname,query:query}).then(function(props){routeInfo.props=props;routeInfo.error=err;resolve(routeInfo);},function(gipErr){console.error('Error in error page `getInitialProps`: ',gipErr);routeInfo.error=err;routeInfo.props={};resolve(routeInfo);});});}));});});}},{key:"set",value:function set(route,pathname,query,as,data){this.route=route;this.pathname=pathname;this.query=query;this.asPath=as;this.notify(data);}},{key:"beforePopState",value:function beforePopState(cb){this._bps=cb;}},{key:"onlyAHashChange",value:function onlyAHashChange(as){if(!this.asPath)return false;var _this$asPath$split=this.asPath.split('#'),_this$asPath$split2=(0,_slicedToArray2.default)(_this$asPath$split,2),oldUrlNoHash=_this$asPath$split2[0],oldHash=_this$asPath$split2[1];var _as$split=as.split('#'),_as$split2=(0,_slicedToArray2.default)(_as$split,2),newUrlNoHash=_as$split2[0],newHash=_as$split2[1];if(newHash&&oldUrlNoHash===newUrlNoHash&&oldHash===newHash){return true;}if(oldUrlNoHash!==newUrlNoHash){return false;}return oldHash!==newHash;}},{key:"scrollToHash",value:function scrollToHash(as){var _as$split3=as.split('#'),_as$split4=(0,_slicedToArray2.default)(_as$split3,2),hash=_as$split4[1];if(hash===''){window.scrollTo(0,0);return;}var idEl=document.getElementById(hash);if(idEl){idEl.scrollIntoView();return;}var nameEl=document.getElementsByName(hash)[0];if(nameEl){nameEl.scrollIntoView();}}},{key:"urlIsNew",value:function urlIsNew(asPath){return this.asPath!==asPath;}},{key:"prefetch",value:function prefetch(url){var _this4=this;return new Promise(function(resolve,reject){var _url_1$parse3=url_1.parse(url),pathname=_url_1$parse3.pathname,protocol=_url_1$parse3.protocol;if(!pathname||protocol){if(true){throw new Error("Invalid href passed to router: "+url+" https://err.sh/zeit/next.js/invalid-href-passed");}return;}if(true){return;}var route=toRoute(pathname);_this4.pageLoader.prefetch(route).then(resolve,reject);});}},{key:"fetchComponent",value:function fetchComponent(route){var cancelled,cancel,Component,error;return _regenerator.default.async(function fetchComponent$(_context){while(1){switch(_context.prev=_context.next){case 0:cancelled=false;cancel=this.clc=function(){cancelled=true;};_context.next=4;return _regenerator.default.awrap(this.pageLoader.loadPage(route));case 4:Component=_context.sent;if(!cancelled){_context.next=9;break;}error=new Error("Abort fetching component for route: \""+route+"\"");error.cancelled=true;throw error;case 9:if(cancel===this.clc){this.clc=null;}return _context.abrupt("return",Component);case 11:case"end":return _context.stop();}}},null,this);}},{key:"_getData",value:function _getData(fn){var _this5=this;var cancelled=false;var cancel=function cancel(){cancelled=true;};this.clc=cancel;return fn().then(function(data){if(cancel===_this5.clc){_this5.clc=null;}if(cancelled){var err=new Error('Loading initial props cancelled');err.cancelled=true;throw err;}return data;});}},{key:"getInitialProps",value:function getInitialProps(Component,ctx){var App=this.components['/_app'].Component;var AppTree=this._wrapApp(App);ctx.AppTree=AppTree;return utils_1.loadGetInitialProps(App,{AppTree:AppTree,Component:Component,router:this,ctx:ctx});}},{key:"abortComponentLoad",value:function abortComponentLoad(as){if(this.clc){var e=new Error('Route Cancelled');e.cancelled=true;Router.events.emit('routeChangeError',e,as);this.clc();this.clc=null;}}},{key:"notify",value:function notify(data){this.sub(data,this.components['/_app'].Component);}}],[{key:"_rewriteUrlForNextExport",value:function _rewriteUrlForNextExport(url){if(false){ var rewriteUrlForNextExport; }else{return url;}}}]);return Router;}();exports.default=Router;Router.events=mitt_1.default();
 
 /***/ }),
 
@@ -7631,22 +3722,7 @@ Router.events = mitt_1.default();
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-}); // Identify /[param]/ in route string
-
-
-const TEST_ROUTE = /\/\[[^/]+?\](?=\/|$)/;
-
-function isDynamicRoute(route) {
-  return TEST_ROUTE.test(route);
-}
-
-exports.isDynamicRoute = isDynamicRoute;
+Object.defineProperty(exports,"__esModule",{value:true});var TEST_ROUTE=/\/\[[^/]+?\](?=\/|$)/;function isDynamicRoute(route){return TEST_ROUTE.test(route);}exports.isDynamicRoute=isDynamicRoute;
 
 /***/ }),
 
@@ -7658,45 +3734,7 @@ exports.isDynamicRoute = isDynamicRoute;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function getRouteMatcher(routeRegex) {
-  const {
-    re,
-    groups
-  } = routeRegex;
-  return pathname => {
-    const routeMatch = re.exec(pathname);
-
-    if (!routeMatch) {
-      return false;
-    }
-
-    const decode = decodeURIComponent;
-    const params = {};
-
-    _Object$keys(groups).forEach(slugName => {
-      const g = groups[slugName];
-      const m = routeMatch[g.pos];
-
-      if (m !== undefined) {
-        params[slugName] = ~m.indexOf('/') ? m.split('/').map(entry => decode(entry)) : g.repeat ? [decode(m)] : decode(m);
-      }
-    });
-
-    return params;
-  };
-}
-
-exports.getRouteMatcher = getRouteMatcher;
+Object.defineProperty(exports,"__esModule",{value:true});function getRouteMatcher(routeRegex){var re=routeRegex.re,groups=routeRegex.groups;return function(pathname){var routeMatch=re.exec(pathname);if(!routeMatch){return false;}var decode=decodeURIComponent;var params={};Object.keys(groups).forEach(function(slugName){var g=groups[slugName];var m=routeMatch[g.pos];if(m!==undefined){params[slugName]=~m.indexOf('/')?m.split('/').map(function(entry){return decode(entry);}):g.repeat?[decode(m)]:decode(m);}});return params;};}exports.getRouteMatcher=getRouteMatcher;
 
 /***/ }),
 
@@ -7708,36 +3746,7 @@ exports.getRouteMatcher = getRouteMatcher;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function getRouteRegex(normalizedRoute) {
-  // Escape all characters that could be considered RegEx
-  const escapedRoute = (normalizedRoute.replace(/\/$/, '') || '/').replace(/[|\\{}()[\]^$+*?.-]/g, '\\$&');
-  const groups = {};
-  let groupIndex = 1;
-  const parameterizedRoute = escapedRoute.replace(/\/\\\[([^/]+?)\\\](?=\/|$)/g, (_, $1) => {
-    const isCatchAll = /^(\\\.){3}/.test($1);
-    groups[$1 // Un-escape key
-    .replace(/\\([|\\{}()[\]^$+*?.-])/g, '$1').replace(/^\.{3}/, '') // eslint-disable-next-line no-sequences
-    ] = {
-      pos: groupIndex++,
-      repeat: isCatchAll
-    };
-    return isCatchAll ? '/(.+?)' : '/([^/]+?)';
-  });
-  return {
-    re: new RegExp('^' + parameterizedRoute + '(?:/)?$', 'i'),
-    groups
-  };
-}
-
-exports.getRouteRegex = getRouteRegex;
+Object.defineProperty(exports,"__esModule",{value:true});function getRouteRegex(normalizedRoute){var escapedRoute=(normalizedRoute.replace(/\/$/,'')||'/').replace(/[|\\{}()[\]^$+*?.-]/g,'\\$&');var groups={};var groupIndex=1;var parameterizedRoute=escapedRoute.replace(/\/\\\[([^/]+?)\\\](?=\/|$)/g,function(_,$1){var isCatchAll=/^(\\\.){3}/.test($1);groups[$1.replace(/\\([|\\{}()[\]^$+*?.-])/g,'$1').replace(/^\.{3}/,'')]={pos:groupIndex++,repeat:isCatchAll};return isCatchAll?'/(.+?)':'/([^/]+?)';});return{re:new RegExp('^'+parameterizedRoute+'(?:/)?$','i'),groups:groups};}exports.getRouteRegex=getRouteRegex;
 
 /***/ }),
 
@@ -7749,25 +3758,7 @@ exports.getRouteRegex = getRouteRegex;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-let runtimeConfig;
-
-exports.default = () => {
-  return runtimeConfig;
-};
-
-function setConfig(configValue) {
-  runtimeConfig = configValue;
-}
-
-exports.setConfig = setConfig;
+Object.defineProperty(exports,"__esModule",{value:true});var runtimeConfig;exports.default=function(){return runtimeConfig;};function setConfig(configValue){runtimeConfig=configValue;}exports.setConfig=setConfig;
 
 /***/ }),
 
@@ -7779,134 +3770,379 @@ exports.setConfig = setConfig;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _regenerator=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js"));Object.defineProperty(exports,"__esModule",{value:true});var url_1=__webpack_require__(/*! url */ "./node_modules/url/url.js");function execOnce(fn){var _this=this;var used=false;var result=null;return function(){if(!used){used=true;for(var _len=arguments.length,args=new Array(_len),_key=0;_key<_len;_key++){args[_key]=arguments[_key];}result=fn.apply(_this,args);}return result;};}exports.execOnce=execOnce;function getLocationOrigin(){var _window$location=window.location,protocol=_window$location.protocol,hostname=_window$location.hostname,port=_window$location.port;return protocol+"//"+hostname+(port?':'+port:'');}exports.getLocationOrigin=getLocationOrigin;function getURL(){var href=window.location.href;var origin=getLocationOrigin();return href.substring(origin.length);}exports.getURL=getURL;function getDisplayName(Component){return typeof Component==='string'?Component:Component.displayName||Component.name||'Unknown';}exports.getDisplayName=getDisplayName;function isResSent(res){return res.finished||res.headersSent;}exports.isResSent=isResSent;function loadGetInitialProps(App,ctx){var _a,message,res,props,_message;return _regenerator.default.async(function loadGetInitialProps$(_context){while(1){switch(_context.prev=_context.next){case 0:if(false){}if(!((_a=App.prototype)===null||_a===void 0?void 0:_a.getInitialProps)){_context.next=4;break;}message="\""+getDisplayName(App)+".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.";throw new Error(message);case 4:res=ctx.res||ctx.ctx&&ctx.ctx.res;if(App.getInitialProps){_context.next=12;break;}if(!(ctx.ctx&&ctx.Component)){_context.next=11;break;}_context.next=9;return _regenerator.default.awrap(loadGetInitialProps(ctx.Component,ctx.ctx));case 9:_context.t0=_context.sent;return _context.abrupt("return",{pageProps:_context.t0});case 11:return _context.abrupt("return",{});case 12:_context.next=14;return _regenerator.default.awrap(App.getInitialProps(ctx));case 14:props=_context.sent;if(!(res&&isResSent(res))){_context.next=17;break;}return _context.abrupt("return",props);case 17:if(props){_context.next=20;break;}_message="\""+getDisplayName(App)+".getInitialProps()\" should resolve to an object. But found \""+props+"\" instead.";throw new Error(_message);case 20:if(true){if(Object.keys(props).length===0&&!ctx.ctx){console.warn(getDisplayName(App)+" returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps");}}return _context.abrupt("return",props);case 22:case"end":return _context.stop();}}});}exports.loadGetInitialProps=loadGetInitialProps;exports.urlObjectKeys=['auth','hash','host','hostname','href','path','pathname','port','protocol','query','search','slashes'];function formatWithValidation(url,options){if(true){if(url!==null&&typeof url==='object'){Object.keys(url).forEach(function(key){if(exports.urlObjectKeys.indexOf(key)===-1){console.warn("Unknown key passed via urlObject into url.format: "+key);}});}}return url_1.format(url,options);}exports.formatWithValidation=formatWithValidation;exports.SP=typeof performance!=='undefined';exports.ST=exports.SP&&typeof performance.mark==='function'&&typeof performance.measure==='function';
 
+/***/ }),
 
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
 
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
+module.exports = _arrayWithHoles;
 
-const url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
-/**
- * Utils
- */
+/***/ }),
 
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-function execOnce(fn) {
-  let used = false;
-  let result = null;
-  return (...args) => {
-    if (!used) {
-      used = true;
-      result = fn.apply(this, args);
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+module.exports = _classCallCheck;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/construct.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/construct.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _construct(Parent, args, Class) {
+  if (isNativeReflectConstruct()) {
+    module.exports = _construct = Reflect.construct;
+  } else {
+    module.exports = _construct = function _construct(Parent, args, Class) {
+      var a = [null];
+      a.push.apply(a, args);
+      var Constructor = Function.bind.apply(Parent, a);
+      var instance = new Constructor();
+      if (Class) setPrototypeOf(instance, Class.prototype);
+      return instance;
+    };
+  }
+
+  return _construct.apply(null, arguments);
+}
+
+module.exports = _construct;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/extends.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/extends.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _extends() {
+  module.exports = _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
     }
 
-    return result;
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+module.exports = _getPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
   };
 }
 
-exports.execOnce = execOnce;
+module.exports = _interopRequireDefault;
 
-function getLocationOrigin() {
-  const {
-    protocol,
-    hostname,
-    port
-  } = window.location;
-  return "".concat(protocol, "//").concat(hostname).concat(port ? ':' + port : '');
-}
+/***/ }),
 
-exports.getLocationOrigin = getLocationOrigin;
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-function getURL() {
-  const {
-    href
-  } = window.location;
-  const origin = getLocationOrigin();
-  return href.substring(origin.length);
-}
+function _iterableToArrayLimit(arr, i) {
+  if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) {
+    return;
+  }
 
-exports.getURL = getURL;
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
 
-function getDisplayName(Component) {
-  return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
-}
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
 
-exports.getDisplayName = getDisplayName;
-
-function isResSent(res) {
-  return res.finished || res.headersSent;
-}
-
-exports.isResSent = isResSent;
-
-async function loadGetInitialProps(App, ctx) {
-  var _a;
-
-  if (true) {
-    if ((_a = App.prototype) === null || _a === void 0 ? void 0 : _a.getInitialProps) {
-      const message = "\"".concat(getDisplayName(App), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
-      throw new Error(message);
+      if (i && _arr.length === i) break;
     }
-  } // when called from _app `ctx` is nested in `ctx`
-
-
-  const res = ctx.res || ctx.ctx && ctx.ctx.res;
-
-  if (!App.getInitialProps) {
-    if (ctx.ctx && ctx.Component) {
-      // @ts-ignore pageProps default
-      return {
-        pageProps: await loadGetInitialProps(ctx.Component, ctx.ctx)
-      };
-    }
-
-    return {};
-  }
-
-  const props = await App.getInitialProps(ctx);
-
-  if (res && isResSent(res)) {
-    return props;
-  }
-
-  if (!props) {
-    const message = "\"".concat(getDisplayName(App), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
-    throw new Error(message);
-  }
-
-  if (true) {
-    if (_Object$keys(props).length === 0 && !ctx.ctx) {
-      console.warn("".concat(getDisplayName(App), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
     }
   }
 
-  return props;
+  return _arr;
 }
 
-exports.loadGetInitialProps = loadGetInitialProps;
-exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pathname', 'port', 'protocol', 'query', 'search', 'slashes'];
+module.exports = _iterableToArrayLimit;
 
-function formatWithValidation(url, options) {
-  if (true) {
-    if (url !== null && typeof url === 'object') {
-      _Object$keys(url).forEach(key => {
-        if (exports.urlObjectKeys.indexOf(key) === -1) {
-          console.warn("Unknown key passed via urlObject into url.format: ".concat(key));
-        }
-      });
-    }
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+module.exports = _nonIterableRest;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js");
+
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
   }
 
-  return url_1.format(url, options);
+  return assertThisInitialized(self);
 }
 
-exports.formatWithValidation = formatWithValidation;
-exports.SP = typeof performance !== 'undefined';
-exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
+module.exports = _possibleConstructorReturn;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js");
+
+var iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js");
+
+var nonIterableRest = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js");
+
+function _slicedToArray(arr, i) {
+  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || nonIterableRest();
+}
+
+module.exports = _slicedToArray;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/regenerator/index.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/regenerator/index.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
+
 
 /***/ }),
 
@@ -9199,6 +5435,743 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 
 /***/ }),
 
+/***/ "./node_modules/regenerator-runtime/runtime.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/regenerator-runtime/runtime.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+var runtime = (function (exports) {
+  "use strict";
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  exports.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunctionPrototype[toStringTagSymbol] =
+    GeneratorFunction.displayName = "GeneratorFunction";
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      prototype[method] = function(arg) {
+        return this._invoke(method, arg);
+      };
+    });
+  }
+
+  exports.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  exports.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      if (!(toStringTagSymbol in genFun)) {
+        genFun[toStringTagSymbol] = "GeneratorFunction";
+      }
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  exports.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return Promise.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return Promise.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration.
+          result.value = unwrapped;
+          resolve(result);
+        }, function(error) {
+          // If a rejected Promise was yielded, throw the rejection back
+          // into the async generator function so it can be handled there.
+          return invoke("throw", error, resolve, reject);
+        });
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new Promise(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  exports.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  exports.async = function(innerFn, outerFn, self, tryLocsList) {
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList)
+    );
+
+    return exports.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
+      }
+
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+      context.method = method;
+      context.arg = arg;
+
+      while (true) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+
+        if (context.method === "next") {
+          // Setting context._sent for legacy support of Babel's
+          // function.sent implementation.
+          context.sent = context._sent = context.arg;
+
+        } else if (context.method === "throw") {
+          if (state === GenStateSuspendedStart) {
+            state = GenStateCompleted;
+            throw context.arg;
+          }
+
+          context.dispatchException(context.arg);
+
+        } else if (context.method === "return") {
+          context.abrupt("return", context.arg);
+        }
+
+        state = GenStateExecuting;
+
+        var record = tryCatch(innerFn, self, context);
+        if (record.type === "normal") {
+          // If an exception is thrown from innerFn, we leave state ===
+          // GenStateExecuting and loop back for another invocation.
+          state = context.done
+            ? GenStateCompleted
+            : GenStateSuspendedYield;
+
+          if (record.arg === ContinueSentinel) {
+            continue;
+          }
+
+          return {
+            value: record.arg,
+            done: context.done
+          };
+
+        } else if (record.type === "throw") {
+          state = GenStateCompleted;
+          // Dispatch the exception by looping back around to the
+          // context.dispatchException(context.arg) call above.
+          context.method = "throw";
+          context.arg = record.arg;
+        }
+      }
+    };
+  }
+
+  // Call delegate.iterator[context.method](context.arg) and handle the
+  // result, either by returning a { value, done } result from the
+  // delegate iterator, or by modifying context.method and context.arg,
+  // setting context.delegate to null, and returning the ContinueSentinel.
+  function maybeInvokeDelegate(delegate, context) {
+    var method = delegate.iterator[context.method];
+    if (method === undefined) {
+      // A .throw or .return when the delegate iterator has no .throw
+      // method always terminates the yield* loop.
+      context.delegate = null;
+
+      if (context.method === "throw") {
+        // Note: ["return"] must be used for ES3 parsing compatibility.
+        if (delegate.iterator["return"]) {
+          // If the delegate iterator has a return method, give it a
+          // chance to clean up.
+          context.method = "return";
+          context.arg = undefined;
+          maybeInvokeDelegate(delegate, context);
+
+          if (context.method === "throw") {
+            // If maybeInvokeDelegate(context) changed context.method from
+            // "return" to "throw", let that override the TypeError below.
+            return ContinueSentinel;
+          }
+        }
+
+        context.method = "throw";
+        context.arg = new TypeError(
+          "The iterator does not provide a 'throw' method");
+      }
+
+      return ContinueSentinel;
+    }
+
+    var record = tryCatch(method, delegate.iterator, context.arg);
+
+    if (record.type === "throw") {
+      context.method = "throw";
+      context.arg = record.arg;
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    var info = record.arg;
+
+    if (! info) {
+      context.method = "throw";
+      context.arg = new TypeError("iterator result is not an object");
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    if (info.done) {
+      // Assign the result of the finished delegate to the temporary
+      // variable specified by delegate.resultName (see delegateYield).
+      context[delegate.resultName] = info.value;
+
+      // Resume execution at the desired location (see delegateYield).
+      context.next = delegate.nextLoc;
+
+      // If context.method was "throw" but the delegate handled the
+      // exception, let the outer generator proceed normally. If
+      // context.method was "next", forget context.arg since it has been
+      // "consumed" by the delegate iterator. If context.method was
+      // "return", allow the original .return call to continue in the
+      // outer generator.
+      if (context.method !== "return") {
+        context.method = "next";
+        context.arg = undefined;
+      }
+
+    } else {
+      // Re-yield the result returned by the delegate method.
+      return info;
+    }
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  Gp[toStringTagSymbol] = "Generator";
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  exports.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  exports.values = values;
+
+  function doneResult() {
+    return { value: undefined, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined;
+      }
+
+      return ContinueSentinel;
+    }
+  };
+
+  // Regardless of whether this script is executing as a CommonJS module
+  // or not, return the runtime object so that we can declare the variable
+  // regeneratorRuntime in the outer scope, which allows this module to be
+  // injected easily by `bin/regenerator --include-runtime script.js`.
+  return exports;
+
+}(
+  // If this script is executing as a CommonJS module, use module.exports
+  // as the regeneratorRuntime namespace. Otherwise create a new empty
+  // object. Either way, the resulting object will be used to initialize
+  // the regeneratorRuntime variable at the top of this file.
+   true ? module.exports : undefined
+));
+
+try {
+  regeneratorRuntime = runtime;
+} catch (accidentalStrictMode) {
+  // This module should not be running in strict mode, so the above
+  // assignment should always work unless something is misconfigured. Just
+  // in case runtime.js accidentally runs in strict mode, we can escape
+  // strict mode using a global Function call. This could conceivably fail
+  // if a Content Security Policy forbids using Function, but in that case
+  // the proper solution is to fix the accidental strict mode problem. If
+  // you've misconfigured your bundler to force strict mode and applied a
+  // CSP to forbid Function, and you're not willing to fix either of those
+  // problems, please detail your unique predicament in a GitHub issue.
+  Function("r", "regeneratorRuntime = r")(runtime);
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/strip-ansi/index.js":
 /*!******************************************!*\
   !*** ./node_modules/strip-ansi/index.js ***!
@@ -9207,14 +6180,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-const ansiRegex = __webpack_require__(/*! ansi-regex */ "./node_modules/strip-ansi/node_modules/ansi-regex/index.js");
-
-const stripAnsi = string => typeof string === 'string' ? string.replace(ansiRegex(), '') : string;
-
-module.exports = stripAnsi;
-module.exports.default = stripAnsi;
+var ansiRegex=__webpack_require__(/*! ansi-regex */ "./node_modules/strip-ansi/node_modules/ansi-regex/index.js");var stripAnsi=function stripAnsi(string){return typeof string==='string'?string.replace(ansiRegex(),''):string;};module.exports=stripAnsi;module.exports.default=stripAnsi;
 
 /***/ }),
 
@@ -9226,17 +6192,7 @@ module.exports.default = stripAnsi;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-module.exports = options => {
-  options = _Object$assign({
-    onlyFirst: false
-  }, options);
-  const pattern = ['[\\u001B\\u009B][[\\]()#;?]*(?:(?:(?:[a-zA-Z\\d]*(?:;[-a-zA-Z\\d\\/#&.:=?%@~_]*)*)?\\u0007)', '(?:(?:\\d{1,4}(?:;\\d{0,4})*)?[\\dA-PR-TZcf-ntqry=><~]))'].join('|');
-  return new RegExp(pattern, options.onlyFirst ? undefined : 'g');
-};
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _extends2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));module.exports=function(options){options=(0,_extends2.default)({onlyFirst:false},options);var pattern=["[\\u001B\\u009B][[\\]()#;?]*(?:(?:(?:[a-zA-Z\\d]*(?:;[-a-zA-Z\\d\\/#&.:=?%@~_]*)*)?\\u0007)",'(?:(?:\\d{1,4}(?:;\\d{0,4})*)?[\\dA-PR-TZcf-ntqry=><~]))'].join('|');return new RegExp(pattern,options.onlyFirst?undefined:'g');};
 
 /***/ }),
 

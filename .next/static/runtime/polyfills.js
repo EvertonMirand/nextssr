@@ -8,13 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-__webpack_require__(/*! __next_polyfill__fetch */ "./node_modules/whatwg-fetch/dist/fetch.umd.js");
-
-__webpack_require__(/*! url-polyfill */ "./node_modules/url-polyfill/url-polyfill.js");
-
-Object.assign = __webpack_require__(/*! __next_polyfill__object_assign */ "./node_modules/object-assign/index.js");
+__webpack_require__(/*! __next_polyfill__fetch */ "./node_modules/whatwg-fetch/dist/fetch.umd.js");__webpack_require__(/*! url-polyfill */ "./node_modules/url-polyfill/url-polyfill.js");Object.assign=__webpack_require__(/*! __next_polyfill__object_assign */ "./node_modules/object-assign/index.js");
 
 /***/ }),
 

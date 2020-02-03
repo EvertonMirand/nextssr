@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react';
 
-// import { Container } from './styles';
+import Link from 'next/link';
 
 export default function Home() {
-  return <h1>Hello world</h1>;
+  return (
+    <div>
+      Hello World
+      <Link href="/users">
+        <a>Usuarios</a>
+      </Link>
+    </div>
+  );
 }
