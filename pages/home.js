@@ -11,7 +11,7 @@ function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <img src="/static/panda.jpg" width={200} alt="Panda" />
+      <img src="/static/panda.jpg" width="200" alt="Panda" />
       <h1>Hello World</h1>
       <Link href="/users">
         <a>Usuários</a>
